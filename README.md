@@ -1,5 +1,4 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lgdd/datadog-latest/auto-update.yml?label=auto-update&style=flat)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/lgdd/datadog-latest?style=flat&color=blue)
 
 # Datadog Latest
