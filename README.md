@@ -15,7 +15,7 @@ When using `api.github.com` to get the latest version of a tracer library, you c
 
 Sure, you could authenticate to the GitHub API, but that might add an extra pain in your build process just to get some public information.
 
-So because getting the raw content of a file in a repo doesn't fall under the rate limitation of GitHub API, this repo is automatically storing versions and full JSON response from the endpoint for the latest release of a given repo. This repository is automatically updated on a daily basis.
+So because getting the raw content of a file in a repo doesn't fall under the rate limitation of GitHub API, this repo is automatically storing versions (and full JSON response if you need it) from the endpoint for the latest release of a given repo. This repository is automatically updated on a daily basis.
 
 ## Usage Example
 
