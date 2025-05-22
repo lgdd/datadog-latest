@@ -14,7 +14,8 @@ declare -a libs=(
 
 for lib_name in "${libs[@]}"
 do
-    version=$(curl -s "$base_url/$lib_name/$suffix_url" | jq -r '.tag_name')
+    curl -s "$base_url/$lib_name/$suffix_url" > "$lib_name.json"
+    version=$(cat "$lib_name.json" | jq -r '.tag_name')
     if [ $version != null ]
     then
         echo $version > $lib_name
