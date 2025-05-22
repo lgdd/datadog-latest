@@ -1,0 +1,43 @@
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/218020389",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/218020389/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/218020389/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v1.73.1",
+  "id": 218020389,
+  "author": {
+    "login": "darccio",
+    "id": 163009,
+    "node_id": "MDQ6VXNlcjE2MzAwOQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/163009?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/darccio",
+    "html_url": "https://github.com/darccio",
+    "followers_url": "https://api.github.com/users/darccio/followers",
+    "following_url": "https://api.github.com/users/darccio/following{/other_user}",
+    "gists_url": "https://api.github.com/users/darccio/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/darccio/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/darccio/subscriptions",
+    "organizations_url": "https://api.github.com/users/darccio/orgs",
+    "repos_url": "https://api.github.com/users/darccio/repos",
+    "events_url": "https://api.github.com/users/darccio/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/darccio/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBAi6ic4M_rol",
+  "tag_name": "v1.73.1",
+  "target_commitish": "release-v1.73.x",
+  "name": "v1.73.1",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2025-05-12T15:02:24Z",
+  "published_at": "2025-05-12T18:09:40Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v1.73.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v1.73.1",
+  "body": "## What's Changed\r\n\r\n> [!NOTE]\r\n> This is a patch release of the last `v1` version before the v1 transitional release `v1.74.0` planned for May/June 2025. The Go tracer v1 transitional version is essentially a wrapper that preserves the API from v1 but uses v2 under the hood. \r\n> \r\n> The transitional version can co-exist with v2 in the same service, which enables you to migrate services gradually. Using the v1 transitional version - starting at `v1.74.0` - doesn’t require any code changes, but it also won’t support any new features of the new v2 tracer.\r\n> \r\n> The v1 transitional version is planned for release in late May/early June 2025 as v1.74.0.\r\n\r\n### Application Performance Monitoring (APM)\r\n* fix(ddtrace/internal): log to debug instead of warning when starting spans without an active tracer by @darccio https://github.com/DataDog/dd-trace-go/pull/3513\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v1.73.0...v1.73.1",
+  "mentions_count": 1
+}

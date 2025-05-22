@@ -1,0 +1,43 @@
+{
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-js/releases/218404504",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/releases/218404504/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-js/releases/218404504/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-js/releases/tag/v11.125.0",
+  "id": 218404504,
+  "author": {
+    "login": "nhulston",
+    "id": 29668820,
+    "node_id": "MDQ6VXNlcjI5NjY4ODIw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/29668820?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nhulston",
+    "html_url": "https://github.com/nhulston",
+    "followers_url": "https://api.github.com/users/nhulston/followers",
+    "following_url": "https://api.github.com/users/nhulston/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nhulston/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nhulston/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nhulston/subscriptions",
+    "organizations_url": "https://api.github.com/users/nhulston/orgs",
+    "repos_url": "https://api.github.com/users/nhulston/repos",
+    "events_url": "https://api.github.com/users/nhulston/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nhulston/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOC0sQjs4NBJaY",
+  "tag_name": "v11.125.0",
+  "target_commitish": "main",
+  "name": " v11.125.0",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2025-05-13T20:35:18Z",
+  "published_at": "2025-05-13T21:13:18Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/tarball/v11.125.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/zipball/v11.125.0",
+  "body": ">[!IMPORTANT]\r\n> This version imports `dd-trace-js` [v5.44.0](https://github.com/DataDog/dd-trace-js/releases/tag/v5.51.0)\r\n\r\n> [!WARNING]\r\n> ## This version contains a breaking change\r\n> Metrics sent by users with: (1) No extension, (2) no forwarder, and (3) with FIPS mode enabled will not be sent because the metrics API may not be FIPS compliant. Any user with the extension, forwarder, or FIPS disabled will not be affected.\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:125\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:125\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:125\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node18-x:125\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node20-x:125\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node22-x:125\r\n```\r\n\r\n\r\n## What's Changed\r\n* (chore): Add ap-southeast-7 and mx-central-1 regions by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/646\r\n* Fix span pointer environment variables by @nhulston in https://github.com/DataDog/dd-trace-js/pull/5546\r\n* Extract trace context from ALB multiValueHeaders by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/647\r\n* Implement dogstatsd, add timestamp support, fix flushing by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/648\r\n* [breaking] FIPS compliant metrics + secrets management by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/649\r\n* Fix SignatureDoesNotMatch error when SecretsManager enabled by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/650\r\n* (chore): Bump tracer to v5.51.0 by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/652\r\n* v11.125.0 by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/651\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v10.124.0...v10.125.0",
+  "mentions_count": 1
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/219487739",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/219487739/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/219487739/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v3.7.1",
+  "id": 219487739,
+  "author": {
+    "login": "gnufede",
+    "id": 412857,
+    "node_id": "MDQ6VXNlcjQxMjg1Nw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/412857?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gnufede",
+    "html_url": "https://github.com/gnufede",
+    "followers_url": "https://api.github.com/users/gnufede/followers",
+    "following_url": "https://api.github.com/users/gnufede/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gnufede/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gnufede/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gnufede/subscriptions",
+    "organizations_url": "https://api.github.com/users/gnufede/orgs",
+    "repos_url": "https://api.github.com/users/gnufede/repos",
+    "events_url": "https://api.github.com/users/gnufede/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gnufede/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4NFR37",
+  "tag_name": "v3.7.1",
+  "target_commitish": "8e3ea51d7a1c2dccea63b1092f4bc630d7565842",
+  "name": "3.7.1",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2025-05-17T08:43:00Z",
+  "published_at": "2025-05-19T12:17:25Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v3.7.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v3.7.1",
+  "body": "### Bug Fixes\r\n\r\n- CI Visibility: This fix resolves an issue where pytest-xdist would not exit with the proper status code if ATR was enabled.\r\n- CI Visibility: This fix resolves an issue where ddtrace pytest plugin used with xdist would report test suites as failing even when all tests pass.\r\n\r\n"
+}
