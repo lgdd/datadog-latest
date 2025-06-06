@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/218020389",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/218020389/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/218020389/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v1.73.1",
-  "id": 218020389,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/222672243",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/222672243/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/222672243/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.0.0",
+  "id": 222672243,
   "author": {
     "login": "darccio",
     "id": 163009,
@@ -25,19 +25,30 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBAi6ic4M_rol",
-  "tag_name": "v1.73.1",
-  "target_commitish": "release-v1.73.x",
-  "name": "v1.73.1",
+  "node_id": "RE_kwDOBAi6ic4NRbVz",
+  "tag_name": "v2.0.0",
+  "target_commitish": "release-v2.0.x",
+  "name": "v2.0.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2025-05-12T15:02:24Z",
-  "published_at": "2025-05-12T18:09:40Z",
+  "created_at": "2025-06-05T13:07:49Z",
+  "published_at": "2025-06-05T17:18:56Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v1.73.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v1.73.1",
-  "body": "## What's Changed\r\n\r\n> [!NOTE]\r\n> This is a patch release of the last `v1` version before the v1 transitional release `v1.74.0` planned for May/June 2025. The Go tracer v1 transitional version is essentially a wrapper that preserves the API from v1 but uses v2 under the hood. \r\n> \r\n> The transitional version can co-exist with v2 in the same service, which enables you to migrate services gradually. Using the v1 transitional version - starting at `v1.74.0` - doesn’t require any code changes, but it also won’t support any new features of the new v2 tracer.\r\n> \r\n> The v1 transitional version is planned for release in late May/early June 2025 as v1.74.0.\r\n\r\n### Application Performance Monitoring (APM)\r\n* fix(ddtrace/internal): log to debug instead of warning when starting spans without an active tracer by @darccio https://github.com/DataDog/dd-trace-go/pull/3513\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v1.73.0...v1.73.1",
-  "mentions_count": 1
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.0.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.0.0",
+  "body": "### Summary\r\n\r\nDatadog has long supported the monitoring of instrumented Go applications through our [Go tracer v1](https://docs.datadoghq.com/tracing/trace_collection/compatibility/go/?tab=v1#go-tracer-support). As the Go ecosystem has continued to mature, we’ve been hard at work collecting feedback and improving upon the tracer’s capabilities and usability features.\r\n\r\nWe are now thrilled to announce the release of [dd-trace-go v2.0.0](https://github.com/DataDog/dd-trace-go). This major update includes better security and stability, and a new and simplified API. In creating this updated version, we have incorporated valuable feedback both from our customer community and from our own teams at Datadog who use the Go tracer extensively. We have already tested this new version in production and have migrated all our internal services.\r\n\r\nA migration guide has been provided to help users running version `1.x` with upgrading. It can be found [here](https://github.com/DataDog/dd-trace-go/blob/v2.0.0/MIGRATING.md).\r\n\r\nTo view the complete set of changes implemented in this release, please refer to the issues and PRs marked with the [v2.0 label](https://github.com/DataDog/dd-trace-go/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Av2.0) in our GitHub repository.\r\n\r\n### Further reading\r\n\r\n* [Migration guide](https://github.com/DataDog/dd-trace-go/blob/v2.0.0/MIGRATING.md)\r\n* [Changelist](https://github.com/DataDog/dd-trace-go/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Av2.0)\r\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/222672243/reactions",
+    "total_count": 2,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 2,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
