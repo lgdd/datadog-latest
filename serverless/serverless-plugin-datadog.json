@@ -38,5 +38,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/tarball/v5.97.0",
   "zipball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/zipball/v5.97.0",
-  "body": "- Updated Datadog Lambda Extension to [v81](https://github.com/DataDog/datadog-lambda-extension/releases/tag/v81)\r\n\r\n**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.96.0...v5.97.0"
+  "body": "- Updated Datadog Lambda Extension to [v81](https://github.com/DataDog/datadog-lambda-extension/releases/tag/v81)\r\n\r\n**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.96.0...v5.97.0",
+  "reactions": {
+    "url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/223471571/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 1
+  }
 }
