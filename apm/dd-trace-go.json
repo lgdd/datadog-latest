@@ -41,11 +41,11 @@
   "body": "### Summary\r\n\r\nDatadog has long supported the monitoring of instrumented Go applications through our [Go tracer v1](https://docs.datadoghq.com/tracing/trace_collection/compatibility/go/?tab=v1#go-tracer-support). As the Go ecosystem has continued to mature, we’ve been hard at work collecting feedback and improving upon the tracer’s capabilities and usability features.\r\n\r\nWe are now thrilled to announce the release of [dd-trace-go v2.0.0](https://github.com/DataDog/dd-trace-go). This major update includes better security and stability, and a new and simplified API. In creating this updated version, we have incorporated valuable feedback both from our customer community and from our own teams at Datadog who use the Go tracer extensively. We have already tested this new version in production and have migrated all our internal services.\r\n\r\nA migration guide has been provided to help users running version `1.x` with upgrading. It can be found [here](https://github.com/DataDog/dd-trace-go/blob/v2.0.0/MIGRATING.md).\r\n\r\nTo view the complete set of changes implemented in this release, please refer to the issues and PRs marked with the [v2.0 label](https://github.com/DataDog/dd-trace-go/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Av2.0) in our GitHub repository.\r\n\r\n### Further reading\r\n\r\n* [Migration guide](https://github.com/DataDog/dd-trace-go/blob/v2.0.0/MIGRATING.md)\r\n* [Changelist](https://github.com/DataDog/dd-trace-go/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Av2.0)\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/222672243/reactions",
-    "total_count": 3,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 3,
+    "hooray": 4,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
