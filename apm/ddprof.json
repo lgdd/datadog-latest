@@ -65,7 +65,7 @@
       "state": "uploaded",
       "size": 14095748,
       "digest": null,
-      "download_count": 14848,
+      "download_count": 14952,
       "created_at": "2024-10-16T15:08:21Z",
       "updated_at": "2024-10-16T15:08:22Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-0.19.0-amd64-linux.tar.xz"
@@ -101,7 +101,7 @@
       "state": "uploaded",
       "size": 12651420,
       "digest": null,
-      "download_count": 3519,
+      "download_count": 3570,
       "created_at": "2024-10-16T15:08:22Z",
       "updated_at": "2024-10-16T15:08:23Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-0.19.0-arm64-linux.tar.xz"
@@ -137,7 +137,7 @@
       "state": "uploaded",
       "size": 15135696,
       "digest": null,
-      "download_count": 23208,
+      "download_count": 23600,
       "created_at": "2024-10-16T15:08:23Z",
       "updated_at": "2024-10-16T15:08:23Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-amd64"
@@ -173,7 +173,7 @@
       "state": "uploaded",
       "size": 14095748,
       "digest": null,
-      "download_count": 14600,
+      "download_count": 14697,
       "created_at": "2024-10-16T15:08:24Z",
       "updated_at": "2024-10-16T15:08:24Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-amd64-linux.tar.xz"
@@ -209,7 +209,7 @@
       "state": "uploaded",
       "size": 14442960,
       "digest": null,
-      "download_count": 445,
+      "download_count": 446,
       "created_at": "2024-10-16T15:08:24Z",
       "updated_at": "2024-10-16T15:08:25Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-arm64"
@@ -245,7 +245,7 @@
       "state": "uploaded",
       "size": 12651420,
       "digest": null,
-      "download_count": 1028,
+      "download_count": 1053,
       "created_at": "2024-10-16T15:08:25Z",
       "updated_at": "2024-10-16T15:08:26Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.19.0/ddprof-arm64-linux.tar.xz"
