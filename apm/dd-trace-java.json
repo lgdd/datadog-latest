@@ -65,7 +65,7 @@
       "state": "uploaded",
       "size": 32248298,
       "digest": "sha256:30fbddfc78662ebb22cfc3260d23ae35018a96e2ca00985c937044ee9858681a",
-      "download_count": 13,
+      "download_count": 25,
       "created_at": "2025-06-27T20:05:41Z",
       "updated_at": "2025-06-27T20:05:42Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.50.1/dd-java-agent-1.50.1.jar"
@@ -101,7 +101,7 @@
       "state": "uploaded",
       "size": 32248298,
       "digest": "sha256:30fbddfc78662ebb22cfc3260d23ae35018a96e2ca00985c937044ee9858681a",
-      "download_count": 169,
+      "download_count": 1591,
       "created_at": "2025-06-27T20:05:39Z",
       "updated_at": "2025-06-27T20:05:40Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.50.1/dd-java-agent.jar"
@@ -181,6 +181,6 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-java/tarball/v1.50.1",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-java/zipball/v1.50.1",
-  "body": "# Components\r\n\r\n## Build & Tooling\r\n\r\n* :sparkles: Migrate publishing to Maven Central Portal  (#9054 - @sarahchen6)\r\n\r\n## Trace context propagation\r\n\r\n* :bug: Drop Baggage when `TracePropagationBehaviorExtract=IGNORE` (#9052 - @mhlidd)\r\n\r\n## Tracer public API\r\n\r\n* :bug: Fix NPE in PercentEscaper (#9050 - @mhlidd)\r\n\r\n# Instrumentations\r\n\r\n## Akka instrumentation\r\n\r\n* :bug: Fix NPE in akka-http and pekko-http integrations (#9049 - @mcculls)\r\n\r\n",
+  "body": "# Components\r\n\r\n## Build & Tooling\r\n\r\n* :sparkles: Migrate publishing to Maven Central Portal  (#9054 - @sarahchen6)\r\n\r\n## Trace context propagation\r\n\r\n* :bug: Drop Baggage when `TracePropagationBehaviorExtract=IGNORE` (#9052 - @mhlidd)\r\n\r\n## Tracer public API\r\n\r\n* :bug: Fix ArrayIndexOutOfBoundsException in PercentEscaper (#9050 - @mhlidd)\r\n\r\n# Instrumentations\r\n\r\n## Akka instrumentation\r\n\r\n* :bug: Fix NPE in akka-http and pekko-http integrations (#9049 - @mcculls)\r\n\r\n",
   "mentions_count": 3
 }
