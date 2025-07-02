@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/224829625",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/224829625/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/224829625/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.56.0",
-  "id": 224829625,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/229061604",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/229061604/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/229061604/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.57.1",
+  "id": 229061604,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,18 +25,18 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4NZqC5",
-  "tag_name": "v5.56.0",
+  "node_id": "RE_kwDOBwapYs4NpzPk",
+  "tag_name": "v5.57.1",
   "target_commitish": "v5.x",
-  "name": "5.56.0",
+  "name": "5.57.1",
   "draft": false,
   "prerelease": false,
-  "created_at": "2025-06-12T09:03:25Z",
-  "published_at": "2025-06-12T09:03:51Z",
+  "created_at": "2025-07-01T10:31:29Z",
+  "published_at": "2025-07-01T10:31:54Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.56.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.56.0",
-  "body": "* \\[[`cafe33b83f`](https://github.com/DataDog/dd-trace-js/commit/cafe33b83f)] - **(SEMVER-PATCH)** Update pprof-nodejs to 5.8.2 (Attila Szegedi) [#5866](https://github.com/DataDog/dd-trace-js/pull/5866)\n* \\[[`5e417ca367`](https://github.com/DataDog/dd-trace-js/commit/5e417ca367)] - **(SEMVER-PATCH)** fix audit running on pull requests not touching dependencies (Roch Devost) [#5879](https://github.com/DataDog/dd-trace-js/pull/5879)\n* \\[[`8e11d857aa`](https://github.com/DataDog/dd-trace-js/commit/8e11d857aa)] - **(SEMVER-MINOR)** Implement Config Chaining (Ayan Khan) [#5374](https://github.com/DataDog/dd-trace-js/pull/5374)\n* \\[[`c5188d8f27`](https://github.com/DataDog/dd-trace-js/commit/c5188d8f27)] - **(SEMVER-PATCH)** fix missing octokit dependency for flakiness report workflow (Roch Devost) [#5878](https://github.com/DataDog/dd-trace-js/pull/5878)\n* \\[[`3b64de7abc`](https://github.com/DataDog/dd-trace-js/commit/3b64de7abc)] - **(SEMVER-PATCH)** Fix and improve esbuild and add it to the CI (Ruben Bridgewater) [#5877](https://github.com/DataDog/dd-trace-js/pull/5877)\n* \\[[`ed2469ea9b`](https://github.com/DataDog/dd-trace-js/commit/ed2469ea9b)] - **(SEMVER-PATCH)** **perf**: improve the internal config set function (Thomas Watson) [#5872](https://github.com/DataDog/dd-trace-js/pull/5872)\n* \\[[`7f44491fe9`](https://github.com/DataDog/dd-trace-js/commit/7f44491fe9)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-303] Fix jest\\@30 release (Juan Antonio Fernández de Alba) [#4581](https://github.com/DataDog/dd-trace-js/pull/4581)\n* \\[[`85c5d33d57`](https://github.com/DataDog/dd-trace-js/commit/85c5d33d57)] - **(SEMVER-PATCH)** **chore**: bump brace-expansion dev-dependency (Thomas Watson) [#5875](https://github.com/DataDog/dd-trace-js/pull/5875)\n* \\[[`fab3ee9408`](https://github.com/DataDog/dd-trace-js/commit/fab3ee9408)] - **(SEMVER-PATCH)** **chore**: temporarily restrict yarn audit to prod deps only in CI (Thomas Watson) [#5874](https://github.com/DataDog/dd-trace-js/pull/5874)\n* \\[[`94e55a2e2c`](https://github.com/DataDog/dd-trace-js/commit/94e55a2e2c)] - **(SEMVER-PATCH)** fix missing repo flag for retry workflow (Roch Devost) [#5870](https://github.com/DataDog/dd-trace-js/pull/5870)\n* \\[[`ccc52ef8ee`](https://github.com/DataDog/dd-trace-js/commit/ccc52ef8ee)] - **(SEMVER-PATCH)** \\[SVLS-5649] Add HTTP Context Propagation to Azure Functions (Jordan Storms) [#5839](https://github.com/DataDog/dd-trace-js/pull/5839)\n* \\[[`93d59c4f88`](https://github.com/DataDog/dd-trace-js/commit/93d59c4f88)] - **(SEMVER-PATCH)** add comments explaining the flakiness report script (Roch Devost) [#5869](https://github.com/DataDog/dd-trace-js/pull/5869)\n* \\[[`5013ed8750`](https://github.com/DataDog/dd-trace-js/commit/5013ed8750)] - **(SEMVER-PATCH)** add flakiness report workflow (Roch Devost) [#5856](https://github.com/DataDog/dd-trace-js/pull/5856)\n* \\[[`784197db4d`](https://github.com/DataDog/dd-trace-js/commit/784197db4d)] - **(SEMVER-PATCH)** **test**: speed up DI tests (Thomas Watson) [#5863](https://github.com/DataDog/dd-trace-js/pull/5863)\n* \\[[`7e78aaaa8f`](https://github.com/DataDog/dd-trace-js/commit/7e78aaaa8f)] - **(SEMVER-PATCH)** \\[DI] Support custom upload interval (Thomas Watson) [#5861](https://github.com/DataDog/dd-trace-js/pull/5861)\n* \\[[`388c91670e`](https://github.com/DataDog/dd-trace-js/commit/388c91670e)] - **(SEMVER-PATCH)** fix oracle db bug (Ayan Khan) [#5868](https://github.com/DataDog/dd-trace-js/pull/5868)\n* \\[[`6796afdd03`](https://github.com/DataDog/dd-trace-js/commit/6796afdd03)] - **(SEMVER-PATCH)** Get response headers on Fastify by the end of the request (Ilyas Shabi) [#5831](https://github.com/DataDog/dd-trace-js/pull/5831)\n* \\[[`7ecad193d3`](https://github.com/DataDog/dd-trace-js/commit/7ecad193d3)] - **(SEMVER-PATCH)** Cache tainted value of query params in express v5 (Ilyas Shabi) [#5716](https://github.com/DataDog/dd-trace-js/pull/5716)\n* \\[[`145dcd7709`](https://github.com/DataDog/dd-trace-js/commit/145dcd7709)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-303] Unblock CI due to `Jest@30` release (Mario Vidal Domínguez) [#5862](https://github.com/DataDog/dd-trace-js/pull/5862)\n* \\[[`27eaee58f4`](https://github.com/DataDog/dd-trace-js/commit/27eaee58f4)] - **(SEMVER-PATCH)** add workflow to auto-retry main and release branches (Roch Devost) [#5851](https://github.com/DataDog/dd-trace-js/pull/5851)\n* \\[[`994323dbca`](https://github.com/DataDog/dd-trace-js/commit/994323dbca)] - **(SEMVER-PATCH)** Do not extract baggage when config.tracePropagationBehaviorExtract is 'ignore' (Ida Liu) [#5860](https://github.com/DataDog/dd-trace-js/pull/5860)\n* \\[[`3c8fe63a34`](https://github.com/DataDog/dd-trace-js/commit/3c8fe63a34)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-2144] Fix `it.failing` in combination with EFD (Mario Vidal Domínguez) [#5857](https://github.com/DataDog/dd-trace-js/pull/5857)\n* \\[[`ec706ad4bb`](https://github.com/DataDog/dd-trace-js/commit/ec706ad4bb)] - **(SEMVER-PATCH)** Fix iast mysql2 (Ugaitz Urien) [#5847](https://github.com/DataDog/dd-trace-js/pull/5847)\n* \\[[`e5dcebca20`](https://github.com/DataDog/dd-trace-js/commit/e5dcebca20)] - **(SEMVER-PATCH)** **test**: clean up fake agent start/stop code (Thomas Watson) [#5854](https://github.com/DataDog/dd-trace-js/pull/5854)\n* \\[[`38f67f3e16`](https://github.com/DataDog/dd-trace-js/commit/38f67f3e16)] - **(SEMVER-PATCH)** **test**: reduce usage of get-port dependency (Thomas Watson) [#5848](https://github.com/DataDog/dd-trace-js/pull/5848)\n* \\[[`b7e4f8e015`](https://github.com/DataDog/dd-trace-js/commit/b7e4f8e015)] - **(SEMVER-PATCH)** **test**: destroy active connections when stopping fake agent (Thomas Watson) [#5853](https://github.com/DataDog/dd-trace-js/pull/5853)\n* \\[[`ffcef30249`](https://github.com/DataDog/dd-trace-js/commit/ffcef30249)] - **(SEMVER-PATCH)** move cypress tests from apm integrations to test optimization (Roch Devost) [#5849](https://github.com/DataDog/dd-trace-js/pull/5849)\n* \\[[`90fe64b984`](https://github.com/DataDog/dd-trace-js/commit/90fe64b984)] - **(SEMVER-PATCH)** Baggage update (Ida Liu) [#5815](https://github.com/DataDog/dd-trace-js/pull/5815)\n\n[SDTEST-303]: https://datadoghq.atlassian.net/browse/SDTEST-303?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.57.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.57.1",
+  "body": "* \\[[`03414f0316`](https://github.com/DataDog/dd-trace-js/commit/03414f0316)] - **(SEMVER-PATCH)** Keep internal dependencies at pinned versions (Attila Szegedi) [#5995](https://github.com/DataDog/dd-trace-js/pull/5995)"
 }
