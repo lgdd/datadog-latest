@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/229061604",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/229061604/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/229061604/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.57.1",
-  "id": 229061604,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/230832988",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/230832988/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/230832988/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.58.0",
+  "id": 230832988,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,19 +25,31 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4NpzPk",
-  "tag_name": "v5.57.1",
+  "node_id": "RE_kwDOBwapYs4Nwjtc",
+  "tag_name": "v5.58.0",
   "target_commitish": "v5.x",
-  "name": "5.57.1",
+  "name": "5.58.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-07-01T10:31:29Z",
-  "published_at": "2025-07-01T10:31:54Z",
+  "created_at": "2025-07-08T13:28:52Z",
+  "published_at": "2025-07-08T13:29:16Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.57.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.57.1",
-  "body": "* \\[[`03414f0316`](https://github.com/DataDog/dd-trace-js/commit/03414f0316)] - **(SEMVER-PATCH)** Keep internal dependencies at pinned versions (Attila Szegedi) [#5995](https://github.com/DataDog/dd-trace-js/pull/5995)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.58.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.58.0",
+  "body": "* \\[[`2ada98a565`](https://github.com/DataDog/dd-trace-js/commit/2ada98a565)] - **(SEMVER-PATCH)** **docs**: recipe for new integrations \\[LANGPLAT-352] (Emmett Butler) [#5984](https://github.com/DataDog/dd-trace-js/pull/5984)\n* \\[[`3da3ad9af6`](https://github.com/DataDog/dd-trace-js/commit/3da3ad9af6)] - **(SEMVER-PATCH)** **ssi**: fix reporting for services instrumented via SSI (Munir Abdinur) [#6048](https://github.com/DataDog/dd-trace-js/pull/6048)\n* \\[[`faee41421a`](https://github.com/DataDog/dd-trace-js/commit/faee41421a)] - **(SEMVER-PATCH)** **test**: use dynamic test topic for kafkajs tests (Roch Devost) [#6053](https://github.com/DataDog/dd-trace-js/pull/6053)\n* \\[[`bf402c887a`](https://github.com/DataDog/dd-trace-js/commit/bf402c887a)] - **(SEMVER-PATCH)** **ci**: add sleep between yarn install retries (Roch Devost) [#6046](https://github.com/DataDog/dd-trace-js/pull/6046)\n* \\[[`1e08b2aa0b`](https://github.com/DataDog/dd-trace-js/commit/1e08b2aa0b)] - **(SEMVER-PATCH)** **test**: fix next test network error by removing get-port usage (Roch Devost) [#6051](https://github.com/DataDog/dd-trace-js/pull/6051)\n* \\[[`5f88defaf8`](https://github.com/DataDog/dd-trace-js/commit/5f88defaf8)] - **(SEMVER-MINOR)** Enhance Service Representation for Serverless (Zarir Hamza) [#5967](https://github.com/DataDog/dd-trace-js/pull/5967)\n* \\[[`619c3018aa`](https://github.com/DataDog/dd-trace-js/commit/619c3018aa)] - **(SEMVER-PATCH)** **instrumentation**: fix service name for oracledb (Ruben Bridgewater) [#6038](https://github.com/DataDog/dd-trace-js/pull/6038)\n* \\[[`14dec06798`](https://github.com/DataDog/dd-trace-js/commit/14dec06798)] - **(SEMVER-PATCH)** **test**: fix test name (Thomas Watson) [#6039](https://github.com/DataDog/dd-trace-js/pull/6039)\n* \\[[`030dad4600`](https://github.com/DataDog/dd-trace-js/commit/030dad4600)] - **(SEMVER-PATCH)** **ci**: align all codecov/codecov-action GitHub Action versions (Thomas Watson) [#6033](https://github.com/DataDog/dd-trace-js/pull/6033)\n* \\[[`5338fc5e00`](https://github.com/DataDog/dd-trace-js/commit/5338fc5e00)] - **(SEMVER-PATCH)** Bump eslint-plugin-n (dependabot\\[bot]) [#6035](https://github.com/DataDog/dd-trace-js/pull/6035)\n* \\[[`d07ee7c03b`](https://github.com/DataDog/dd-trace-js/commit/d07ee7c03b)] - **(SEMVER-PATCH)** **chore**: ignore jest-docblock in dependabot (Ruben Bridgewater) [#6031](https://github.com/DataDog/dd-trace-js/pull/6031)\n* \\[[`99bbca36d7`](https://github.com/DataDog/dd-trace-js/commit/99bbca36d7)] - **(SEMVER-MINOR)** **feat**: add automatic heap snapshots to help debug memory issues (Roch Devost) [#5920](https://github.com/DataDog/dd-trace-js/pull/5920)\n* \\[[`5ec931b960`](https://github.com/DataDog/dd-trace-js/commit/5ec931b960)] - **(SEMVER-MINOR)** Improve SSRF ignoring tainted values after # (Ugaitz Urien) [#6023](https://github.com/DataDog/dd-trace-js/pull/6023)\n* \\[[`a1dbec0d39`](https://github.com/DataDog/dd-trace-js/commit/a1dbec0d39)] - **(SEMVER-PATCH)** **test**: improve documentation of default values in test agent (Thomas Watson) [#6028](https://github.com/DataDog/dd-trace-js/pull/6028)\n* \\[[`f3da1ad402`](https://github.com/DataDog/dd-trace-js/commit/f3da1ad402)] - **(SEMVER-PATCH)** Bump eslint-plugin-unicorn from v57.0.0 to v59.0,1 (Thomas Watson) [#6027](https://github.com/DataDog/dd-trace-js/pull/6027)\n* \\[[`a5a270ad2a`](https://github.com/DataDog/dd-trace-js/commit/a5a270ad2a)] - **(SEMVER-PATCH)** **ESLint**: Run linter on Cypress support file (Thomas Watson) [#6026](https://github.com/DataDog/dd-trace-js/pull/6026)\n* \\[[`32fae9bb47`](https://github.com/DataDog/dd-trace-js/commit/32fae9bb47)] - **(SEMVER-PATCH)** Inline eslint-config-standard config/rules in eslint.config.mjs (Thomas Watson) [#6020](https://github.com/DataDog/dd-trace-js/pull/6020)\n* \\[[`4f0d900112`](https://github.com/DataDog/dd-trace-js/commit/4f0d900112)] - **(SEMVER-PATCH)** **ESLint**: Explicitly load used plugins (Thomas Watson) [#6024](https://github.com/DataDog/dd-trace-js/pull/6024)\n* \\[[`cbdfd06c9e`](https://github.com/DataDog/dd-trace-js/commit/cbdfd06c9e)] - **(SEMVER-PATCH)** Remove vendored `jsonpath-plus` (Carles Capell) [#6021](https://github.com/DataDog/dd-trace-js/pull/6021)\n* \\[[`1137f402c3`](https://github.com/DataDog/dd-trace-js/commit/1137f402c3)] - **(SEMVER-PATCH)** **instrumentation**: fix oracle db connection string (Ruben Bridgewater) [#6003](https://github.com/DataDog/dd-trace-js/pull/6003)\n* \\[[`785155eaae`](https://github.com/DataDog/dd-trace-js/commit/785155eaae)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-2214] Fix instrumentation Jest in `v5.57.0+` (Mario Vidal Domínguez) [#6017](https://github.com/DataDog/dd-trace-js/pull/6017)\n* \\[[`2136b379e0`](https://github.com/DataDog/dd-trace-js/commit/2136b379e0)] - **(SEMVER-PATCH)** fix release status checks to use new gitlab workflows (Roch Devost) [#6018](https://github.com/DataDog/dd-trace-js/pull/6018)\n* \\[[`6a78b5c5d4`](https://github.com/DataDog/dd-trace-js/commit/6a78b5c5d4)] - **(SEMVER-PATCH)** Migrating Tedious from Async Resource to runStores (Crystal Magloire) [#5747](https://github.com/DataDog/dd-trace-js/pull/5747)\n* \\[[`24cbac1956`](https://github.com/DataDog/dd-trace-js/commit/24cbac1956)] - **(SEMVER-MINOR)** **tracing**: add support for graphql esm applications  (William Conti) [#6004](https://github.com/DataDog/dd-trace-js/pull/6004)\n* \\[[`c0caabe3f6`](https://github.com/DataDog/dd-trace-js/commit/c0caabe3f6)] - **(SEMVER-PATCH)** Bump the gh-actions-packages group across 1 directory with 2 updates (dependabot\\[bot]) [#5989](https://github.com/DataDog/dd-trace-js/pull/5989)\n* \\[[`42820c0296`](https://github.com/DataDog/dd-trace-js/commit/42820c0296)] - **(SEMVER-PATCH)** Bump the dev-minor-and-patch-dependencies group across 1 directory with 5 updates (dependabot\\[bot]) [#5994](https://github.com/DataDog/dd-trace-js/pull/5994)\n* \\[[`9b78af993a`](https://github.com/DataDog/dd-trace-js/commit/9b78af993a)] - **(SEMVER-PATCH)** Add script to allow running CI on community PRs (Thomas Watson) [#6016](https://github.com/DataDog/dd-trace-js/pull/6016)\n* \\[[`bc0b431aa5`](https://github.com/DataDog/dd-trace-js/commit/bc0b431aa5)] - **(SEMVER-PATCH)** **docs**: fix typo `primsa` to `prisma` (Sho) [#6005](https://github.com/DataDog/dd-trace-js/pull/6005)\n* \\[[`275d80db21`](https://github.com/DataDog/dd-trace-js/commit/275d80db21)] - **(SEMVER-MINOR)** Upgrade libddwaf native bindings (Carles Capell) [#5792](https://github.com/DataDog/dd-trace-js/pull/5792)\n* \\[[`c569d200ab`](https://github.com/DataDog/dd-trace-js/commit/c569d200ab)] - **(SEMVER-PATCH)** Add custom ESLint rule: safe-typeof-object (Thomas Watson) [#5993](https://github.com/DataDog/dd-trace-js/pull/5993)\n* \\[[`5d6e10e1e7`](https://github.com/DataDog/dd-trace-js/commit/5d6e10e1e7)] - **(SEMVER-PATCH)** **tracing**: fix child process bug when used with bluebird promises (William Conti) [#6002](https://github.com/DataDog/dd-trace-js/pull/6002)\n* \\[[`41ce55c79c`](https://github.com/DataDog/dd-trace-js/commit/41ce55c79c)] - **(SEMVER-PATCH)** Fix release status method (Ugaitz Urien) [#6001](https://github.com/DataDog/dd-trace-js/pull/6001)\n\n[LANGPLAT-352]: https://datadoghq.atlassian.net/browse/LANGPLAT-352?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ\n[SDTEST-2214]: https://datadoghq.atlassian.net/browse/SDTEST-2214?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",
+  "reactions": {
+    "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/230832988/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
