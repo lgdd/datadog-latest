@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 68.220.59.50. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/218092629",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/218092629/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-go/releases/218092629/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-go/releases/tag/v1.23.0",
+  "id": 218092629,
+  "author": {
+    "login": "apiarian-datadog",
+    "id": 175138641,
+    "node_id": "U_kgDOCnBnUQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/175138641?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/apiarian-datadog",
+    "html_url": "https://github.com/apiarian-datadog",
+    "followers_url": "https://api.github.com/users/apiarian-datadog/followers",
+    "following_url": "https://api.github.com/users/apiarian-datadog/following{/other_user}",
+    "gists_url": "https://api.github.com/users/apiarian-datadog/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/apiarian-datadog/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/apiarian-datadog/subscriptions",
+    "organizations_url": "https://api.github.com/users/apiarian-datadog/orgs",
+    "repos_url": "https://api.github.com/users/apiarian-datadog/repos",
+    "events_url": "https://api.github.com/users/apiarian-datadog/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/apiarian-datadog/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOCy-Fxs4M_9RV",
+  "tag_name": "v1.23.0",
+  "target_commitish": "main",
+  "name": "v1.23.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-05-12T20:04:36Z",
+  "published_at": "2025-05-12T20:09:26Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/tarball/v1.23.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/zipball/v1.23.0",
+  "body": "## What's Changed\r\n* Use FIPS endpoint when decrypting KMS key if in Govcloud region by @nhulston in https://github.com/DataDog/datadog-lambda-go/pull/196\r\n  * This was actually modified in the following commit to be based on the `DD_LAMBDA_FIPS_MODE` flag which defaults to true in govcloud.\r\n* feat: DD_LAMBDA_FIPS_MODE handling for metrics by @apiarian-datadog in https://github.com/DataDog/datadog-lambda-go/pull/199\r\n\r\n## Breaking Change\r\nWIth FIPS mode enabled we can no longer ship metrics directly to the Datadog API. Please use the `datadog-lambda-extension` or the Datadog Forwarder. FIPS mode is enabled by default in GovCloud and can be configured with the `DD_LAMBDA_FIPS_MODE` environment variable or the new `FIPSMode` config field.\r\n\r\n## New Contributors\r\n* @apiarian-datadog made their first contribution in https://github.com/DataDog/datadog-lambda-go/pull/199\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-go/compare/v1.22.0...v1.23.0",
+  "mentions_count": 2
+}
