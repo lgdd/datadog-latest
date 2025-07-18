@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 172.182.195.33. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-js/releases/226729693",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/releases/226729693/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-js/releases/226729693/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-js/releases/tag/v11.126.0",
+  "id": 226729693,
+  "author": {
+    "login": "nhulston",
+    "id": 29668820,
+    "node_id": "MDQ6VXNlcjI5NjY4ODIw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/29668820?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nhulston",
+    "html_url": "https://github.com/nhulston",
+    "followers_url": "https://api.github.com/users/nhulston/followers",
+    "following_url": "https://api.github.com/users/nhulston/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nhulston/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nhulston/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nhulston/subscriptions",
+    "organizations_url": "https://api.github.com/users/nhulston/orgs",
+    "repos_url": "https://api.github.com/users/nhulston/repos",
+    "events_url": "https://api.github.com/users/nhulston/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nhulston/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOC0sQjs4Ng57d",
+  "tag_name": "v11.126.0",
+  "target_commitish": "main",
+  "name": "v11.126.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-06-20T14:29:27Z",
+  "published_at": "2025-06-20T15:21:14Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/tarball/v11.126.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/zipball/v11.126.0",
+  "body": ">[!IMPORTANT]\r\n> This version imports `dd-trace-js` [v5.56.0](https://github.com/DataDog/dd-trace-js/releases/tag/v5.56.0)\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:126\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:126\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:126\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node18-x:126\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node20-x:126\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node22-x:126\r\n```\r\n\r\n\r\n## What's Changed\r\n* (fix): `http.url` tag to include protocol by @duncanista in https://github.com/DataDog/datadog-lambda-js/pull/656\r\n* (fix): Typescript Timeouts when Lambda handler returns undefined by @nhulston in https://github.com/DataDog/datadog-lambda-js/pull/661\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v10.125.0...v11.126.0",
+  "mentions_count": 2
+}
