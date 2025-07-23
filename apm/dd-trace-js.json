@@ -1,1 +1,55 @@
-{"message":"API rate limit exceeded for 172.208.86.132. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/233855352",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/233855352/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/233855352/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.60.0",
+  "id": 233855352,
+  "author": {
+    "login": "github-actions[bot]",
+    "id": 41898282,
+    "node_id": "MDM6Qm90NDE4OTgyODI=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+    "html_url": "https://github.com/apps/github-actions",
+    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBwapYs4N8Fl4",
+  "tag_name": "v5.60.0",
+  "target_commitish": "v5.x",
+  "name": "5.60.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-07-21T09:48:00Z",
+  "published_at": "2025-07-21T09:48:23Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.60.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.60.0",
+  "body": "* \\[[`d1e1f469e7`](https://github.com/DataDog/dd-trace-js/commit/d1e1f469e7)] - **(SEMVER-PATCH)** **chore**: bump @eslint/plugin-kit dev-dependency (Thomas Watson) [#6131](https://github.com/DataDog/dd-trace-js/pull/6131)\n* \\[[`3c9fc50bd9`](https://github.com/DataDog/dd-trace-js/commit/3c9fc50bd9)] - **(SEMVER-PATCH)** \\[DI] Support custom logger in worker thread (Thomas Watson) [#6128](https://github.com/DataDog/dd-trace-js/pull/6128)\n* \\[[`669090c207`](https://github.com/DataDog/dd-trace-js/commit/669090c207)] - **(SEMVER-PATCH)** **chore(openai)**: clean up code a bit (Sam Brenner) [#6126](https://github.com/DataDog/dd-trace-js/pull/6126)\n* \\[[`43fee33eb0`](https://github.com/DataDog/dd-trace-js/commit/43fee33eb0)] - **(SEMVER-PATCH)** \\[DI] Do not fail if a custom logger is configured (Thomas Watson) [#6127](https://github.com/DataDog/dd-trace-js/pull/6127)\n* \\[[`b35b83981d`](https://github.com/DataDog/dd-trace-js/commit/b35b83981d)] - **(SEMVER-MINOR)** Add support for trace tagging rules (Carles Capell) [#6075](https://github.com/DataDog/dd-trace-js/pull/6075)\n* \\[[`c84661c896`](https://github.com/DataDog/dd-trace-js/commit/c84661c896)] - **(SEMVER-PATCH)** Temporarily cap supported `@apollo/server` version <5  (Carles Capell) [#6124](https://github.com/DataDog/dd-trace-js/pull/6124)\n* \\[[`b131e97039`](https://github.com/DataDog/dd-trace-js/commit/b131e97039)] - **(SEMVER-PATCH)** dac strip io from vertex (jsimpher) [#6103](https://github.com/DataDog/dd-trace-js/pull/6103)\n* \\[[`8b7d80f2ac`](https://github.com/DataDog/dd-trace-js/commit/8b7d80f2ac)] - **(SEMVER-PATCH)** bump multer 2.0.2 (simon-id) [#6123](https://github.com/DataDog/dd-trace-js/pull/6123)\n* \\[[`b485cb80c4`](https://github.com/DataDog/dd-trace-js/commit/b485cb80c4)] - **(SEMVER-PATCH)** fix release status script reading response text twice (Roch Devost) [#6117](https://github.com/DataDog/dd-trace-js/pull/6117)\n* \\[[`9b31467b22`](https://github.com/DataDog/dd-trace-js/commit/9b31467b22)] - **(SEMVER-PATCH)** **fix(test-optimization)**: typo in git commit tags (Calvin Bayer) [#6119](https://github.com/DataDog/dd-trace-js/pull/6119)\n* \\[[`ab554a7617`](https://github.com/DataDog/dd-trace-js/commit/ab554a7617)] - **(SEMVER-PATCH)** **chore(openai)**: refactor streamed response handling to the tracing plugin (Sam Brenner) [#6107](https://github.com/DataDog/dd-trace-js/pull/6107)\n* \\[[`f8434e9e65`](https://github.com/DataDog/dd-trace-js/commit/f8434e9e65)] - **(SEMVER-PATCH)** **ci**: activate config inversion ci validation (Ruben Bridgewater) [#5846](https://github.com/DataDog/dd-trace-js/pull/5846)\n* \\[[`8efbffa6f5`](https://github.com/DataDog/dd-trace-js/commit/8efbffa6f5)] - **(SEMVER-MINOR)** \\[test-optimization] \\[SDTEST-2282] Add `ci.job.id` tag on supported CI providers (Mario Vidal Domínguez) [#6114](https://github.com/DataDog/dd-trace-js/pull/6114)\n\n[SDTEST-2282]: https://datadoghq.atlassian.net/browse/SDTEST-2282?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",
+  "reactions": {
+    "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/233855352/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  }
+}
