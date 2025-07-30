@@ -1,1 +1,43 @@
-{"message": "No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/235989750",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/235989750/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/235989750/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v3.11.1",
+  "id": 235989750,
+  "author": {
+    "login": "emmettbutler",
+    "id": 723615,
+    "node_id": "MDQ6VXNlcjcyMzYxNQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/723615?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/emmettbutler",
+    "html_url": "https://github.com/emmettbutler",
+    "followers_url": "https://api.github.com/users/emmettbutler/followers",
+    "following_url": "https://api.github.com/users/emmettbutler/following{/other_user}",
+    "gists_url": "https://api.github.com/users/emmettbutler/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/emmettbutler/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/emmettbutler/subscriptions",
+    "organizations_url": "https://api.github.com/users/emmettbutler/orgs",
+    "repos_url": "https://api.github.com/users/emmettbutler/repos",
+    "events_url": "https://api.github.com/users/emmettbutler/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/emmettbutler/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4OEOr2",
+  "tag_name": "v3.11.1",
+  "target_commitish": "3.11",
+  "name": "3.11.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-07-29T12:17:44Z",
+  "published_at": "2025-07-29T14:24:12Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v3.11.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v3.11.1",
+  "body": "Estimated end-of-life date, accurate to within three months: 08-2026\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- ddtrace_api: Fixes a bug in the ddtrace_api integration in which `patch()` with no arguments, and thus `patch_all()`, breaks the integration.\r\n\r\n"
+}
