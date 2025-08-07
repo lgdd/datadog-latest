@@ -102,7 +102,7 @@
       "state": "uploaded",
       "size": 22522006,
       "digest": "sha256:0a80adea202ae4497438c68d33d07afbbc33900ae1833248c8029e3a56f88925",
-      "download_count": 150,
+      "download_count": 407,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:24Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm-3.23.0-1.x86_64.rpm"
@@ -138,7 +138,7 @@
       "state": "uploaded",
       "size": 19868589,
       "digest": "sha256:a80f694cd430b867a0ce4899cba081aed759882272faefbba0330b235f4d7d79",
-      "download_count": 527,
+      "download_count": 1061,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:24Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm-3.23.0-musl.tar.gz"
@@ -174,7 +174,7 @@
       "state": "uploaded",
       "size": 30912512,
       "digest": "sha256:0d147562f533dac7115b1ab1f4ddbb84e14cd615f7b4aefbe625e5a820291a61",
-      "download_count": 725,
+      "download_count": 1600,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm-3.23.0-x64.msi"
@@ -210,7 +210,7 @@
       "state": "uploaded",
       "size": 28897903,
       "digest": "sha256:17d3c32e7bae22e88be0d09427950e7b197e8462178d7cbfb97914e9ec909969",
-      "download_count": 11,
+      "download_count": 25,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm-3.23.0.arm64.tar.gz"
@@ -246,7 +246,7 @@
       "state": "uploaded",
       "size": 30671134,
       "digest": "sha256:020fc161783f79ee642b28a26ea209c7537fac072afe778631a85425b8841cde",
-      "download_count": 658,
+      "download_count": 1580,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm-3.23.0.tar.gz"
@@ -282,7 +282,7 @@
       "state": "uploaded",
       "size": 21857046,
       "digest": "sha256:8e499c1cd6e9eb109da35622a2f64bf667b3fa2f66ddda06e93d9be0707430f5",
-      "download_count": 2645,
+      "download_count": 5589,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:24Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm_3.23.0_amd64.deb"
@@ -318,7 +318,7 @@
       "state": "uploaded",
       "size": 20756060,
       "digest": "sha256:d3de465b322cee2607691e7a204116b376f4532f86425304c1284a8b69222161",
-      "download_count": 40,
+      "download_count": 118,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:24Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/datadog-dotnet-apm_3.23.0_arm64.deb"
@@ -426,7 +426,7 @@
       "state": "uploaded",
       "size": 54614531,
       "digest": "sha256:d2d90e3a3770917fff7739774396deafdd32137f46451c414f735e1a3e20243d",
-      "download_count": 3,
+      "download_count": 6,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:26Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/dd-trace-linux-musl-x64.tar.gz"
@@ -462,7 +462,7 @@
       "state": "uploaded",
       "size": 54819491,
       "digest": "sha256:63b65c2f64dad42137167d93c0086aa6c45bdccb4bd6350e863a85ba2eea1142",
-      "download_count": 2,
+      "download_count": 7,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:26Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/dd-trace-linux-x64.tar.gz"
@@ -642,7 +642,7 @@
       "state": "uploaded",
       "size": 32860841,
       "digest": "sha256:995d42a8d65d4e32fd3afe907c379cbce25b777823b67225ae7df8e0c1c39b58",
-      "download_count": 9,
+      "download_count": 11,
       "created_at": "2025-08-05T07:56:22Z",
       "updated_at": "2025-08-05T07:56:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.23.0/windows-tracer-home.zip"
