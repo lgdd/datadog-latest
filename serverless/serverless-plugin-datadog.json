@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/237442262",
-  "assets_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/237442262/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/serverless-plugin-datadog/releases/237442262/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/serverless-plugin-datadog/releases/tag/v5.101.0",
-  "id": 237442262,
+  "url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/238643043",
+  "assets_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/238643043/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/serverless-plugin-datadog/releases/238643043/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/serverless-plugin-datadog/releases/tag/v5.102.0",
+  "id": 238643043,
   "author": {
     "login": "lym953",
     "id": 10097700,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOC-zefM4OJxTW",
-  "tag_name": "v5.101.0",
+  "node_id": "RE_kwDOC-zefM4OOWdj",
+  "tag_name": "v5.102.0",
   "target_commitish": "main",
-  "name": "v5.101.0",
+  "name": "v5.102.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-08-04T17:57:58Z",
-  "published_at": "2025-08-04T17:58:17Z",
+  "created_at": "2025-08-08T15:32:53Z",
+  "published_at": "2025-08-08T15:34:21Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/tarball/v5.101.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/zipball/v5.101.0",
-  "body": "## What's Changed\r\n* chore: Move ci to node 20 and 22 by @TalUsvyatsky in https://github.com/DataDog/serverless-plugin-datadog/pull/607\r\n* Bump datadog-ci version by @TalUsvyatsky in https://github.com/DataDog/serverless-plugin-datadog/pull/606\r\n* Upgrade dependencies by @TalUsvyatsky in https://github.com/DataDog/serverless-plugin-datadog/pull/608\r\n* feat: Print error detail when monitor API returns 400 by @lym953 in https://github.com/DataDog/serverless-plugin-datadog/pull/604\r\n\r\n## New Contributors\r\n* @TalUsvyatsky made their first contribution in https://github.com/DataDog/serverless-plugin-datadog/pull/607\r\n\r\n**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.100.0...v5.101.0",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/tarball/v5.102.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/zipball/v5.102.0",
+  "body": "## What's Changed\r\n* fix: Fix NPM publish workflow by @lym953 in https://github.com/DataDog/serverless-plugin-datadog/pull/609\r\n\r\n\r\n**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.101.0...v5.102.0",
+  "mentions_count": 1
 }
