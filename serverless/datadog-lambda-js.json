@@ -33,6 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2025-07-29T15:24:48Z",
+  "updated_at": "2025-08-08T04:54:13Z",
   "published_at": "2025-07-29T16:24:06Z",
   "assets": [
     {
@@ -102,7 +103,7 @@
       "state": "uploaded",
       "size": 5857746,
       "digest": "sha256:5832c96d3dfe88bab324360b5253fdd79ef5984b8f75e6f30c8e10912939191b",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2025-07-29T16:25:34Z",
       "updated_at": "2025-07-29T16:25:34Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.127.0/datadog_lambda_node20.9.zip"
