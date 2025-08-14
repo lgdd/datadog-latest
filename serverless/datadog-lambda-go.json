@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/239187531",
-  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/239187531/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-go/releases/239187531/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/datadog-lambda-go/releases/tag/v1.25.0",
-  "id": 239187531,
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/239816734",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/239816734/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-go/releases/239816734/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-go/releases/tag/v1.25.1",
+  "id": 239816734,
   "author": {
     "login": "purple4reina",
     "id": 1383216,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCy-Fxs4OQbZL",
-  "tag_name": "v1.25.0",
+  "node_id": "RE_kwDOCy-Fxs4OS1Ae",
+  "tag_name": "v1.25.1",
   "target_commitish": "main",
-  "name": "v1.25.0",
+  "name": "v1.25.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-08-11T21:03:57Z",
-  "updated_at": "2025-08-11T21:08:18Z",
-  "published_at": "2025-08-11T21:04:20Z",
+  "created_at": "2025-08-13T21:38:27Z",
+  "updated_at": "2025-08-13T21:38:47Z",
+  "published_at": "2025-08-13T21:38:47Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/tarball/v1.25.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/zipball/v1.25.0",
-  "body": "## What's Changed\r\n* fix: stop the tracer after each invocation. Disable telemetry by @astuyve in https://github.com/DataDog/datadog-lambda-go/pull/207\r\n\r\n## New Contributors\r\n* @astuyve made their first contribution in https://github.com/DataDog/datadog-lambda-go/pull/207\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-go/compare/v1.24.0...v1.25.0",
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/tarball/v1.25.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/zipball/v1.25.1",
+  "body": "## What's Changed\r\n* Revert calling tracer.Stop after each invocation. by @purple4reina in https://github.com/DataDog/datadog-lambda-go/pull/208\r\n\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-go/compare/v1.25.0...v1.25.1",
   "mentions_count": 1
 }
