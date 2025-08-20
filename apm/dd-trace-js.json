@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/240547784",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/240547784/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/240547784/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.63.0",
-  "id": 240547784,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/241005113",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/241005113/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/241005113/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.63.2",
+  "id": 241005113,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,32 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4OVnfI",
-  "tag_name": "v5.63.0",
+  "node_id": "RE_kwDOBwapYs4OXXI5",
+  "tag_name": "v5.63.2",
   "target_commitish": "v5.x",
-  "name": "5.63.0",
+  "name": "5.63.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-08-18T09:34:35Z",
-  "updated_at": "2025-08-18T09:35:02Z",
-  "published_at": "2025-08-18T09:35:02Z",
+  "created_at": "2025-08-19T20:00:54Z",
+  "updated_at": "2025-08-19T20:01:20Z",
+  "published_at": "2025-08-19T20:01:20Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.63.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.63.0",
-  "body": "* \\[[`7e4af4a17e`](https://github.com/DataDog/dd-trace-js/commit/7e4af4a17e)] - **(SEMVER-PATCH)** pin system tests to a specific commit (Roch Devost) [#6289](https://github.com/DataDog/dd-trace-js/pull/6289)\n* \\[[`5089171e2b`](https://github.com/DataDog/dd-trace-js/commit/5089171e2b)] - **(SEMVER-PATCH)** **docs**: remove Node.js 24 warning since we now have full support (Ruben Bridgewater) [#6268](https://github.com/DataDog/dd-trace-js/pull/6268)\n* \\[[`6cac0b9ef3`](https://github.com/DataDog/dd-trace-js/commit/6cac0b9ef3)] - **(SEMVER-MINOR)** **feat(ai)**: add vercel ai integration (Sam Brenner) [#5858](https://github.com/DataDog/dd-trace-js/pull/5858)\n* \\[[`e28e38dc36`](https://github.com/DataDog/dd-trace-js/commit/e28e38dc36)] - **(SEMVER-PATCH)** **ci**: update github actions to use node latest, not active (Thomas Hunter II) [#6273](https://github.com/DataDog/dd-trace-js/pull/6273)\n* \\[[`2774e1dfce`](https://github.com/DataDog/dd-trace-js/commit/2774e1dfce)] - **(SEMVER-MINOR)** Emit span IDs in profiles as 64-bit numbers instead of as strings. (Attila Szegedi) [#6281](https://github.com/DataDog/dd-trace-js/pull/6281)\n* \\[[`fd9c8a75da`](https://github.com/DataDog/dd-trace-js/commit/fd9c8a75da)] - **(SEMVER-PATCH)** **refactor**: make sure promises as context would be preserved (Ruben Bridgewater) [#6277](https://github.com/DataDog/dd-trace-js/pull/6277)\n* \\[[`213d56fb37`](https://github.com/DataDog/dd-trace-js/commit/213d56fb37)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group (dependabot\\[bot]) [#6280](https://github.com/DataDog/dd-trace-js/pull/6280)\n* \\[[`e6db2fe851`](https://github.com/DataDog/dd-trace-js/commit/e6db2fe851)] - **(SEMVER-PATCH)** **refactor**: use symbol instead of weak map for associating data with contexts (Attila Szegedi) [#6276](https://github.com/DataDog/dd-trace-js/pull/6276)\n* \\[[`807698ae59`](https://github.com/DataDog/dd-trace-js/commit/807698ae59)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group (dependabot\\[bot]) [#6274](https://github.com/DataDog/dd-trace-js/pull/6274)\n* \\[[`092a7026d3`](https://github.com/DataDog/dd-trace-js/commit/092a7026d3)] - **(SEMVER-PATCH)** Eagerly delete elements from the ctx WeakMap (Attila Szegedi) [#6267](https://github.com/DataDog/dd-trace-js/pull/6267)\n* \\[[`d4b68955a5`](https://github.com/DataDog/dd-trace-js/commit/d4b68955a5)] - **(SEMVER-PATCH)** add summary and slack message to flakiness report (Roch Devost) [#6252](https://github.com/DataDog/dd-trace-js/pull/6252)\n* \\[[`e6c1a8ff1c`](https://github.com/DataDog/dd-trace-js/commit/e6c1a8ff1c)] - **(SEMVER-PATCH)** **ci**: bump one-pipeline version (Benjamin De Bernardi) [#6265](https://github.com/DataDog/dd-trace-js/pull/6265)\n* \\[[`63e70ecc87`](https://github.com/DataDog/dd-trace-js/commit/63e70ecc87)] - **(SEMVER-PATCH)** DD\\_PROFILING\\_TIMELINE\\_ENABLED got lost in the rework (Attila Szegedi) [#6264](https://github.com/DataDog/dd-trace-js/pull/6264)\n* \\[[`fca5f74d58`](https://github.com/DataDog/dd-trace-js/commit/fca5f74d58)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group (dependabot\\[bot]) [#6263](https://github.com/DataDog/dd-trace-js/pull/6263)\n* \\[[`36a2bd1802`](https://github.com/DataDog/dd-trace-js/commit/36a2bd1802)] - **(SEMVER-PATCH)** bump timeout for installing playwright deps to 5 minutes (Roch Devost) [#6261](https://github.com/DataDog/dd-trace-js/pull/6261)\n* \\[[`2e40492b3b`](https://github.com/DataDog/dd-trace-js/commit/2e40492b3b)] - **(SEMVER-MINOR)** get rid of --no-async-context-frame (Bryan English) [#5726](https://github.com/DataDog/dd-trace-js/pull/5726)\n* \\[[`5873c88b87`](https://github.com/DataDog/dd-trace-js/commit/5873c88b87)] - **(SEMVER-MINOR)** **feat**: add injection metadata fields to telemetry forwarder (sydney-tung) [#6203](https://github.com/DataDog/dd-trace-js/pull/6203)\n* \\[[`c9df24092d`](https://github.com/DataDog/dd-trace-js/commit/c9df24092d)] - **(SEMVER-PATCH)** **test**: remove withVersions global (Ruben Bridgewater) [#6249](https://github.com/DataDog/dd-trace-js/pull/6249)\n* \\[[`48fd822d36`](https://github.com/DataDog/dd-trace-js/commit/48fd822d36)] - **(SEMVER-MINOR)** Support Forwarded header for IP extraction (Ugaitz Urien) [#6248](https://github.com/DataDog/dd-trace-js/pull/6248)\n* \\[[`024b9aa017`](https://github.com/DataDog/dd-trace-js/commit/024b9aa017)] - **(SEMVER-PATCH)** **chore(deps-dev)**: bump the dev-minor-and-patch-dependencies group across 1 directory with 6 updates (dependabot\\[bot]) [#6256](https://github.com/DataDog/dd-trace-js/pull/6256)\n* \\[[`45fe47d5cc`](https://github.com/DataDog/dd-trace-js/commit/45fe47d5cc)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 2 updates (dependabot\\[bot]) [#6254](https://github.com/DataDog/dd-trace-js/pull/6254)\n* \\[[`fa7d55c49d`](https://github.com/DataDog/dd-trace-js/commit/fa7d55c49d)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group (dependabot\\[bot]) [#6255](https://github.com/DataDog/dd-trace-js/pull/6255)\n* \\[[`3ecc4360ea`](https://github.com/DataDog/dd-trace-js/commit/3ecc4360ea)] - **(SEMVER-PATCH)** **ci(langchain)**: re-enable latest langchain tests with cassettes (Sam Brenner) [#6243](https://github.com/DataDog/dd-trace-js/pull/6243)\n* \\[[`4fdadcf8bd`](https://github.com/DataDog/dd-trace-js/commit/4fdadcf8bd)] - **(SEMVER-PATCH)** **fix(tracer)**: make instrumenting hono middlewares more robust (Ruben Bridgewater) [#6250](https://github.com/DataDog/dd-trace-js/pull/6250)\n* \\[[`06e11bf3e6`](https://github.com/DataDog/dd-trace-js/commit/06e11bf3e6)] - **(SEMVER-MINOR)** add experimental flag on plugins to disable them by default (Roch Devost) [#5985](https://github.com/DataDog/dd-trace-js/pull/5985)\n* \\[[`baa23b6175`](https://github.com/DataDog/dd-trace-js/commit/baa23b6175)] - **(SEMVER-PATCH)** Fix service name in process discovery metadata (Vincent Whitchurch) [#6228](https://github.com/DataDog/dd-trace-js/pull/6228)\n* \\[[`c0f4395b25`](https://github.com/DataDog/dd-trace-js/commit/c0f4395b25)] - **(SEMVER-PATCH)** **ci**: limit dependabot automation trigger to opened activity (Roch Devost) [#6244](https://github.com/DataDog/dd-trace-js/pull/6244)\n* \\[[`2c484077ae`](https://github.com/DataDog/dd-trace-js/commit/2c484077ae)] - **(SEMVER-PATCH)** Remove Async Resource from knex (Ugaitz Urien) [#6241](https://github.com/DataDog/dd-trace-js/pull/6241)\n* \\[[`deb8f4a7f1`](https://github.com/DataDog/dd-trace-js/commit/deb8f4a7f1)] - **(SEMVER-PATCH)** Update WAF rules to v1.15.1 (Carles Capell) [#6245](https://github.com/DataDog/dd-trace-js/pull/6245)\n* \\[[`591809558a`](https://github.com/DataDog/dd-trace-js/commit/591809558a)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group (dependabot\\[bot]) [#6247](https://github.com/DataDog/dd-trace-js/pull/6247)\n* \\[[`fa783b4c45`](https://github.com/DataDog/dd-trace-js/commit/fa783b4c45)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group across 1 directory with 16 updates (dependabot\\[bot]) [#6239](https://github.com/DataDog/dd-trace-js/pull/6239)\n* \\[[`69936d7ede`](https://github.com/DataDog/dd-trace-js/commit/69936d7ede)] - Migrating Postgres from AsyncResource to Diagnostics Channel (Crystal Magloire) [#6225](https://github.com/DataDog/dd-trace-js/pull/6225)\n* \\[[`7592c5920d`](https://github.com/DataDog/dd-trace-js/commit/7592c5920d)] - **(SEMVER-PATCH)** **ci(azure-functions)**: install azure-functions-core-tools outside of test suite (Duncan Harvey) [#6242](https://github.com/DataDog/dd-trace-js/pull/6242)\n* \\[[`0136851c52`](https://github.com/DataDog/dd-trace-js/commit/0136851c52)] - **(SEMVER-PATCH)** remove async storage from couchbase (William Conti) [#5948](https://github.com/DataDog/dd-trace-js/pull/5948)\n* \\[[`1c583deed3`](https://github.com/DataDog/dd-trace-js/commit/1c583deed3)] - **(SEMVER-PATCH)** Fix flaky test (Attila Szegedi) [#6229](https://github.com/DataDog/dd-trace-js/pull/6229)\n* \\[[`14f7d60a33`](https://github.com/DataDog/dd-trace-js/commit/14f7d60a33)] - **(SEMVER-MINOR)** bump native appsec to 10.1.0 (simon-id) [#6235](https://github.com/DataDog/dd-trace-js/pull/6235)",
-  "reactions": {
-    "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/240547784/reactions",
-    "total_count": 1,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 1,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.63.2",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.63.2",
+  "body": "* \\[[`7de55f4efa`](https://github.com/DataDog/dd-trace-js/commit/7de55f4efa)] - **(SEMVER-PATCH)** **fix(llmobs)**: properly parse DD\\_TAGS onto span events' tags (Sam Brenner) [#6287](https://github.com/DataDog/dd-trace-js/pull/6287)"
 }
