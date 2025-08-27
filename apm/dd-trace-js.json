@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/241201351",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/241201351/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/241201351/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.63.3",
-  "id": 241201351,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/242551879",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/242551879/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/242551879/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.64.0",
+  "id": 242551879,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4OYHDH",
-  "tag_name": "v5.63.3",
+  "node_id": "RE_kwDOBwapYs4OdQxH",
+  "tag_name": "v5.64.0",
   "target_commitish": "v5.x",
-  "name": "5.63.3",
+  "name": "5.64.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-08-20T12:46:30Z",
-  "updated_at": "2025-08-20T12:47:01Z",
-  "published_at": "2025-08-20T12:47:01Z",
+  "created_at": "2025-08-26T12:14:48Z",
+  "updated_at": "2025-08-26T12:15:12Z",
+  "published_at": "2025-08-26T12:15:12Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.63.3",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.63.3",
-  "body": "* \\[[`451946a665`](https://github.com/DataDog/dd-trace-js/commit/451946a665)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-2522] Fix incident with Jest and EFD (Mario Vidal Domínguez) [#6313](https://github.com/DataDog/dd-trace-js/pull/6313)\n* \\[[`eeb3642e16`](https://github.com/DataDog/dd-trace-js/commit/eeb3642e16)] - **(SEMVER-PATCH)** **chore**: upgrade nock dev-dependency from v11 to v13 (Thomas Watson) [#6311](https://github.com/DataDog/dd-trace-js/pull/6311)\n* \\[[`ab283f17a5`](https://github.com/DataDog/dd-trace-js/commit/ab283f17a5)] - **(SEMVER-PATCH)** **fix(prisma)**: correct database connection attributes in spans (Ayan Khan) [#6305](https://github.com/DataDog/dd-trace-js/pull/6305)\n\n[SDTEST-2522]: https://datadoghq.atlassian.net/browse/SDTEST-2522?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.64.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.64.0",
+  "body": "* \\[[`a1b53a86cd`](https://github.com/DataDog/dd-trace-js/commit/a1b53a86cd)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-2548] Fix playwright in `v5` (Mario Vidal Domínguez) [#6343](https://github.com/DataDog/dd-trace-js/pull/6343)\n* \\[[`df65b26932`](https://github.com/DataDog/dd-trace-js/commit/df65b26932)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group across 1 directory with 30 updates (dependabot\\[bot]) [#6342](https://github.com/DataDog/dd-trace-js/pull/6342)\n* \\[[`d0dcf78573`](https://github.com/DataDog/dd-trace-js/commit/d0dcf78573)] - **(SEMVER-PATCH)** **test(profiler)**: fix flaky poisson test (Attila Szegedi) [#6341](https://github.com/DataDog/dd-trace-js/pull/6341)\n* \\[[`e57ed0f7de`](https://github.com/DataDog/dd-trace-js/commit/e57ed0f7de)] - **(SEMVER-PATCH)** fix gc pause metric using millis instead of nanos (Roch Devost) [#6321](https://github.com/DataDog/dd-trace-js/pull/6321)\n* \\[[`ecf3445a37`](https://github.com/DataDog/dd-trace-js/commit/ecf3445a37)] - **(SEMVER-PATCH)** \\[test-optimization] \\[SDTEST-2548] Fix Cypress tests for versions `>=15.0.0` (Mario Vidal Domínguez) [#6335](https://github.com/DataDog/dd-trace-js/pull/6335)\n* \\[[`10e78c5c69`](https://github.com/DataDog/dd-trace-js/commit/10e78c5c69)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6327](https://github.com/DataDog/dd-trace-js/pull/6327)\n* \\[[`b182aa2353`](https://github.com/DataDog/dd-trace-js/commit/b182aa2353)] - **(SEMVER-PATCH)** Unpin system-tests workflow version (simon-id) [#6339](https://github.com/DataDog/dd-trace-js/pull/6339)\n* \\[[`f0f5b7303a`](https://github.com/DataDog/dd-trace-js/commit/f0f5b7303a)] - **(SEMVER-PATCH)** **fix(ai)**: properly handle partial `experimental_telemetry` configurations to wrap the correct tracer (Sam Brenner) [#6319](https://github.com/DataDog/dd-trace-js/pull/6319)\n* \\[[`ec0d360526`](https://github.com/DataDog/dd-trace-js/commit/ec0d360526)] - **(SEMVER-MINOR)** \\[test-optimization] \\[SDTEST-2548] Fix playwright instrumentation for versions `>=1.55.0` (Mario Vidal Domínguez) [#6330](https://github.com/DataDog/dd-trace-js/pull/6330)\n* \\[[`be7e2a9966`](https://github.com/DataDog/dd-trace-js/commit/be7e2a9966)] - **(SEMVER-MINOR)** Endpoints discovery for fastify (Ilyas Shabi) [#6258](https://github.com/DataDog/dd-trace-js/pull/6258)\n* \\[[`e52d84cb92`](https://github.com/DataDog/dd-trace-js/commit/e52d84cb92)] - **(SEMVER-PATCH)** **chore**: limit dependency version range to prevent them being flagged (Ruben Bridgewater) [#6279](https://github.com/DataDog/dd-trace-js/pull/6279)\n* \\[[`823a9abd20`](https://github.com/DataDog/dd-trace-js/commit/823a9abd20)] - **(SEMVER-PATCH)** Fix Appsec Next.js v15.5 plugin test (Carles Capell) [#6315](https://github.com/DataDog/dd-trace-js/pull/6315)\n* \\[[`0502c95297`](https://github.com/DataDog/dd-trace-js/commit/0502c95297)] - **(SEMVER-PATCH)** **ci**: update one-pipeline version and config inversion related CI jobs (Benjamin De Bernardi) [#6318](https://github.com/DataDog/dd-trace-js/pull/6318)\n* \\[[`f60b7f7d13`](https://github.com/DataDog/dd-trace-js/commit/f60b7f7d13)] - **(SEMVER-PATCH)** Fix log injection and applied sampling rule bug (Ayan Khan) [#6299](https://github.com/DataDog/dd-trace-js/pull/6299)\n\n[SDTEST-2548]: https://datadoghq.atlassian.net/browse/SDTEST-2548?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ\n[SDTEST-2548]: https://datadoghq.atlassian.net/browse/SDTEST-2548?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
 }
