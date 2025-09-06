@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/243278141",
-  "assets_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/243278141/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/serverless-plugin-datadog/releases/243278141/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/serverless-plugin-datadog/releases/tag/v5.104.0",
-  "id": 243278141,
+  "url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/245110974",
+  "assets_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/releases/245110974/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/serverless-plugin-datadog/releases/245110974/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/serverless-plugin-datadog/releases/tag/v5.105.0",
+  "id": 245110974,
   "author": {
     "login": "lym953",
     "id": 10097700,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOC-zefM4OgCE9",
-  "tag_name": "v5.104.0",
+  "node_id": "RE_kwDOC-zefM4OnBi-",
+  "tag_name": "v5.105.0",
   "target_commitish": "main",
-  "name": "v5.104.0",
+  "name": "v5.105.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-08-28T18:50:45Z",
-  "updated_at": "2025-08-28T18:51:10Z",
-  "published_at": "2025-08-28T18:51:10Z",
+  "created_at": "2025-09-05T15:32:35Z",
+  "updated_at": "2025-09-05T15:32:57Z",
+  "published_at": "2025-09-05T15:32:57Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/tarball/v5.104.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/zipball/v5.104.0",
-  "body": "**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.103.0...v5.104.0"
+  "tarball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/tarball/v5.105.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/serverless-plugin-datadog/zipball/v5.105.0",
+  "body": "**Full Changelog**: https://github.com/DataDog/serverless-plugin-datadog/compare/v5.104.0...v5.105.0"
 }
