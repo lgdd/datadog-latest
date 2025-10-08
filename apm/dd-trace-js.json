@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/251987722",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/251987722/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/251987722/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.69.0",
-  "id": 251987722,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/252725400",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/252725400/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/252725400/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.70.0",
+  "id": 252725400,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4PBQcK",
-  "tag_name": "v5.69.0",
+  "node_id": "RE_kwDOBwapYs4PEEiY",
+  "tag_name": "v5.70.0",
   "target_commitish": "v5.x",
-  "name": "5.69.0",
+  "name": "5.70.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-10-03T12:35:33Z",
-  "updated_at": "2025-10-03T12:36:10Z",
-  "published_at": "2025-10-03T12:36:10Z",
+  "created_at": "2025-10-07T13:55:23Z",
+  "updated_at": "2025-10-07T13:55:49Z",
+  "published_at": "2025-10-07T13:55:49Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.69.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.69.0",
-  "body": "* \\[[`80547663a9`](https://github.com/DataDog/dd-trace-js/commit/80547663a9)] - **(SEMVER-PATCH)** \\[test optimization] Fix cypress tests in release branch (Juan Antonio Fernández de Alba) [#6595](https://github.com/DataDog/dd-trace-js/pull/6595)\n* \\[[`ab95474c50`](https://github.com/DataDog/dd-trace-js/commit/ab95474c50)] - **(SEMVER-PATCH)** Remove the APP\\_KEY config property from telemetry (Manuel Álvarez Álvarez) [#6593](https://github.com/DataDog/dd-trace-js/pull/6593)\n* \\[[`6b5670c32d`](https://github.com/DataDog/dd-trace-js/commit/6b5670c32d)] - **(SEMVER-MINOR)** `esbuild` support for IAST (cjs) (Carles Capell) [#6467](https://github.com/DataDog/dd-trace-js/pull/6467)\n* \\[[`a71c407077`](https://github.com/DataDog/dd-trace-js/commit/a71c407077)] - **(SEMVER-PATCH)** **chore(lint)**: fix rimraf eslint suggestion (Thomas Watson) [#6592](https://github.com/DataDog/dd-trace-js/pull/6592)\n* \\[[`45621d20d3`](https://github.com/DataDog/dd-trace-js/commit/45621d20d3)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6588](https://github.com/DataDog/dd-trace-js/pull/6588)\n* \\[[`e2ae355a38`](https://github.com/DataDog/dd-trace-js/commit/e2ae355a38)] - **(SEMVER-PATCH)** **ci**: parallelize macrobenchmark experiments (Augusto de Oliveira) [#6564](https://github.com/DataDog/dd-trace-js/pull/6564)\n* \\[[`7a57c8e34f`](https://github.com/DataDog/dd-trace-js/commit/7a57c8e34f)] - **(SEMVER-PATCH)** Added manual nightly workflow (Pablo Erhard) [#6557](https://github.com/DataDog/dd-trace-js/pull/6557)\n* \\[[`18e5ccc958`](https://github.com/DataDog/dd-trace-js/commit/18e5ccc958)] - Helper function to execute exec function calls (Crystal Luc-Magloire)\n* \\[[`be2a8eb10c`](https://github.com/DataDog/dd-trace-js/commit/be2a8eb10c)] - **(SEMVER-PATCH)** removing rule to config inversion validate local file task (mhlidd) [#6578](https://github.com/DataDog/dd-trace-js/pull/6578)\n* \\[[`5a56cfbf15`](https://github.com/DataDog/dd-trace-js/commit/5a56cfbf15)] - **(SEMVER-PATCH)** Update .gitlab/one-pipeline.locked.yml (Pawel Chojnacki) [#6577](https://github.com/DataDog/dd-trace-js/pull/6577)\n* \\[[`ba44d2ea27`](https://github.com/DataDog/dd-trace-js/commit/ba44d2ea27)] - **(SEMVER-MINOR)** **feat(ai\\_guard)**: implement AI Guard SDK (Manuel Álvarez Álvarez) [#6486](https://github.com/DataDog/dd-trace-js/pull/6486)\n* \\[[`5374f69203`](https://github.com/DataDog/dd-trace-js/commit/5374f69203)] - **(SEMVER-PATCH)** \\[test optimization] Fix `happy-dom` testing issues with latest `jest` release (Juan Antonio Fernández de Alba) [#6566](https://github.com/DataDog/dd-trace-js/pull/6566)\n* \\[[`109ea4c288`](https://github.com/DataDog/dd-trace-js/commit/109ea4c288)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6579](https://github.com/DataDog/dd-trace-js/pull/6579)\n* \\[[`93b5d404e5`](https://github.com/DataDog/dd-trace-js/commit/93b5d404e5)] - **(SEMVER-PATCH)** **chore**: add basic tsconfig to check for type errors (Ruben Bridgewater) [#6447](https://github.com/DataDog/dd-trace-js/pull/6447)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.70.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.70.0",
+  "body": "* \\[[`b0f79f9ca4`](https://github.com/DataDog/dd-trace-js/commit/b0f79f9ca4)] - **(SEMVER-PATCH)** \\[test optimization] Fix latest `playwright@1.56.0` release (Juan Antonio Fernández de Alba) [#6611](https://github.com/DataDog/dd-trace-js/pull/6611)\n* \\[[`c1d538fad8`](https://github.com/DataDog/dd-trace-js/commit/c1d538fad8)] - **(SEMVER-MINOR)** \\[test optimization] Make EFD and impacted tests compatible with jest's snapshot testing (Juan Antonio Fernández de Alba) [#6584](https://github.com/DataDog/dd-trace-js/pull/6584)\n* \\[[`2c9becace2`](https://github.com/DataDog/dd-trace-js/commit/2c9becace2)] - **(SEMVER-PATCH)** **ci**: test oracledb without custom docker image (Roch Devost) [#6609](https://github.com/DataDog/dd-trace-js/pull/6609)\n* \\[[`b6077e7b33`](https://github.com/DataDog/dd-trace-js/commit/b6077e7b33)] - **(SEMVER-PATCH)** Update .gitlab/one-pipeline.locked.yml (Pawel Chojnacki) [#6585](https://github.com/DataDog/dd-trace-js/pull/6585)\n* \\[[`93d36d6851`](https://github.com/DataDog/dd-trace-js/commit/93d36d6851)] - **(SEMVER-PATCH)** \\[test optimization] Improve flakiness of test optimization tests (Juan Antonio Fernández de Alba) [#6604](https://github.com/DataDog/dd-trace-js/pull/6604)\n* \\[[`6876854028`](https://github.com/DataDog/dd-trace-js/commit/6876854028)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 1 update (dependabot\\[bot]) [#6606](https://github.com/DataDog/dd-trace-js/pull/6606)\n* \\[[`4c1393178b`](https://github.com/DataDog/dd-trace-js/commit/4c1393178b)] - **(SEMVER-PATCH)** **chore(dev-deps)**: don't upgrade tap major version (Thomas Watson) [#6603](https://github.com/DataDog/dd-trace-js/pull/6603)\n* \\[[`db2bc4bfdd`](https://github.com/DataDog/dd-trace-js/commit/db2bc4bfdd)] - **(SEMVER-PATCH)** **chore(deps-dev)**: bump the dev-minor-and-patch-dependencies group across 1 directory with 7 updates (dependabot\\[bot]) [#6600](https://github.com/DataDog/dd-trace-js/pull/6600)\n* \\[[`9bd89df827`](https://github.com/DataDog/dd-trace-js/commit/9bd89df827)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 2 updates (dependabot\\[bot]) [#6598](https://github.com/DataDog/dd-trace-js/pull/6598)"
 }
