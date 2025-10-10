@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/252725400",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/252725400/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/252725400/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.70.0",
-  "id": 252725400,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/253361237",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/253361237/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/253361237/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.71.0",
+  "id": 253361237,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4PEEiY",
-  "tag_name": "v5.70.0",
+  "node_id": "RE_kwDOBwapYs4PGfxV",
+  "tag_name": "v5.71.0",
   "target_commitish": "v5.x",
-  "name": "5.70.0",
+  "name": "5.71.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-10-07T13:55:23Z",
-  "updated_at": "2025-10-07T13:55:49Z",
-  "published_at": "2025-10-07T13:55:49Z",
+  "created_at": "2025-10-09T13:57:51Z",
+  "updated_at": "2025-10-09T13:58:24Z",
+  "published_at": "2025-10-09T13:58:24Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.70.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.70.0",
-  "body": "* \\[[`b0f79f9ca4`](https://github.com/DataDog/dd-trace-js/commit/b0f79f9ca4)] - **(SEMVER-PATCH)** \\[test optimization] Fix latest `playwright@1.56.0` release (Juan Antonio Fernández de Alba) [#6611](https://github.com/DataDog/dd-trace-js/pull/6611)\n* \\[[`c1d538fad8`](https://github.com/DataDog/dd-trace-js/commit/c1d538fad8)] - **(SEMVER-MINOR)** \\[test optimization] Make EFD and impacted tests compatible with jest's snapshot testing (Juan Antonio Fernández de Alba) [#6584](https://github.com/DataDog/dd-trace-js/pull/6584)\n* \\[[`2c9becace2`](https://github.com/DataDog/dd-trace-js/commit/2c9becace2)] - **(SEMVER-PATCH)** **ci**: test oracledb without custom docker image (Roch Devost) [#6609](https://github.com/DataDog/dd-trace-js/pull/6609)\n* \\[[`b6077e7b33`](https://github.com/DataDog/dd-trace-js/commit/b6077e7b33)] - **(SEMVER-PATCH)** Update .gitlab/one-pipeline.locked.yml (Pawel Chojnacki) [#6585](https://github.com/DataDog/dd-trace-js/pull/6585)\n* \\[[`93d36d6851`](https://github.com/DataDog/dd-trace-js/commit/93d36d6851)] - **(SEMVER-PATCH)** \\[test optimization] Improve flakiness of test optimization tests (Juan Antonio Fernández de Alba) [#6604](https://github.com/DataDog/dd-trace-js/pull/6604)\n* \\[[`6876854028`](https://github.com/DataDog/dd-trace-js/commit/6876854028)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 1 update (dependabot\\[bot]) [#6606](https://github.com/DataDog/dd-trace-js/pull/6606)\n* \\[[`4c1393178b`](https://github.com/DataDog/dd-trace-js/commit/4c1393178b)] - **(SEMVER-PATCH)** **chore(dev-deps)**: don't upgrade tap major version (Thomas Watson) [#6603](https://github.com/DataDog/dd-trace-js/pull/6603)\n* \\[[`db2bc4bfdd`](https://github.com/DataDog/dd-trace-js/commit/db2bc4bfdd)] - **(SEMVER-PATCH)** **chore(deps-dev)**: bump the dev-minor-and-patch-dependencies group across 1 directory with 7 updates (dependabot\\[bot]) [#6600](https://github.com/DataDog/dd-trace-js/pull/6600)\n* \\[[`9bd89df827`](https://github.com/DataDog/dd-trace-js/commit/9bd89df827)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 2 updates (dependabot\\[bot]) [#6598](https://github.com/DataDog/dd-trace-js/pull/6598)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.71.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.71.0",
+  "body": "* \\[[`a073145c1d`](https://github.com/DataDog/dd-trace-js/commit/a073145c1d)] - **(SEMVER-MINOR)** **feat(aap)**: Extended request data collection via rules (Ugaitz Urien) [#6275](https://github.com/DataDog/dd-trace-js/pull/6275)\n* \\[[`c95eb358f8`](https://github.com/DataDog/dd-trace-js/commit/c95eb358f8)] - **(SEMVER-PATCH)** **test**: improve flakiness for appsec ssrf express tests (Ugaitz Urien) [#6623](https://github.com/DataDog/dd-trace-js/pull/6623)\n* \\[[`4bb779b38b`](https://github.com/DataDog/dd-trace-js/commit/4bb779b38b)] - **(SEMVER-PATCH)** **chore**: disable TypeScript type checking (Thomas Watson) [#6625](https://github.com/DataDog/dd-trace-js/pull/6625)\n* \\[[`c0873f1958`](https://github.com/DataDog/dd-trace-js/commit/c0873f1958)] - **(SEMVER-PATCH)** Do not run datadog static analyzer on pull\\_request (Juan Antonio Fernández de Alba) [#6612](https://github.com/DataDog/dd-trace-js/pull/6612)\n* \\[[`6a0fa6e8b7`](https://github.com/DataDog/dd-trace-js/commit/6a0fa6e8b7)] - **(SEMVER-PATCH)** fix api docs links redirecting to incorrect urls (Roch Devost) [#6617](https://github.com/DataDog/dd-trace-js/pull/6617)\n* \\[[`22c2dd853c`](https://github.com/DataDog/dd-trace-js/commit/22c2dd853c)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6619](https://github.com/DataDog/dd-trace-js/pull/6619)\n* \\[[`821b4e14fb`](https://github.com/DataDog/dd-trace-js/commit/821b4e14fb)] - **(SEMVER-MINOR)** feat(anthropic, llmobs): add support for `@ai-anthropic/sdk` (Sam Brenner) [#6431](https://github.com/DataDog/dd-trace-js/pull/6431)\n* \\[[`33cf0e55c6`](https://github.com/DataDog/dd-trace-js/commit/33cf0e55c6)] - **(SEMVER-PATCH)** enable pr gates for all benchmarks and make them faster (Roch Devost) [#6590](https://github.com/DataDog/dd-trace-js/pull/6590)"
 }
