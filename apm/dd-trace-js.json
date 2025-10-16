@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/253361237",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/253361237/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/253361237/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.71.0",
-  "id": 253361237,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/254790937",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/254790937/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/254790937/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.72.0",
+  "id": 254790937,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4PGfxV",
-  "tag_name": "v5.71.0",
+  "node_id": "RE_kwDOBwapYs4PL80Z",
+  "tag_name": "v5.72.0",
   "target_commitish": "v5.x",
-  "name": "5.71.0",
+  "name": "5.72.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-10-09T13:57:51Z",
-  "updated_at": "2025-10-09T13:58:24Z",
-  "published_at": "2025-10-09T13:58:24Z",
+  "created_at": "2025-10-15T18:31:12Z",
+  "updated_at": "2025-10-15T18:31:35Z",
+  "published_at": "2025-10-15T18:31:35Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.71.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.71.0",
-  "body": "* \\[[`a073145c1d`](https://github.com/DataDog/dd-trace-js/commit/a073145c1d)] - **(SEMVER-MINOR)** **feat(aap)**: Extended request data collection via rules (Ugaitz Urien) [#6275](https://github.com/DataDog/dd-trace-js/pull/6275)\n* \\[[`c95eb358f8`](https://github.com/DataDog/dd-trace-js/commit/c95eb358f8)] - **(SEMVER-PATCH)** **test**: improve flakiness for appsec ssrf express tests (Ugaitz Urien) [#6623](https://github.com/DataDog/dd-trace-js/pull/6623)\n* \\[[`4bb779b38b`](https://github.com/DataDog/dd-trace-js/commit/4bb779b38b)] - **(SEMVER-PATCH)** **chore**: disable TypeScript type checking (Thomas Watson) [#6625](https://github.com/DataDog/dd-trace-js/pull/6625)\n* \\[[`c0873f1958`](https://github.com/DataDog/dd-trace-js/commit/c0873f1958)] - **(SEMVER-PATCH)** Do not run datadog static analyzer on pull\\_request (Juan Antonio Fernández de Alba) [#6612](https://github.com/DataDog/dd-trace-js/pull/6612)\n* \\[[`6a0fa6e8b7`](https://github.com/DataDog/dd-trace-js/commit/6a0fa6e8b7)] - **(SEMVER-PATCH)** fix api docs links redirecting to incorrect urls (Roch Devost) [#6617](https://github.com/DataDog/dd-trace-js/pull/6617)\n* \\[[`22c2dd853c`](https://github.com/DataDog/dd-trace-js/commit/22c2dd853c)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6619](https://github.com/DataDog/dd-trace-js/pull/6619)\n* \\[[`821b4e14fb`](https://github.com/DataDog/dd-trace-js/commit/821b4e14fb)] - **(SEMVER-MINOR)** feat(anthropic, llmobs): add support for `@ai-anthropic/sdk` (Sam Brenner) [#6431](https://github.com/DataDog/dd-trace-js/pull/6431)\n* \\[[`33cf0e55c6`](https://github.com/DataDog/dd-trace-js/commit/33cf0e55c6)] - **(SEMVER-PATCH)** enable pr gates for all benchmarks and make them faster (Roch Devost) [#6590](https://github.com/DataDog/dd-trace-js/pull/6590)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.72.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.72.0",
+  "body": "* \\[[`f82ae4521d`](https://github.com/DataDog/dd-trace-js/commit/f82ae4521d)] - **(SEMVER-PATCH)** Increase timeout of serverless flaky tests (Juan Antonio Fernández de Alba) [#6667](https://github.com/DataDog/dd-trace-js/pull/6667)\n* \\[[`7e29b37ae1`](https://github.com/DataDog/dd-trace-js/commit/7e29b37ae1)] - **(SEMVER-PATCH)** chore(ci) update one-pipeline (campaigner-prod\\[bot]) [#6637](https://github.com/DataDog/dd-trace-js/pull/6637)\n* \\[[`abeba66dd5`](https://github.com/DataDog/dd-trace-js/commit/abeba66dd5)] - **(SEMVER-MINOR)** \\[SVLS-7305] Instrument Azure Event Hubs (Jordan Storms) [#6559](https://github.com/DataDog/dd-trace-js/pull/6559)\n* \\[[`8614eb242d`](https://github.com/DataDog/dd-trace-js/commit/8614eb242d)] - **(SEMVER-PATCH)** **fix**: do not limit pg instrumentation upper bound (Ruben Bridgewater) [#6641](https://github.com/DataDog/dd-trace-js/pull/6641)\n* \\[[`c74a50b831`](https://github.com/DataDog/dd-trace-js/commit/c74a50b831)] - **(SEMVER-PATCH)** \\[test optimization] Refactor mocha plugin tests into integration tests (Juan Antonio Fernández de Alba) [#6651](https://github.com/DataDog/dd-trace-js/pull/6651)\n* \\[[`8e60fef1d5`](https://github.com/DataDog/dd-trace-js/commit/8e60fef1d5)] - **(SEMVER-PATCH)** \\[test optimization] Support for `@fast-check/jest` (Juan Antonio Fernández de Alba) [#6632](https://github.com/DataDog/dd-trace-js/pull/6632)\n* \\[[`6de63ebd0c`](https://github.com/DataDog/dd-trace-js/commit/6de63ebd0c)] - **(SEMVER-PATCH)** \\[test optimization] Better nomenclature usage in impacted tests logic (Juan Antonio Fernández de Alba) [#6614](https://github.com/DataDog/dd-trace-js/pull/6614)\n* \\[[`dafde811cd`](https://github.com/DataDog/dd-trace-js/commit/dafde811cd)] - **(SEMVER-MINOR)** Have profilers emit settings and metrics into `event.json` (Attila Szegedi) [#6597](https://github.com/DataDog/dd-trace-js/pull/6597)\n* \\[[`2f03518ba7`](https://github.com/DataDog/dd-trace-js/commit/2f03518ba7)] - **(SEMVER-MINOR)** \\[PREVIEW] Add Feature Flagging & Experimentations (Ayan Khan) [#6448](https://github.com/DataDog/dd-trace-js/pull/6448)\n* \\[[`8625d7792e`](https://github.com/DataDog/dd-trace-js/commit/8625d7792e)] - **(SEMVER-MINOR)** SCI embedding - read Git metadata from `.git` folder (olivwalsh) [#6517](https://github.com/DataDog/dd-trace-js/pull/6517)\n* \\[[`2555791006`](https://github.com/DataDog/dd-trace-js/commit/2555791006)] - **(SEMVER-MINOR)** Add support for OpenTelemetry Logs API (Munir Abdinur) [#6465](https://github.com/DataDog/dd-trace-js/pull/6465)\n* \\[[`40b6788374`](https://github.com/DataDog/dd-trace-js/commit/40b6788374)] - **(SEMVER-PATCH)** \\[MLOB-3987] handle Amazon Nova request formats (ncybul) [#6586](https://github.com/DataDog/dd-trace-js/pull/6586)\n* \\[[`3aca43bdb4`](https://github.com/DataDog/dd-trace-js/commit/3aca43bdb4)] - **(SEMVER-PATCH)** **test**: remove npm/sandbox operations from fastify esm test (Bryan English) [#6622](https://github.com/DataDog/dd-trace-js/pull/6622)\n* \\[[`ab33cb0c1f`](https://github.com/DataDog/dd-trace-js/commit/ab33cb0c1f)] - **(SEMVER-PATCH)** increasing integration test timeouts, using execSync (Crystal Luc-Magloire) [#6607](https://github.com/DataDog/dd-trace-js/pull/6607)\n* \\[[`eb37aab54c`](https://github.com/DataDog/dd-trace-js/commit/eb37aab54c)] - **(SEMVER-PATCH)** **fix**: Ws resource now uses the request route (Crystal Luc-Magloire) [#6587](https://github.com/DataDog/dd-trace-js/pull/6587)\n* \\[[`0b25422ee5`](https://github.com/DataDog/dd-trace-js/commit/0b25422ee5)] - **(SEMVER-PATCH)** **ci**: adjust performance gate warning to 1% for low stddev scenarios (Roch Devost) [#6626](https://github.com/DataDog/dd-trace-js/pull/6626)\n\n[MLOB-3987]: https://datadoghq.atlassian.net/browse/MLOB-3987?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
 }
