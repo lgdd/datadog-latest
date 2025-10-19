@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 5935601,
       "digest": "sha256:d51b4566d9af3917a2420a62b3ace7f9f35873c8183c0d597f031250cb864c95",
-      "download_count": 3,
+      "download_count": 4,
       "created_at": "2025-10-01T20:25:29Z",
       "updated_at": "2025-10-01T20:25:29Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.129.0/datadog_lambda_node18.12.zip"
