@@ -33,12 +33,12 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2025-10-17T14:11:23Z",
-  "updated_at": "2025-10-17T14:13:55Z",
+  "updated_at": "2025-10-21T13:56:35Z",
   "published_at": "2025-10-17T14:13:11Z",
   "assets": [
 
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/tarball/v1.29.0",
   "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/zipball/v1.29.0",
-  "body": "* support multivalue headers\r\n* include datadog origin header in trace context"
+  "body": "* support multivalue headers\r\n* include datadog origin header in trace context\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-go/compare/v1.28.0...v1.29.0"
 }
