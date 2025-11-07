@@ -1,1 +1,45 @@
-{"message":"API rate limit exceeded for 172.182.203.49. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/258593039",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/258593039/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/258593039/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.3.1",
+  "id": 258593039,
+  "author": {
+    "login": "genesor",
+    "id": 1420159,
+    "node_id": "MDQ6VXNlcjE0MjAxNTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1420159?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/genesor",
+    "html_url": "https://github.com/genesor",
+    "followers_url": "https://api.github.com/users/genesor/followers",
+    "following_url": "https://api.github.com/users/genesor/following{/other_user}",
+    "gists_url": "https://api.github.com/users/genesor/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/genesor/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/genesor/subscriptions",
+    "organizations_url": "https://api.github.com/users/genesor/orgs",
+    "repos_url": "https://api.github.com/users/genesor/repos",
+    "events_url": "https://api.github.com/users/genesor/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/genesor/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBAi6ic4PadEP",
+  "tag_name": "v2.3.1",
+  "target_commitish": "main",
+  "name": "v2.3.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-10-30T17:37:55Z",
+  "updated_at": "2025-10-30T19:06:33Z",
+  "published_at": "2025-10-30T19:06:33Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.3.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.3.1",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v2.3.1 -->\r\n\r\n\r\n## What's Changed\r\n### Application Performance Monitoring (APM)\r\n\r\n* fix(sampling): Force manual sampling on locked traces by @genesor in https://github.com/DataDog/dd-trace-go/pull/3976\r\n\r\n\r\n### Application Security Management (ASM)\r\n\r\n### General\r\n\r\n* fix(llmobs): include missing tags and make SubmitEvaluationFromSpan more flexible by @rarguelloF in https://github.com/DataDog/dd-trace-go/pull/4050\r\n* fix(llmobs): do not cancel the context before reading response bodies by @rarguelloF in https://github.com/DataDog/dd-trace-go/pull/4075\r\n\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.3.0...v2.3.1",
+  "mentions_count": 2
+}

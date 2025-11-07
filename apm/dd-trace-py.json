@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 172.182.203.49. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/260009011",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/260009011/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/260009011/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v3.18.0",
+  "id": 260009011,
+  "author": {
+    "login": "emmettbutler",
+    "id": 723615,
+    "node_id": "MDQ6VXNlcjcyMzYxNQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/723615?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/emmettbutler",
+    "html_url": "https://github.com/emmettbutler",
+    "followers_url": "https://api.github.com/users/emmettbutler/followers",
+    "following_url": "https://api.github.com/users/emmettbutler/following{/other_user}",
+    "gists_url": "https://api.github.com/users/emmettbutler/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/emmettbutler/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/emmettbutler/subscriptions",
+    "organizations_url": "https://api.github.com/users/emmettbutler/orgs",
+    "repos_url": "https://api.github.com/users/emmettbutler/repos",
+    "events_url": "https://api.github.com/users/emmettbutler/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/emmettbutler/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4Pf2wz",
+  "tag_name": "v3.18.0",
+  "target_commitish": "635be97ce83a1259d3bfdad810cb2d8f151aab76",
+  "name": "3.18.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-11-04T19:36:04Z",
+  "updated_at": "2025-11-05T18:39:31Z",
+  "published_at": "2025-11-05T18:39:31Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v3.18.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v3.18.0",
+  "body": "Estimated end-of-life date, accurate to within three months: 08-2026\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Upgrade Notes\r\n\r\n- openai: Streamed chat/completions will no longer have token counts computed using the `tiktoken` library, and instead  \r\n  will default to having their token counts estimated if not explicitly provided in the OpenAI response object. To guarantee accurate streamed token metrics, set `stream_options={\"include_usage\": True}` in the OpenAI request.\r\n\r\n### Deprecation Notes\r\n\r\n- tracing\r\n  - `Span.set_struct_tag` is deprecated and will be removed in v4.0.0 with no direct replacement.\r\n  - `Span.get_struct_tag` is deprecated and will be removed in v4.0.0 with no direct replacement.\r\n  - `Span.set_tag_str` is deprecated and will be removed in version 4.0.0.\r\n    As an alternative to `Span.set_tag_str`, you can use `Span.set_tag` instead.\r\n- profiling: The V1 stack profiler is deprecated and will be removed in 4.0. V2 has been enabled by default since v2.20.0. `DD_PROFILING_STACK_V2_ENABLED=false` will no longer have an effect starting in 4.0.\r\n\r\n### New Features\r\n\r\n- AAP\r\n  - API Security schema collection is now supported in AWS Lambda behind an Application Load Balancer or the Lambda Function URL service where the endpoint cannot be reliably known. API Security reuses the endpoint inferred by the trace resource renaming feature or recomputes it when it is not available to perform sampling instead.\r\n  - AppSec instrumentation for downstream request is now enabled by default for `urllib3` and `requests`. It does not require enabling APM instrumentation for `urllib3` anymore.\r\n- profiling: Add support for `threading.RLock` (reentrant lock) profiling. The Lock profiler now tracks both `threading.Lock` and `threading.RLock` usage, providing comprehensive lock contention visibility for Python applications.\r\n- LLM Observability\r\n  - Previous dataset versions can be optionally pulled by passing the `version` argument to `LLMObs.pull_dataset`\r\n  - Datasets have new properties `version` and `latest_version` to provide information on the version of the dataset that is being worked with and the latest global version of the dataset, respectively\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: This fix resolves performance issue affecting coverage collection for Python 3.12+\r\n- kafka: This fix resolves an issue where only the first message in a batch was dispatched to Data Streams Monitoring (DSM) when consuming multiple Kafka messages\r\n- langchain\r\n  - This fix resolves an issue where auto instrumented prompt templates incorrectly included a `version` field. The version field is now omitted unless explicitly set by the user.\r\n  - Fixes an issue where streamed responses that end before the first chunk is received would result in an `IndexError`.\r\n- LLM Observability\r\n  - Corrected the description of the `assessment` argument in `submit_evaluation()`.\r\n    `assessment` now refers to whether the evaluation itself passes or fails according to your application, rather than the validity of the evaluation result.\r\n  - Resolves an issue in the bedrock integration where invoking cohere rerank models would result in missing spans due to output formatting index errors.\r\n  - Resolves an issue where the `langchain` integration would incorrectly mark Azure OpenAI calls as duplicate llm operations even if the `openai` integration was enabled.\r\n    The `langchain` integration will trace Azure OpenAI spans as workflow spans if there is an equivalent llm span from the `openai` integration.\r\n- openai: This fix resolves an issue where using async iteration with paginated methods (e.g., `async for model in client.models.list()`) caused a `TypeError: 'async for' requires an object with __aiter__ method, got coroutine`. See [issue \\#14574](https://github.com/DataDog/dd-trace-py/issues/14574).\r\n- pytest plugin: fix for potential `KeyError` exceptions in test runs when gevent is detected within the environment.\r\n- code origin: ensure that code location information is added to entry spans when Code Origin is enabled remotely.\r\n- ray\r\n  - This fix resolves an issue where exceptions raised in Ray child spans were not properly recorded in the trace.\r\n  - This fix resolves an issue where the tracer raised an error when submitting Ray tasks without explicitly calling `ray.init()`.\r\n  - This fix stops instrumenting internal Ray actors (those starting with underscore) that were causing excessive noise, and adds `ray.data._internal` to the module denylist.\r\n- IAST: Fixed an issue where using weak hashing or cipher algorithms outside of a request context (e.g., during application startup) could raise an unhandled exception. The fix ensures proper error handling when IAST operations are performed without an active request context.\r\n- otel\r\n  - Prevents OpenTelemetry OTLP exporter connections from being traced by ddtrace. ddtrace internal connections (gRPC and HTTP) are now excluded from tracing to prevent circular instrumentation.\r\n  - Fixed circular import when enabling multiple OpenTelemetry signals (metrics + logs) simultaneously. \r\n- Fix a potential race condition in the tracer.\r\n- profiling\r\n  - This fix resolves an issue where AssertionError exceptions were silently suppressed in the `_acquire` method of the Lock profiler (note: this only occurs when assertions are enabled.)\r\n  - `DD_PROFILING_API_TIMEOUT` doesn't have any effect, and is marked to be removed in upcoming 4.0 release. New environment variable `DD_PROFILING_API_TIMEOUT_MS` is introduced to configure timeout for uploading profiles to the backend. The default value is 10000 ms (10 seconds)\r\n  - Upgrades echion to resolve an issue where stack profiler can allocate a large amount of memory unnecessarily. Resolves another issue where the profiler can loop infinitely on Python 3.13.\r\n- Fix the Python Detector regular expression so it also detects paths ending with only the major version number.\r\n- logging: Fixed ddtrace internal logging when trace-log correlation is disabled. Prevents `ValueError: Formatting field not found in record: 'dd.service'`.\r\n- tracer\r\n  - This fix ensures compatibility with wrapt 2.0.0\r\n  - This fix resolves an issue where an application instrumented by ddtrace could crash at start. Fix compatibility with zope.event==6.0"
+}
