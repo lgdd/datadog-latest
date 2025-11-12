@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 172.172.119.101. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/255330874",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/releases/255330874/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-go/releases/255330874/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-go/releases/tag/v1.29.0",
+  "id": 255330874,
+  "author": {
+    "login": "ojproductions",
+    "id": 228806370,
+    "node_id": "U_kgDODaNO4g",
+    "avatar_url": "https://avatars.githubusercontent.com/u/228806370?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ojproductions",
+    "html_url": "https://github.com/ojproductions",
+    "followers_url": "https://api.github.com/users/ojproductions/followers",
+    "following_url": "https://api.github.com/users/ojproductions/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ojproductions/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ojproductions/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ojproductions/subscriptions",
+    "organizations_url": "https://api.github.com/users/ojproductions/orgs",
+    "repos_url": "https://api.github.com/users/ojproductions/repos",
+    "events_url": "https://api.github.com/users/ojproductions/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ojproductions/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOCy-Fxs4POAo6",
+  "tag_name": "v1.29.0",
+  "target_commitish": "main",
+  "name": "v1.29.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-10-17T14:11:23Z",
+  "updated_at": "2025-10-21T13:56:35Z",
+  "published_at": "2025-10-17T14:13:11Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/tarball/v1.29.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-go/zipball/v1.29.0",
+  "body": "* support multivalue headers\r\n* include datadog origin header in trace context\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-go/compare/v1.28.0...v1.29.0"
+}

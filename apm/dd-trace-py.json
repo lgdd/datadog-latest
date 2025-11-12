@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 172.172.119.101. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/260759212",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/260759212/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/260759212/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v3.18.1",
+  "id": 260759212,
+  "author": {
+    "login": "Yun-Kim",
+    "id": 35776586,
+    "node_id": "MDQ6VXNlcjM1Nzc2NTg2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/35776586?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Yun-Kim",
+    "html_url": "https://github.com/Yun-Kim",
+    "followers_url": "https://api.github.com/users/Yun-Kim/followers",
+    "following_url": "https://api.github.com/users/Yun-Kim/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Yun-Kim/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Yun-Kim/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Yun-Kim/subscriptions",
+    "organizations_url": "https://api.github.com/users/Yun-Kim/orgs",
+    "repos_url": "https://api.github.com/users/Yun-Kim/repos",
+    "events_url": "https://api.github.com/users/Yun-Kim/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Yun-Kim/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4Pit6s",
+  "tag_name": "v3.18.1",
+  "target_commitish": "3.18",
+  "name": "3.18.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-11-07T21:42:22Z",
+  "updated_at": "2025-11-07T21:47:06Z",
+  "published_at": "2025-11-07T21:47:06Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v3.18.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v3.18.1",
+  "body": "Estimated end-of-life date, accurate to within three months: 08-2026\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: this fix resolves an issue where repo tags would be fetched while unshallowing to extract commit metadata, causing performance issues for repos with a large number of tags.\r\n\r\n- LLM Observability: fix support for HTTPS_PROXY.\r\n\r\n- Error Tracking: Modifies the way exception events are stored such that the exception id is stored instead of the exception object, to prevent TypeErrors with custom exception objects."
+}
