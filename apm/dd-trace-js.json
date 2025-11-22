@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/262964819",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/262964819/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/262964819/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.79.0",
-  "id": 262964819,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/264303548",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/264303548/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/264303548/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.80.0",
+  "id": 264303548,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4PrIZT",
-  "tag_name": "v5.79.0",
+  "node_id": "RE_kwDOBwapYs4PwPO8",
+  "tag_name": "v5.80.0",
   "target_commitish": "v5.x",
-  "name": "5.79.0",
+  "name": "5.80.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2025-11-17T13:37:38Z",
-  "updated_at": "2025-11-17T13:38:01Z",
-  "published_at": "2025-11-17T13:38:01Z",
+  "created_at": "2025-11-21T11:53:07Z",
+  "updated_at": "2025-11-21T11:53:32Z",
+  "published_at": "2025-11-21T11:53:32Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.79.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.79.0",
-  "body": "* \\[[`19a7bfcf87`](https://github.com/DataDog/dd-trace-js/commit/19a7bfcf87)] - **(SEMVER-MINOR)** \\[test optimization] feat: support multiple docblocks (Ruben Bridgewater) [#6925](https://github.com/DataDog/dd-trace-js/pull/6925)\n* \\[[`df0ee1ed44`](https://github.com/DataDog/dd-trace-js/commit/df0ee1ed44)] - **(SEMVER-PATCH)** **chore(ci)**: Use runner:apm-k8s-m7i-metal for microbenchmarking (Dmytro Yurchenko) [#6928](https://github.com/DataDog/dd-trace-js/pull/6928)\n* \\[[`0ecbf369a0`](https://github.com/DataDog/dd-trace-js/commit/0ecbf369a0)] - **(SEMVER-PATCH)** \\[test optimization] Migrate cucumber plugin tests to integration tests (Juan Antonio Fernández de Alba) [#6923](https://github.com/DataDog/dd-trace-js/pull/6923)\n* \\[[`d5805b314f`](https://github.com/DataDog/dd-trace-js/commit/d5805b314f)] - **(SEMVER-PATCH)** \\[test optimization] Do not report jest test suites as failed if a module import failed (Juan Antonio Fernández de Alba) [#6924](https://github.com/DataDog/dd-trace-js/pull/6924)\n* \\[[`4ff4de84f1`](https://github.com/DataDog/dd-trace-js/commit/4ff4de84f1)] - **(SEMVER-PATCH)** **chore**: add types to the debugger session object (Thomas Watson) [#6922](https://github.com/DataDog/dd-trace-js/pull/6922)\n* \\[[`8378ffd840`](https://github.com/DataDog/dd-trace-js/commit/8378ffd840)] - **(SEMVER-MINOR)** \\[Appsec] AAP Requirements - Activation Origin (Carles Capell) [#6896](https://github.com/DataDog/dd-trace-js/pull/6896)\n* \\[[`e098151c67`](https://github.com/DataDog/dd-trace-js/commit/e098151c67)] - **(SEMVER-PATCH)** Upgrade to latest node-server openfeature SDK and provider timeout test (Tyler Potter) [#6907](https://github.com/DataDog/dd-trace-js/pull/6907)\n* \\[[`6d86211a45`](https://github.com/DataDog/dd-trace-js/commit/6d86211a45)] - **(SEMVER-PATCH)** **fix**: add openfeature integration test to CI and fix tests (Tyler Potter) [#6906](https://github.com/DataDog/dd-trace-js/pull/6906)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.80.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.80.0",
+  "body": "* \\[[`31a05d6f67`](https://github.com/DataDog/dd-trace-js/commit/31a05d6f67)] - **(SEMVER-PATCH)** \\[test optimization] Fix disable logic in playwright (Juan Antonio Fernández de Alba) [#6954](https://github.com/DataDog/dd-trace-js/pull/6954)\n* \\[[`2fd9b1d434`](https://github.com/DataDog/dd-trace-js/commit/2fd9b1d434)] - **(SEMVER-PATCH)** **fix(llmobs)**: make sure all sdk methods are on the no-op sdk as well (Sam Brenner) [#6949](https://github.com/DataDog/dd-trace-js/pull/6949)\n* \\[[`f04d912d95`](https://github.com/DataDog/dd-trace-js/commit/f04d912d95)] - **(SEMVER-PATCH)** **chore(iast)**: Fix overhead controller integration flaky test (Ugaitz Urien) [#6926](https://github.com/DataDog/dd-trace-js/pull/6926)\n* \\[[`4dccc16abe`](https://github.com/DataDog/dd-trace-js/commit/4dccc16abe)] - **(SEMVER-PATCH)** \\[DB plugins] trigger sampling of span before injecting the trace parent comment (Naji Astier) [#6653](https://github.com/DataDog/dd-trace-js/pull/6653)\n* \\[[`f87e8d630b`](https://github.com/DataDog/dd-trace-js/commit/f87e8d630b)] - **(SEMVER-PATCH)** **chore**: introduce jsdoc linter (Ruben Bridgewater) [#6899](https://github.com/DataDog/dd-trace-js/pull/6899)\n* \\[[`ca4a561e7a`](https://github.com/DataDog/dd-trace-js/commit/ca4a561e7a)] - **(SEMVER-PATCH)** **fix**: log plugin name in case the handler throws (Ruben Bridgewater) [#6947](https://github.com/DataDog/dd-trace-js/pull/6947)\n* \\[[`26e740268f`](https://github.com/DataDog/dd-trace-js/commit/26e740268f)] - **(SEMVER-PATCH)** **fix**: instrument latest aws-sdk response headers (Sam Brenner) [#6911](https://github.com/DataDog/dd-trace-js/pull/6911)\n* \\[[`d2208fc6d6`](https://github.com/DataDog/dd-trace-js/commit/d2208fc6d6)] - **(SEMVER-PATCH)** fix(openai, llmobs): update openai integration consistency (Sam Brenner) [#6932](https://github.com/DataDog/dd-trace-js/pull/6932)\n* \\[[`80ea153922`](https://github.com/DataDog/dd-trace-js/commit/80ea153922)] - **(SEMVER-PATCH)** **chore(llmobs)**: move span processing hook to on span finish instead of core processor (Sam Brenner) [#6875](https://github.com/DataDog/dd-trace-js/pull/6875)\n* \\[[`e760b3b973`](https://github.com/DataDog/dd-trace-js/commit/e760b3b973)] - **(SEMVER-PATCH)** **fix**: Azure Service Bus batching memory leak (Jordan Storms) [#6917](https://github.com/DataDog/dd-trace-js/pull/6917)\n* \\[[`16081ded18`](https://github.com/DataDog/dd-trace-js/commit/16081ded18)] - **(SEMVER-PATCH)** **chore**: update lockfile (2025-11-18) (Bryan English) [#6942](https://github.com/DataDog/dd-trace-js/pull/6942)\n* \\[[`fb3452b595`](https://github.com/DataDog/dd-trace-js/commit/fb3452b595)] - **(SEMVER-PATCH)** **chore**: add the tags returned by the service to the ai\\_guard span (Manuel Álvarez Álvarez) [#6892](https://github.com/DataDog/dd-trace-js/pull/6892)\n* \\[[`4955d6dc9b`](https://github.com/DataDog/dd-trace-js/commit/4955d6dc9b)] - **(SEMVER-MINOR)** allow providing a custom timeout to openfeature datadog provider (Leo Romanovsky) [#6930](https://github.com/DataDog/dd-trace-js/pull/6930)\n* \\[[`fb4be89d55`](https://github.com/DataDog/dd-trace-js/commit/fb4be89d55)] - **(SEMVER-PATCH)** **chore(refactor)**: rename some files and classes for ease of understanding (Thomas Hunter II) [#6934](https://github.com/DataDog/dd-trace-js/pull/6934)\n* \\[[`b55ffd260d`](https://github.com/DataDog/dd-trace-js/commit/b55ffd260d)] - **(SEMVER-PATCH)** **chore**: add openfeature paths to codeowners by @datadog/feature-flagging (Leo Romanovsky) [#6931](https://github.com/DataDog/dd-trace-js/pull/6931)\n* \\[[`5887f9eb27`](https://github.com/DataDog/dd-trace-js/commit/5887f9eb27)] - **(SEMVER-MINOR)** **ci**: update .gitlab/one-pipeline.locked.yml (Pawel Chojnacki) [#6936](https://github.com/DataDog/dd-trace-js/pull/6936)\n* \\[[`3e3e87f450`](https://github.com/DataDog/dd-trace-js/commit/3e3e87f450)] - **(SEMVER-PATCH)** **chore(deps)**: bump openai (dependabot\\[bot]) [#6938](https://github.com/DataDog/dd-trace-js/pull/6938)\n* \\[[`4cac035b9f`](https://github.com/DataDog/dd-trace-js/commit/4cac035b9f)] - **(SEMVER-MINOR)** **feat(llmobs)**: add boolean evaluation metric support (Sam Brenner) [#6919](https://github.com/DataDog/dd-trace-js/pull/6919)"
 }
