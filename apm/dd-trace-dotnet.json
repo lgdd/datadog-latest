@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2025-12-11T18:34:32Z",
-  "updated_at": "2025-12-15T14:12:07Z",
+  "updated_at": "2025-12-16T09:39:32Z",
   "published_at": "2025-12-15T14:12:07Z",
   "assets": [
     {
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 22813034,
       "digest": "sha256:b0f5da26e79730c3097677b517236ee0a7276a2e3229005690fe6b529a3e02ad",
-      "download_count": 139,
+      "download_count": 333,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm-3.33.0-1.x86_64.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 20338322,
       "digest": "sha256:a9ebd195fb9b29f23e022656fdf820e167b21e4eb1f9f24e228622e244a1ae69",
-      "download_count": 294,
+      "download_count": 814,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm-3.33.0-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 31416320,
       "digest": "sha256:6e4ba3bc6e1d359961865f76efd08950821b2832fbcc33ad37e3b61c21caaa44",
-      "download_count": 438,
+      "download_count": 1204,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm-3.33.0-x64.msi"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 29176304,
       "digest": "sha256:3c02c93eb63ef2386534d816caf2cfd387c8e236b6a7e245c33a1997b8f5e11b",
-      "download_count": 14,
+      "download_count": 30,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm-3.33.0.arm64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 31153684,
       "digest": "sha256:869151c8c176ff313db2d024ca5de4bea1ca9bc75253490064ef4d9e6e9b18e7",
-      "download_count": 413,
+      "download_count": 1054,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm-3.33.0.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 22146076,
       "digest": "sha256:5573175da6635cc02540ba477c1e4dfcfe57fe4337b6e3c5fd1b9240ee82a1d7",
-      "download_count": 1559,
+      "download_count": 4384,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm_3.33.0_amd64.deb"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 21038802,
       "digest": "sha256:44a7fd456d65b6dba0dd71f4a37c9f3f0d19c2ef1f03fa569e06536919499653",
-      "download_count": 38,
+      "download_count": 92,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/datadog-dotnet-apm_3.33.0_arm64.deb"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 53829841,
       "digest": "sha256:b05e4c38b5154fbc1f1e76532307e124a14c8f3d7039fd1327db1ac78d2d6033",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/dd-trace-linux-musl-arm64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 55352944,
       "digest": "sha256:7f1a378c9a58d31c55dbb5b752c9ed6c4a0817d1fe256bf8f206d1abeac6dda1",
-      "download_count": 1,
+      "download_count": 4,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:38Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/dd-trace-linux-musl-x64.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 59172167,
       "digest": "sha256:c78ff6583649259f3314b208843ed8e632435e48ae68d32679afd6951d4202b2",
-      "download_count": 2,
+      "download_count": 5,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:38Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/dd-trace-win-x64.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 33450402,
       "digest": "sha256:a34dfed327ab128de36861d24c036712c5617384c8b2bfe518e861f617c86b8c",
-      "download_count": 5,
+      "download_count": 8,
       "created_at": "2025-12-15T13:39:34Z",
       "updated_at": "2025-12-15T13:39:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-dotnet/releases/download/v3.33.0/windows-tracer-home.zip"
@@ -651,5 +651,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-dotnet/tarball/v3.33.0",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-dotnet/zipball/v3.33.0",
-  "body": "## Summary\r\n\r\n* Hangfire Auto Instrumentation (#6904)\r\n* Add support for npgsql 10 (#7855)\r\n* Add support for RedisServiceStack v10 (#7903)\r\n* [Test Optimization] - Add support for BenchmarkDotNet 0.15.x (#7909)\r\n* [Debugger-Test Optimization] Add agent-less support to ER (#7859)\r\n* Implement Serverless Service Representation (SSR) in AWS Lambda (#7850)\r\n* Add Defender processes to exclusion list (#7925)\r\n* Fixing DSM flush logic & CPU usage (#7827)\r\n\r\n## Changes\r\n\r\n### Tracer\r\n* [Dynamic Instrumentation] Fixed race condition with ProbeStatusPoller dispose (#6409)\r\n* Create `SettingsManager` for managing mutable settings and ExporterSettings (#7695)\r\n* Remove properties from `TracerSettings` which can change at runtime (#7723)\r\n* Stop using `Tracer.Instance` if we don't need to (#7744)\r\n* Fixing DSM flush logic & CPU usage (#7827)\r\n* Restructure `RuntimeMetricsWriter` for .NET Framework to fix `StackOverflowException` (#7830)\r\n* Update documentation to account for `MutableSettings` (#7867)\r\n* Nit: cache is ready state for profiler in ProfilerStatus (#7873)\r\n* Reduce allocations in `TraceContext` (#7874)\r\n* Small perf improvement for some `TagList` implementations (#7887)\r\n* Add support for RedisServiceStack v10 (#7903)\r\n* Add Defender processes to exclusion list (#7925)\r\n* Add testing for Microsoft.Data.Sqlite v10 (#7936)\r\n* Set `DataPipelineEnabled=0` by default (#7943)\r\n\r\n### CI Visibility\r\n* [Test Optimization] Add `branch` parameter to test management API request (#7891)\r\n* [Test Optimization] - Add support for BenchmarkDotNet 0.15.x (#7909)\r\n\r\n### ASM\r\n* [AAP] Update waf and add support for security_response_id (#7807)\r\n* [AAP] Rugerize waf encoder disposal (#7863)\r\n\r\n### Continuous Profiler\r\n* [Profiler] Generate heap snapshot (#7681)\r\n* [Profiler] Update liveheap handle limit (#7872)\r\n\r\n### Debugger\r\n* [Debugger-Test Optimization] Add agent-less support to ER (#7859)\r\n\r\n### Serverless\r\n* Implement Serverless Service Representation (SSR) in AWS Lambda (#7850)\r\n* [AWS Lambda] Cleanup from PR#7835 (#7858)\r\n\r\n### Fixes\r\n* Fix `DatadogLoggingScope` sometimes injecting incorrect values for `ILogger` logs injection (#7880)\r\n\r\n### Miscellaneous\r\n* [tracing] hangfire autoinstrumentation (#6904)\r\n* [ConfigRegistry] 4/6 Aliases handling and analyzers to prevent using any string key (#7689)\r\n* [ConfigRegistry] 3/5 Generate ConfigurationKeys with source generator (#7698)\r\n* Handle changes to `MutableSettings` and `ExporterSettings` without rebuilding (#7724)\r\n* Add process tags to remote config (#7840)\r\n* Simplify dataflow synchronization (#7853)\r\n* Add support for npgsql 10 (#7855)\r\n* Mark all classes as `sealed` or `static` (#7879)\r\n* Fix serialization allocation in .NET Framework and < .NET Core 3.1 (#7884)\r\n* [IAST] Use recursive_mutex instead of CS and mutex (#7890)\r\n* [Config Registry] 5/7 Replace manual ConfigurationKeys by generated ones in the whole solution (#7931)\r\n* [Config Registry] Fix source generators: downgrade System.text.json version (#7944)\r\n\r\n### Build / Test\r\n* Fix benchmark flakiness (#7790)\r\n* [Test Package Versions Bump] Updating package versions (#7824)\r\n* Set benchmarking jobs as interruptible when outside master (#7841)\r\n* Add standard output and error when a test fails and does not display it (#7847)\r\n* Avoid SQL connection flakines in integration tests (#7854)\r\n* Bump the version of `Microsoft.CodeAnalysis.CSharp` and others used in our internal analyzers (#7860)\r\n* Fail the gitlab job if we fail to upload the artifacts (#7861)\r\n* [Azure Functions] Fix Azure Functions NuGet script for Linux and macOS (#7864)\r\n* Add more cleanup to benchmarks (#7865)\r\n* Benchmark improvements (#7868)\r\n* Add benchmark for two scopes (#7869)\r\n* Fix download artifacts link in logs. Improve logging. (#7870)\r\n* Increase retries in Stack Exchange Submit traces test (#7875)\r\n* Update .gitlab/one-pipeline.locked.yaml (#7876)\r\n* Add SYS_PTRACE capabilities for core dumps (#7877)\r\n* Add \"Types should be sealed\" analyzer (#7878)\r\n* Stop testing .NET 8 on PRs (#7881)\r\n* Fix (and extend) `AgentWriter` benchmark (#7882)\r\n* Bump the gh-actions-packages group across 4 directories with 8 updates (#7888)\r\n* Try to fix dependabot (#7895)\r\n* [Test Package Versions Bump] Updating package versions (#7902)\r\n* Add missing assembly for <.NET Core 3.1 (#7904)\r\n* Only pull docker images if we need to (#7910)\r\n* Encode changes to vendored code added in #7884 (#7913)\r\n* Add data-streams-monitoring to CODEOWNERS file (#7915)\r\n* Try to fix dependabot again (#7918)\r\n* Bump the gh-actions-packages group across 3 directories with 5 updates (#7923)\r\n* Generate GH tokens with dd-octo-sts for Windows macrobenchmarks (#7927)\r\n* Fix release GitHub Actions (#7935)\r\n* Fix usages of `new Tracer()` which are never cleaned up (#7938)\r\n* add `CLAUDE.local.md` to `.gitignore` (#7945)\r\n\r\n\r\n[Changes since 3.32.1](https://github.com/DataDog/dd-trace-dotnet/compare/v3.32.1...v3.33.0)\r\n"
+  "body": "## Summary\r\n\r\n* Hangfire Auto Instrumentation (#6904)\r\n* Add support for npgsql 10 (#7855)\r\n* Add support for RedisServiceStack v10 (#7903)\r\n* [Debugger-Test Optimization] Add agent-less support to ER (#7859)\r\n* Implement Serverless Service Representation (SSR) in AWS Lambda (#7850)\r\n* Add Defender processes to exclusion list (#7925)\r\n* Fixing DSM flush logic & CPU usage (#7827)\r\n\r\n## Changes\r\n\r\n### Tracer\r\n* [Dynamic Instrumentation] Fixed race condition with ProbeStatusPoller dispose (#6409)\r\n* Create `SettingsManager` for managing mutable settings and ExporterSettings (#7695)\r\n* Remove properties from `TracerSettings` which can change at runtime (#7723)\r\n* Stop using `Tracer.Instance` if we don't need to (#7744)\r\n* Fixing DSM flush logic & CPU usage (#7827)\r\n* Restructure `RuntimeMetricsWriter` for .NET Framework to fix `StackOverflowException` (#7830)\r\n* Update documentation to account for `MutableSettings` (#7867)\r\n* Nit: cache is ready state for profiler in ProfilerStatus (#7873)\r\n* Reduce allocations in `TraceContext` (#7874)\r\n* Small perf improvement for some `TagList` implementations (#7887)\r\n* Add support for RedisServiceStack v10 (#7903)\r\n* Add Defender processes to exclusion list (#7925)\r\n* Add testing for Microsoft.Data.Sqlite v10 (#7936)\r\n* Set `DataPipelineEnabled=0` by default (#7943)\r\n\r\n### CI Visibility\r\n* [Test Optimization] Add `branch` parameter to test management API request (#7891)\r\n* [Test Optimization] - Add support for BenchmarkDotNet 0.15.x internally (#7909)\r\n\r\n### ASM\r\n* [AAP] Update waf and add support for security_response_id (#7807)\r\n* [AAP] Rugerize waf encoder disposal (#7863)\r\n\r\n### Continuous Profiler\r\n* [Profiler] Generate heap snapshot (#7681)\r\n* [Profiler] Update liveheap handle limit (#7872)\r\n\r\n### Debugger\r\n* [Debugger-Test Optimization] Add agent-less support to ER (#7859)\r\n\r\n### Serverless\r\n* Implement Serverless Service Representation (SSR) in AWS Lambda (#7850)\r\n* [AWS Lambda] Cleanup from PR#7835 (#7858)\r\n\r\n### Fixes\r\n* Fix `DatadogLoggingScope` sometimes injecting incorrect values for `ILogger` logs injection (#7880)\r\n\r\n### Miscellaneous\r\n* [tracing] hangfire autoinstrumentation (#6904)\r\n* [ConfigRegistry] 4/6 Aliases handling and analyzers to prevent using any string key (#7689)\r\n* [ConfigRegistry] 3/5 Generate ConfigurationKeys with source generator (#7698)\r\n* Handle changes to `MutableSettings` and `ExporterSettings` without rebuilding (#7724)\r\n* Add process tags to remote config (#7840)\r\n* Simplify dataflow synchronization (#7853)\r\n* Add support for npgsql 10 (#7855)\r\n* Mark all classes as `sealed` or `static` (#7879)\r\n* Fix serialization allocation in .NET Framework and < .NET Core 3.1 (#7884)\r\n* [IAST] Use recursive_mutex instead of CS and mutex (#7890)\r\n* [Config Registry] 5/7 Replace manual ConfigurationKeys by generated ones in the whole solution (#7931)\r\n* [Config Registry] Fix source generators: downgrade System.text.json version (#7944)\r\n\r\n### Build / Test\r\n* Fix benchmark flakiness (#7790)\r\n* [Test Package Versions Bump] Updating package versions (#7824)\r\n* Set benchmarking jobs as interruptible when outside master (#7841)\r\n* Add standard output and error when a test fails and does not display it (#7847)\r\n* Avoid SQL connection flakines in integration tests (#7854)\r\n* Bump the version of `Microsoft.CodeAnalysis.CSharp` and others used in our internal analyzers (#7860)\r\n* Fail the gitlab job if we fail to upload the artifacts (#7861)\r\n* [Azure Functions] Fix Azure Functions NuGet script for Linux and macOS (#7864)\r\n* Add more cleanup to benchmarks (#7865)\r\n* Benchmark improvements (#7868)\r\n* Add benchmark for two scopes (#7869)\r\n* Fix download artifacts link in logs. Improve logging. (#7870)\r\n* Increase retries in Stack Exchange Submit traces test (#7875)\r\n* Update .gitlab/one-pipeline.locked.yaml (#7876)\r\n* Add SYS_PTRACE capabilities for core dumps (#7877)\r\n* Add \"Types should be sealed\" analyzer (#7878)\r\n* Stop testing .NET 8 on PRs (#7881)\r\n* Fix (and extend) `AgentWriter` benchmark (#7882)\r\n* Bump the gh-actions-packages group across 4 directories with 8 updates (#7888)\r\n* Try to fix dependabot (#7895)\r\n* [Test Package Versions Bump] Updating package versions (#7902)\r\n* Add missing assembly for <.NET Core 3.1 (#7904)\r\n* Only pull docker images if we need to (#7910)\r\n* Encode changes to vendored code added in #7884 (#7913)\r\n* Add data-streams-monitoring to CODEOWNERS file (#7915)\r\n* Try to fix dependabot again (#7918)\r\n* Bump the gh-actions-packages group across 3 directories with 5 updates (#7923)\r\n* Generate GH tokens with dd-octo-sts for Windows macrobenchmarks (#7927)\r\n* Fix release GitHub Actions (#7935)\r\n* Fix usages of `new Tracer()` which are never cleaned up (#7938)\r\n* add `CLAUDE.local.md` to `.gitignore` (#7945)\r\n\r\n\r\n[Changes since 3.32.1](https://github.com/DataDog/dd-trace-dotnet/compare/v3.32.1...v3.33.0)\r\n"
 }
