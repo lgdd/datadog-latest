@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 64.236.143.36. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/272723665",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/272723665/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/272723665/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.1.1",
+  "id": 272723665,
+  "author": {
+    "login": "emmettbutler",
+    "id": 723615,
+    "node_id": "MDQ6VXNlcjcyMzYxNQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/723615?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/emmettbutler",
+    "html_url": "https://github.com/emmettbutler",
+    "followers_url": "https://api.github.com/users/emmettbutler/followers",
+    "following_url": "https://api.github.com/users/emmettbutler/following{/other_user}",
+    "gists_url": "https://api.github.com/users/emmettbutler/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/emmettbutler/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/emmettbutler/subscriptions",
+    "organizations_url": "https://api.github.com/users/emmettbutler/orgs",
+    "repos_url": "https://api.github.com/users/emmettbutler/repos",
+    "events_url": "https://api.github.com/users/emmettbutler/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/emmettbutler/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4QQW7R",
+  "tag_name": "v4.1.1",
+  "target_commitish": "232c8bfeca6c156193bf395009954a321d573782",
+  "name": "4.1.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-12-24T22:47:08Z",
+  "updated_at": "2025-12-26T14:05:33Z",
+  "published_at": "2025-12-26T14:05:33Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.1.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.1.1",
+  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes                                                                                              \r\n                                                                                                                                                                                                                      \r\n- Debugger\r\n  - Reverts a change added in 4.1.0 that seems to be linked to \"context already registered\" errors encountered when `DD_CODE_ORIGIN_FOR_SPANS_ENABLED=true` is set"
+}
