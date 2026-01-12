@@ -1,1 +1,45 @@
-{"message":"API rate limit exceeded for 52.154.21.52. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/272324467",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/272324467/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-java/releases/272324467/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-java/releases/tag/v25",
+  "id": 272324467,
+  "author": {
+    "login": "ojproductions",
+    "id": 228806370,
+    "node_id": "U_kgDODaNO4g",
+    "avatar_url": "https://avatars.githubusercontent.com/u/228806370?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ojproductions",
+    "html_url": "https://github.com/ojproductions",
+    "followers_url": "https://api.github.com/users/ojproductions/followers",
+    "following_url": "https://api.github.com/users/ojproductions/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ojproductions/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ojproductions/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ojproductions/subscriptions",
+    "organizations_url": "https://api.github.com/users/ojproductions/orgs",
+    "repos_url": "https://api.github.com/users/ojproductions/repos",
+    "events_url": "https://api.github.com/users/ojproductions/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ojproductions/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDODh3m084QO1dz",
+  "tag_name": "v25",
+  "target_commitish": "main",
+  "name": "v25",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2025-12-22T21:06:13Z",
+  "updated_at": "2025-12-22T21:13:51Z",
+  "published_at": "2025-12-22T21:13:51Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/tarball/v25",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/zipball/v25",
+  "body": "## dd-trace-java v1.57.0\r\n\r\ndd-trace-java version [(tracer tag)](https://github.com/DataDog/dd-trace-java/releases/tag/v1.57.0) v1.57.0\r\n\r\n\r\n## What's changed\r\n- ✨ https://github.com/DataDog/dd-trace-java/releases/tag/v1.57.0\r\n- ✨ Add request-id to lambda start/end invocation calls (https://github.com/DataDog/dd-trace-java/pull/9991 - @ojproductions)\r\n\r\n\r\n## dd-trace-java layer ARN:\r\n\r\n### AWS Regions\r\n```\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:dd-trace-java:25\r\n```\r\n\r\n### AWS gov regions\r\n```\r\narn:aws-us-gov:lambda:<AWS_GOV_REGION>:002406178527:layer:dd-trace-java:25\r\n```\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-java/compare/v1.52.0....v1.57.0",
+  "mentions_count": 1
+}
