@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-01-28T20:16:54Z",
-  "updated_at": "2026-02-02T16:28:59Z",
+  "updated_at": "2026-02-03T22:05:43Z",
   "published_at": "2026-01-28T21:44:39Z",
   "assets": [
     {
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3407300,
       "digest": "sha256:03f2c79211128c8ff58477a290d0fa9643a001860d8971be70591b9b98ef85b1",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-02-02T16:28:58Z",
       "updated_at": "2026-02-02T16:28:58Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.133.0/datadog_lambda_node22.11.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3407313,
       "digest": "sha256:8056f5d73c569b3b2f95b0758032833f5b8fa793cae51a386b41a16606a0ffd8",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-02-02T16:28:58Z",
       "updated_at": "2026-02-02T16:28:59Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.133.0/datadog_lambda_node24.11.zip"
@@ -183,6 +183,6 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/tarball/v12.133.0",
   "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/zipball/v12.133.0",
-  "body": "> [!IMPORTANT]\r\n> #### The lambda layer size has been reduced! \r\n> - Unzipped layer size has dropped from 19.1mb to 9mb \r\n> - Zipped layer size has dropped from 6.6mb to 3.4mb \r\n\r\n## What's Changed\r\n* Trigger layer version update in documentation by @rithikanarayan in https://github.com/DataDog/datadog-lambda-js/pull/703\r\n* Revert \"Trigger layer version update in documentation\" by @rithikanarayan in https://github.com/DataDog/datadog-lambda-js/pull/705\r\n* chore: change the warning to debug log by @joeyzhao2018 in https://github.com/DataDog/datadog-lambda-js/pull/706\r\n* use leaner install of dd-trace and remove hack around it by @rochdev in https://github.com/DataDog/datadog-lambda-js/pull/701\r\n* update node version for update deps ci to node 20 by @ojproductions in https://github.com/DataDog/datadog-lambda-js/pull/708\r\n* fix: preserve json structure when patching within this library by @duncanista in https://github.com/DataDog/datadog-lambda-js/pull/709\r\n* fix missing pprof dependency by @rochdev in https://github.com/DataDog/datadog-lambda-js/pull/711\r\n* v12.133.0 by @ojproductions in https://github.com/DataDog/datadog-lambda-js/pull/714\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node24-x:133\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node18-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node20-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node22-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node24-x:133\r\n```\r\n\r\n## New Contributors\r\n* @rithikanarayan made their first contribution in https://github.com/DataDog/datadog-lambda-js/pull/703\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v12.132.0...v12.133.0",
+  "body": "> [!IMPORTANT]\r\n> #### The lambda layer size has been reduced! \r\n> - Unzipped layer size has dropped from 19.1MB to 9MB \r\n> - Zipped layer size has dropped from 6.6MB to 3.4MB \r\n\r\n## What's Changed\r\n* Trigger layer version update in documentation by @rithikanarayan in https://github.com/DataDog/datadog-lambda-js/pull/703\r\n* Revert \"Trigger layer version update in documentation\" by @rithikanarayan in https://github.com/DataDog/datadog-lambda-js/pull/705\r\n* chore: change the warning to debug log by @joeyzhao2018 in https://github.com/DataDog/datadog-lambda-js/pull/706\r\n* use leaner install of dd-trace and remove hack around it by @rochdev in https://github.com/DataDog/datadog-lambda-js/pull/701\r\n* update node version for update deps ci to node 20 by @ojproductions in https://github.com/DataDog/datadog-lambda-js/pull/708\r\n* fix: preserve json structure when patching within this library by @duncanista in https://github.com/DataDog/datadog-lambda-js/pull/709\r\n* fix missing pprof dependency by @rochdev in https://github.com/DataDog/datadog-lambda-js/pull/711\r\n* v12.133.0 by @ojproductions in https://github.com/DataDog/datadog-lambda-js/pull/714\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:133\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node24-x:133\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node18-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node20-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node22-x:133\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node24-x:133\r\n```\r\n\r\n## New Contributors\r\n* @rithikanarayan made their first contribution in https://github.com/DataDog/datadog-lambda-js/pull/703\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v12.132.0...v12.133.0",
   "mentions_count": 5
 }
