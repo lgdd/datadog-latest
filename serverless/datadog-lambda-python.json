@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 8365066,
       "digest": "sha256:aeb345f06967e9597ad1586db3411dd40e789ac375158f87b0e9b1b4a7464112",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-02-02T19:59:19Z",
       "updated_at": "2026-02-02T19:59:22Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.10.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 8728080,
       "digest": "sha256:5bb16a03d0eebb1663b541e657606761c7bf42dd852f76a4c16075d9e0286d17",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-02-02T19:59:22Z",
       "updated_at": "2026-02-02T19:59:24Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.11.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 8710831,
       "digest": "sha256:e3ace8852a325db4f498f394893cfc7b4a55cc6b333a3eba3816edbdcd693c35",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-02-02T19:59:24Z",
       "updated_at": "2026-02-02T19:59:26Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.12.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 8754363,
       "digest": "sha256:e4f088d3534b66548c66e57acc2adfcc88c7b742c25639a22e7b8e1e258245ed",
-      "download_count": 279,
+      "download_count": 321,
       "created_at": "2026-02-02T19:59:26Z",
       "updated_at": "2026-02-02T19:59:29Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.13.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8953898,
       "digest": "sha256:4c258a07dcaa72d02b5bfe99b491a6b789e1eea6ca9c085af34512fd700c913a",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-02-02T19:59:29Z",
       "updated_at": "2026-02-02T19:59:31Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.14.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 8254029,
       "digest": "sha256:77033f6f43d8549f489c3030606413f00c5be8b51f7ceff903c58886f626bdfa",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-02-02T19:59:17Z",
       "updated_at": "2026-02-02T19:59:18Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-amd64-3.8.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 8061697,
       "digest": "sha256:71d5b58343892e448086a716a0eefd3563433f0a5cf86e0c9d2ca0e75635dcd8",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-02-02T19:59:35Z",
       "updated_at": "2026-02-02T19:59:37Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-arm64-3.10.zip"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 8404887,
       "digest": "sha256:24e85cb1e6a5e62a260213897719a04815863f22e8abb44272bec1f5c97259ed",
-      "download_count": 6,
+      "download_count": 7,
       "created_at": "2026-02-02T19:59:39Z",
       "updated_at": "2026-02-02T19:59:41Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-python/releases/download/v8.122.0/datadog_lambda_py-arm64-3.12.zip"
