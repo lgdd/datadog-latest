@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 172.184.211.240. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/285661676",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/285661676/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/285661676/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.86.0",
+  "id": 285661676,
+  "author": {
+    "login": "github-actions[bot]",
+    "id": 41898282,
+    "node_id": "MDM6Qm90NDE4OTgyODI=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+    "html_url": "https://github.com/apps/github-actions",
+    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBwapYs4RBtns",
+  "tag_name": "v5.86.0",
+  "target_commitish": "v5.x",
+  "name": "5.86.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-02-12T12:15:55Z",
+  "updated_at": "2026-02-12T12:16:26Z",
+  "published_at": "2026-02-12T12:16:26Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.86.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.86.0",
+  "body": "* \\[[`d0e5d6ee05`](https://github.com/DataDog/dd-trace-js/commit/d0e5d6ee05)] - **(SEMVER-PATCH)** \\[test optimization] Fix telemetry issues and allow telemetry from jest workers (Juan Antonio Fernández de Alba) [#7490](https://github.com/DataDog/dd-trace-js/pull/7490)\n* \\[[`98ce21e8ae`](https://github.com/DataDog/dd-trace-js/commit/98ce21e8ae)] - **(SEMVER-PATCH)** \\[test optimization] Fix quarantine + EFD (Juan Antonio Fernández de Alba) [#7491](https://github.com/DataDog/dd-trace-js/pull/7491)\n* \\[[`5de82d74a1`](https://github.com/DataDog/dd-trace-js/commit/5de82d74a1)] - **(SEMVER-PATCH)** **chore(deps)**: bump axios (dependabot\\[bot]) [#7499](https://github.com/DataDog/dd-trace-js/pull/7499)\n* \\[[`c7599822c6`](https://github.com/DataDog/dd-trace-js/commit/c7599822c6)] - **(SEMVER-MINOR)** **fix(prisma)**: resolve db config from adapters (Pablo Erhard) [#7495](https://github.com/DataDog/dd-trace-js/pull/7495)\n* \\[[`5107dac6ea`](https://github.com/DataDog/dd-trace-js/commit/5107dac6ea)] - **(SEMVER-MINOR)** **feat**: only add host tag to profiles when DD\\_TRACE\\_REPORT\\_HOSTNAME is set (Attila Szegedi) [#7494](https://github.com/DataDog/dd-trace-js/pull/7494)\n* \\[[`24c71b6641`](https://github.com/DataDog/dd-trace-js/commit/24c71b6641)] - **(SEMVER-PATCH)** **fix(ws)**: avoid retaining connection span (Ruben Bridgewater) [#7469](https://github.com/DataDog/dd-trace-js/pull/7469)\n* \\[[`bc78996008`](https://github.com/DataDog/dd-trace-js/commit/bc78996008)] - **(SEMVER-PATCH)** **fix(ci)**: remove stray quote from concurrency group (Thomas Watson) [#7493](https://github.com/DataDog/dd-trace-js/pull/7493)\n* \\[[`e6d1aea9a0`](https://github.com/DataDog/dd-trace-js/commit/e6d1aea9a0)] - **(SEMVER-PATCH)** **chore**: clarify commit and PR command instructions (Thomas Watson) [#7492](https://github.com/DataDog/dd-trace-js/pull/7492)\n* \\[[`562177ce32`](https://github.com/DataDog/dd-trace-js/commit/562177ce32)] - **(SEMVER-PATCH)** **refactor**: enable prefer-object-spread rule for all files (Thomas Watson) [#7488](https://github.com/DataDog/dd-trace-js/pull/7488)\n* \\[[`dee0dd49ed`](https://github.com/DataDog/dd-trace-js/commit/dee0dd49ed)] - **test**: allow Node 24 url.parse/punycode deprecations and refactor (Thomas Watson)\n* \\[[`3d1e60e0ee`](https://github.com/DataDog/dd-trace-js/commit/3d1e60e0ee)] - **(SEMVER-PATCH)** chore(ci) update one-pipeline (campaigner-prod\\[bot]) [#7476](https://github.com/DataDog/dd-trace-js/pull/7476)\n* \\[[`c985421bd2`](https://github.com/DataDog/dd-trace-js/commit/c985421bd2)] - **(SEMVER-PATCH)** _**Revert**_ \"**fix(startup-log)**: emit immediately after init and send to stderr\" (Roch Devost) [#7478](https://github.com/DataDog/dd-trace-js/pull/7478)\n* \\[[`e80f0f8990`](https://github.com/DataDog/dd-trace-js/commit/e80f0f8990)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 2 directories with 3 updates (dependabot\\[bot]) [#7487](https://github.com/DataDog/dd-trace-js/pull/7487)\n* \\[[`48c7ce42be`](https://github.com/DataDog/dd-trace-js/commit/48c7ce42be)] - **(SEMVER-PATCH)** **fix(lambda)**: handle missing context for some lambda functions (Joey Zhao) [#7445](https://github.com/DataDog/dd-trace-js/pull/7445)\n* \\[[`6bef1684d4`](https://github.com/DataDog/dd-trace-js/commit/6bef1684d4)] - **(SEMVER-MINOR)** **fix(startup-log)**: emit immediately after init and send to stderr (Brian Marks) [#7470](https://github.com/DataDog/dd-trace-js/pull/7470)\n* \\[[`a3dff51fab`](https://github.com/DataDog/dd-trace-js/commit/a3dff51fab)] - **(SEMVER-MINOR)** **fix**: reduce ACF overhead in storage and noop contexts (Ruben Bridgewater) [#7475](https://github.com/DataDog/dd-trace-js/pull/7475)\n* \\[[`9726641488`](https://github.com/DataDog/dd-trace-js/commit/9726641488)] - **(SEMVER-MINOR)** **feat**: add `pubsub.subscription` to GCP pubsub pull subsciptions (Nina Rei) [#7446](https://github.com/DataDog/dd-trace-js/pull/7446)\n* \\[[`5889aba44e`](https://github.com/DataDog/dd-trace-js/commit/5889aba44e)] - **(SEMVER-PATCH)** **test**: use more lenient time window for runtime metric time window (Ruben Bridgewater) [#7467](https://github.com/DataDog/dd-trace-js/pull/7467)\n* \\[[`8e7b6acf81`](https://github.com/DataDog/dd-trace-js/commit/8e7b6acf81)] - **(SEMVER-PATCH)** **fix**: limit memory leak to AppSec being enabled (Ruben Bridgewater) [#7276](https://github.com/DataDog/dd-trace-js/pull/7276)\n* \\[[`619c7c2cdc`](https://github.com/DataDog/dd-trace-js/commit/619c7c2cdc)] - **(SEMVER-PATCH)** \\[test optimization] Add missing telemetry events and tags (Juan Antonio Fernández de Alba) [#7463](https://github.com/DataDog/dd-trace-js/pull/7463)\n* \\[[`510563d09e`](https://github.com/DataDog/dd-trace-js/commit/510563d09e)] - **(SEMVER-PATCH)** **test**: fix flaky confluenctinc kafka error (Ruben Bridgewater) [#7460](https://github.com/DataDog/dd-trace-js/pull/7460)\n* \\[[`c4ee4849e4`](https://github.com/DataDog/dd-trace-js/commit/c4ee4849e4)] - **(SEMVER-PATCH)** **chore(appsec)**: add retry on `yarn` command (simon-id) [#7466](https://github.com/DataDog/dd-trace-js/pull/7466)\n* \\[[`5fd961c5bd`](https://github.com/DataDog/dd-trace-js/commit/5fd961c5bd)] - **(SEMVER-PATCH)** **test(langchain)**: update langchain tests to test correct peer dependency versions (Sam Brenner) [#7464](https://github.com/DataDog/dd-trace-js/pull/7464)\n* \\[[`c58e59c258`](https://github.com/DataDog/dd-trace-js/commit/c58e59c258)] - **(SEMVER-PATCH)** \\[test optimization] Fix errors not being reported in jest when EFD and ATR is enabled (Juan Antonio Fernández de Alba) [#7451](https://github.com/DataDog/dd-trace-js/pull/7451)\n* \\[[`0fa5dc2038`](https://github.com/DataDog/dd-trace-js/commit/0fa5dc2038)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group across 1 directory with 2 updates (dependabot\\[bot]) [#7461](https://github.com/DataDog/dd-trace-js/pull/7461)\n* \\[[`e3344ae04f`](https://github.com/DataDog/dd-trace-js/commit/e3344ae04f)] - **(SEMVER-PATCH)** Add APM-Serverless team as codeowners. (Rey Abolofia) [#7455](https://github.com/DataDog/dd-trace-js/pull/7455)\n* \\[[`52c89d2c32`](https://github.com/DataDog/dd-trace-js/commit/52c89d2c32)] - **(SEMVER-PATCH)** **fix**: add data\\_streams\\_enabled to startup log output (Johann) [#7454](https://github.com/DataDog/dd-trace-js/pull/7454)\n* \\[[`c57a18c5ac`](https://github.com/DataDog/dd-trace-js/commit/c57a18c5ac)] - **(SEMVER-PATCH)** **fix(ts)**: childOf not being able to be set to null (Pablo Erhard) [#7452](https://github.com/DataDog/dd-trace-js/pull/7452)"
+}
