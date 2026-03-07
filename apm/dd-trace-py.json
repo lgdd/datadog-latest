@@ -33,12 +33,12 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-03-05T16:13:57Z",
-  "updated_at": "2026-03-05T16:56:24Z",
+  "updated_at": "2026-03-06T12:57:20Z",
   "published_at": "2026-03-05T16:56:24Z",
   "assets": [
 
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.5.1",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.5.1",
-  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- AAP: Fixes a memory corruption issue where concurrent calls to the WAF on the same request context from multiple threads (e.g. an asyncio event loop and a thread pool executor inheriting the same context via `contextvars`) could cause use-after-free or double-free crashes (SIGSEGV) inside `libddwaf`. A per-context lock now serializes WAF calls on the same context.\r\n\r\n- CI Visibility: Fixed an incompatibility with `pytest-html` and other third-party reporting plugins caused by the ddtrace pytest plugin using a non-standard `dd_retry` test outcome for retry attempts. The outcome is now set to `rerun`, which is the standard value used by `pytest-rerunfailures` and recognized by reporting plugins."
+  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n\r\n### ⚠️ Known issues\r\n\r\nWe have identified a bug where workloads relying on `fork` could encounter crashes post-fork due to a race condition. We are currently working on a fix. \r\n\r\n\r\n### Bug Fixes\r\n\r\n- AAP: Fixes a memory corruption issue where concurrent calls to the WAF on the same request context from multiple threads (e.g. an asyncio event loop and a thread pool executor inheriting the same context via `contextvars`) could cause use-after-free or double-free crashes (SIGSEGV) inside `libddwaf`. A per-context lock now serializes WAF calls on the same context.\r\n\r\n- CI Visibility: Fixed an incompatibility with `pytest-html` and other third-party reporting plugins caused by the ddtrace pytest plugin using a non-standard `dd_retry` test outcome for retry attempts. The outcome is now set to `rerun`, which is the standard value used by `pytest-rerunfailures` and recognized by reporting plugins."
 }
