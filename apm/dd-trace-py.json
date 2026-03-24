@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/299050351",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/299050351/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/299050351/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.6.1",
-  "id": 299050351,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/300292245",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/300292245/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/300292245/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.5.6",
+  "id": 300292245,
   "author": {
     "login": "juanjux",
     "id": 277378,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4R0yVv",
-  "tag_name": "v4.6.1",
-  "target_commitish": "4.6",
-  "name": "4.6.1",
+  "node_id": "RE_kwDOA6uE5s4R5hiV",
+  "tag_name": "v4.5.6",
+  "target_commitish": "4.5",
+  "name": "4.5.6",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-03-19T14:52:07Z",
-  "updated_at": "2026-03-19T16:37:01Z",
-  "published_at": "2026-03-19T16:37:01Z",
+  "created_at": "2026-03-23T16:10:01Z",
+  "updated_at": "2026-03-23T16:16:50Z",
+  "published_at": "2026-03-23T16:16:50Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.6.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.6.1",
-  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: Fixes an issue where pytest plugins `pytest-rerunfailures` and `flaky` were silently overridden by the ddtrace plugin. With this change, external rerun plugins will now drive retries as expected when Auto Test Retries and Early Flake Detection features are both disabled, otherwise our retry mechanism takes precedence and a warning is emitted.\r\n\r\n<!-- -->\r\n\r\n- CI Visibility (pytest): Fixed missing ITR tags in the new pytest plugin that caused time saved by Test Impact Analysis to not appear in dashboards.\r\n\r\n<!-- -->\r\n\r\n- CI Visibility: Fixed an issue where a test marked as both quarantined and attempt-to-fix was incorrectly treated as plain quarantined, preventing attempt-to-fix flow from running.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: Fixes an issue where Anthropic LLM spans were dropped when streaming responses from Anthropic beta API features with tool use, such as `tool_search_tool_regex`.\r\n\r\n<!-- -->\r\n\r\n- tracing: Resolves an issue where a `RuntimeError` could be raised when iterating over the `context._meta` dictionary while creating spans or generating distributed traces.\r\n\r\n<!-- -->\r\n\r\n- Fix for potential crashes at process shutdown due to incorrect detection of the VM finalization state when stopping periodic worker threads.\r\n\r\n<!-- -->\r\n\r\n- profiling: Fix potential reentrant crashes in the memory profiler by avoiding object allocations and frees during stack unwinding inside the allocator hook.\r\n\r\n<!-- -->\r\n\r\n- profiling: the memory profiler now uses the weighted allocation size in heap live size, fixing a bug where the reported heap live size was much lower than it really was."
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.5.6",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.5.6",
+  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: Fix an unhandled `RuntimeError` that occurred when the `git` binary was not available. Git metadata upload is now skipped gracefully with a warning instead of aborting pytest startup.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: Fixes an issue where Anthropic LLM spans were dropped when streaming responses from Anthropic beta API features with tool use, such as `tool_search_tool_regex`.\r\n\r\n<!-- -->\r\n\r\n- Fixed an issue with internal periodic threads that could have caused a crash during shutdown if a fork occurred.\r\n\r\n<!-- -->\r\n\r\n- Fix for a potential race condition affecting internal periodic worker threads that could have caused a `RuntimeError` during forks.\r\n\r\n<!-- -->\r\n\r\n- profiling: the memory profiler now uses the weighted allocation size in heap live size, fixing a bug where the reported heap live size was much lower than it really was."
 }

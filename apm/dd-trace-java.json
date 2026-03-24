@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/298974817",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/298974817/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-java/releases/298974817/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-java/releases/tag/v1.60.2",
-  "id": 298974817,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/300335562",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/300335562/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-java/releases/300335562/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-java/releases/tag/v1.60.3",
+  "id": 300335562,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBVFpxM4R0f5h",
-  "tag_name": "v1.60.2",
+  "node_id": "RE_kwDOBVFpxM4R5sHK",
+  "tag_name": "v1.60.3",
   "target_commitish": "master",
-  "name": "1.60.2",
+  "name": "1.60.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-03-19T14:01:17Z",
-  "updated_at": "2026-03-19T17:13:10Z",
-  "published_at": "2026-03-19T17:11:44Z",
+  "created_at": "2026-03-23T17:57:58Z",
+  "updated_at": "2026-03-23T19:05:10Z",
+  "published_at": "2026-03-23T18:01:58Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/377220384",
-      "id": 377220384,
-      "node_id": "RA_kwDOBVFpxM4We-0g",
-      "name": "dd-java-agent-1.60.2.jar",
+      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/379897113",
+      "id": 379897113,
+      "node_id": "RA_kwDOBVFpxM4WpMUZ",
+      "name": "dd-java-agent-1.60.3.jar",
       "label": "",
       "uploader": {
         "login": "dd-octo-sts[bot]",
@@ -65,17 +65,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 33341706,
-      "digest": "sha256:00d5bdd1900b9ea940abe400a4ff0c70459680a9107aa3aef0bde8c908eefc61",
-      "download_count": 22,
-      "created_at": "2026-03-19T14:13:48Z",
-      "updated_at": "2026-03-19T14:13:49Z",
-      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.2/dd-java-agent-1.60.2.jar"
+      "size": 33345034,
+      "digest": "sha256:0aa21c063b1ec22d3d5d40543d15f815829b318a31b481e40cc111b99c56b704",
+      "download_count": 6,
+      "created_at": "2026-03-23T18:11:15Z",
+      "updated_at": "2026-03-23T18:11:17Z",
+      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-java-agent-1.60.3.jar"
     },
     {
-      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/377220368",
-      "id": 377220368,
-      "node_id": "RA_kwDOBVFpxM4We-0Q",
+      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/379897101",
+      "id": 379897101,
+      "node_id": "RA_kwDOBVFpxM4WpMUN",
       "name": "dd-java-agent.jar",
       "label": "",
       "uploader": {
@@ -101,18 +101,18 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 33341706,
-      "digest": "sha256:00d5bdd1900b9ea940abe400a4ff0c70459680a9107aa3aef0bde8c908eefc61",
-      "download_count": 4970,
-      "created_at": "2026-03-19T14:13:45Z",
-      "updated_at": "2026-03-19T14:13:47Z",
-      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.2/dd-java-agent.jar"
+      "size": 33345034,
+      "digest": "sha256:0aa21c063b1ec22d3d5d40543d15f815829b318a31b481e40cc111b99c56b704",
+      "download_count": 593,
+      "created_at": "2026-03-23T18:11:12Z",
+      "updated_at": "2026-03-23T18:11:15Z",
+      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-java-agent.jar"
     },
     {
-      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/377220409",
-      "id": 377220409,
-      "node_id": "RA_kwDOBVFpxM4We-05",
-      "name": "dd-trace-api-1.60.2.jar",
+      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/379897128",
+      "id": 379897128,
+      "node_id": "RA_kwDOBVFpxM4WpMUo",
+      "name": "dd-trace-api-1.60.3.jar",
       "label": "",
       "uploader": {
         "login": "dd-octo-sts[bot]",
@@ -138,17 +138,17 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 119741,
-      "digest": "sha256:5b6207349c5b2c26d7e0916aaed5cf1a7c70335339c57591c54843673fdfdef6",
+      "digest": "sha256:d5ec1053d587232aa7bc747c3df38fc31ca0ad02eefdfc8a8d5d0683cffc74d7",
       "download_count": 0,
-      "created_at": "2026-03-19T14:13:50Z",
-      "updated_at": "2026-03-19T14:13:50Z",
-      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.2/dd-trace-api-1.60.2.jar"
+      "created_at": "2026-03-23T18:11:17Z",
+      "updated_at": "2026-03-23T18:11:18Z",
+      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-trace-api-1.60.3.jar"
     },
     {
-      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/377220418",
-      "id": 377220418,
-      "node_id": "RA_kwDOBVFpxM4We-1C",
-      "name": "dd-trace-ot-1.60.2.jar",
+      "url": "https://api.github.com/repos/DataDog/dd-trace-java/releases/assets/379897129",
+      "id": 379897129,
+      "node_id": "RA_kwDOBVFpxM4WpMUp",
+      "name": "dd-trace-ot-1.60.3.jar",
       "label": "",
       "uploader": {
         "login": "dd-octo-sts[bot]",
@@ -174,15 +174,15 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4192285,
-      "digest": "sha256:8a87a2285443cb0a37e905e257f8bec0ecc70a81283c823d56df644ec1e73e9d",
+      "digest": "sha256:88ea9dd18e5f2a1b04997b787b16dcec0b70011e0046a7cbacc34268e45ec2df",
       "download_count": 0,
-      "created_at": "2026-03-19T14:13:51Z",
-      "updated_at": "2026-03-19T14:13:51Z",
-      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.2/dd-trace-ot-1.60.2.jar"
+      "created_at": "2026-03-23T18:11:18Z",
+      "updated_at": "2026-03-23T18:11:19Z",
+      "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-trace-ot-1.60.3.jar"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-java/tarball/v1.60.2",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-java/zipball/v1.60.2",
-  "body": "# Components\r\n\r\n## Application Security Management (WAF)\r\n\r\n* :bug: Add http.response.headers.content-type span tag on blocking responses (#10884 - @jandro996)\r\n* :bug: Fix ObjectIntrospection exposing JDK internal toString() to the WAF (#10882 - @jandro996)\r\n\r\n## Profiling\r\n\r\n* :sparkles: Update Java profiler library to [1.39.0](https://github.com/DataDog/java-profiler/releases/tag/v_1.38.0) (#10869 - @jbachorik) (contains also [1.38.0](https://github.com/DataDog/java-profiler/releases/tag/v_1.38.0))\r\n",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-java/tarball/v1.60.3",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-java/zipball/v1.60.3",
+  "body": "# Components\r\n\r\n## Continuous Integration Visibility\r\n\r\n* :sparkles: Add Java 26 support to CI Visibility (#10929 - @daniel-mohedano)\r\n\r\n## Profiling\r\n\r\n* :sparkles: Update Java profiler library to 1.40.0 (#10932 - @jbachorik)\r\n  * [Java 26 compatibility fix](https://github.com/DataDog/java-profiler/pull/428)\r\n  * [Improve stackwalking performance](https://github.com/DataDog/java-profiler/pull/423)\r\n\r\n# Instrumentations\r\n\r\n## RMI\r\n\r\n* :bug::closed_lock_with_key: Use primitive types for RMI context payload serialization (#10937 - @PerfectSlayer)\r\n\r\n",
+  "mentions_count": 3
 }
