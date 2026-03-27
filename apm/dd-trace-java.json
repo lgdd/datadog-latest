@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-03-23T17:57:58Z",
-  "updated_at": "2026-03-23T19:05:10Z",
+  "updated_at": "2026-03-26T11:43:01Z",
   "published_at": "2026-03-23T18:01:58Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 33345034,
       "digest": "sha256:0aa21c063b1ec22d3d5d40543d15f815829b318a31b481e40cc111b99c56b704",
-      "download_count": 469,
+      "download_count": 1263,
       "created_at": "2026-03-23T18:11:15Z",
       "updated_at": "2026-03-23T18:11:17Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-java-agent-1.60.3.jar"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 33345034,
       "digest": "sha256:0aa21c063b1ec22d3d5d40543d15f815829b318a31b481e40cc111b99c56b704",
-      "download_count": 4985,
+      "download_count": 7694,
       "created_at": "2026-03-23T18:11:12Z",
       "updated_at": "2026-03-23T18:11:15Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.60.3/dd-java-agent.jar"
@@ -183,6 +183,6 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-java/tarball/v1.60.3",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-java/zipball/v1.60.3",
-  "body": "# Components\r\n\r\n## Continuous Integration Visibility\r\n\r\n* :sparkles: Add Java 26 support to CI Visibility (#10929 - @daniel-mohedano)\r\n\r\n## Profiling\r\n\r\n* :sparkles: Update Java profiler library to 1.40.0 (#10932 - @jbachorik)\r\n  * [Java 26 compatibility fix](https://github.com/DataDog/java-profiler/pull/428)\r\n  * [Improve stackwalking performance](https://github.com/DataDog/java-profiler/pull/423)\r\n\r\n# Instrumentations\r\n\r\n## RMI\r\n\r\n* :bug::closed_lock_with_key: Use primitive types for RMI context payload serialization (#10937 - @PerfectSlayer)\r\n\r\n",
+  "body": "# Announcement\r\n\r\n> [!IMPORTANT]\r\n> This release fixes [CVE-2026-33728](https://github.com/DataDog/dd-trace-java/security/advisories/GHSA-579q-h82j-r5v2).\r\n\r\n# Components\r\n\r\n## Continuous Integration Visibility\r\n\r\n* :sparkles: Add Java 26 support to CI Visibility (#10929 - @daniel-mohedano)\r\n\r\n## Profiling\r\n\r\n* :sparkles: Update Java profiler library to 1.40.0 (#10932 - @jbachorik)\r\n  * [Java 26 compatibility fix](https://github.com/DataDog/java-profiler/pull/428)\r\n  * [Improve stackwalking performance](https://github.com/DataDog/java-profiler/pull/423)\r\n\r\n# Instrumentations\r\n\r\n## RMI\r\n\r\n* :bug::closed_lock_with_key: Use primitive types for RMI context payload serialization (#10937 - @PerfectSlayer)\r\n\r\n",
   "mentions_count": 3
 }
