@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/305815410",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/305815410/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/305815410/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.95.0",
-  "id": 305815410,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/307020871",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/307020871/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/307020871/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v5.96.0",
+  "id": 307020871,
   "author": {
     "login": "juan-fernandez",
     "id": 22798219,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4SOl9y",
-  "tag_name": "v5.95.0",
+  "node_id": "RE_kwDOBwapYs4STMRH",
+  "tag_name": "v5.96.0",
   "target_commitish": "v5.x",
-  "name": "5.95.0",
+  "name": "5.96.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-04-06T18:49:10Z",
-  "updated_at": "2026-04-06T20:33:20Z",
-  "published_at": "2026-04-06T20:33:20Z",
+  "created_at": "2026-04-08T17:15:50Z",
+  "updated_at": "2026-04-09T11:16:23Z",
+  "published_at": "2026-04-09T11:16:23Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.95.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.95.0",
-  "body": "* \\[[`e2b2bae2a7`](https://github.com/DataDog/dd-trace-js/commit/e2b2bae2a7)] - **(SEMVER-MINOR)** \\[test optimization] Add filesystem cache for test optimization API requests (Juan Antonio Fernández de Alba) [#7919](https://github.com/DataDog/dd-trace-js/pull/7919)\n* \\[[`a7de9c024e`](https://github.com/DataDog/dd-trace-js/commit/a7de9c024e)] - **(SEMVER-PATCH)** **fix(llmobs)**: set default model provider to unknown in openai and anthropic (Xinyuan Guo) [#7913](https://github.com/DataDog/dd-trace-js/pull/7913)\n* \\[[`e90f4e590f`](https://github.com/DataDog/dd-trace-js/commit/e90f4e590f)] - **(SEMVER-PATCH)** increse llm obs size limit from 1mb to 5mb in line with python version and documentation (Forrest Wargo) [#7921](https://github.com/DataDog/dd-trace-js/pull/7921)\n* \\[[`ce653ab5d1`](https://github.com/DataDog/dd-trace-js/commit/ce653ab5d1)] - **(SEMVER-PATCH)** **chore(config)**: add generated config type foundation (Ruben Bridgewater) [#7915](https://github.com/DataDog/dd-trace-js/pull/7915)\n* \\[[`934261acf6`](https://github.com/DataDog/dd-trace-js/commit/934261acf6)] - **(SEMVER-PATCH)** remove xslt transformation (Charles de Beauchesne) [#7918](https://github.com/DataDog/dd-trace-js/pull/7918)\n* \\[[`f94162c95a`](https://github.com/DataDog/dd-trace-js/commit/f94162c95a)] - **(SEMVER-MINOR)** **docs**: update index.d.ts tracer options to align with actual config (Ruben Bridgewater) [#7897](https://github.com/DataDog/dd-trace-js/pull/7897)\n* \\[[`1457f8717b`](https://github.com/DataDog/dd-trace-js/commit/1457f8717b)] - **(SEMVER-PATCH)** **test**: ignore stale generated workspaces during plugin installs (Ruben Bridgewater) [#7896](https://github.com/DataDog/dd-trace-js/pull/7896)\n* \\[[`bbebb264d8`](https://github.com/DataDog/dd-trace-js/commit/bbebb264d8)] - **(SEMVER-PATCH)** **chore**: apply simplifications and hot-path cleanups (Ruben Bridgewater) [#7895](https://github.com/DataDog/dd-trace-js/pull/7895)\n* \\[[`90ea84c151`](https://github.com/DataDog/dd-trace-js/commit/90ea84c151)] - **(SEMVER-PATCH)** **test(integration)**: make integration tests more resilient (Ruben Bridgewater) [#7894](https://github.com/DataDog/dd-trace-js/pull/7894)\n* \\[[`7d241baa68`](https://github.com/DataDog/dd-trace-js/commit/7d241baa68)] - **(SEMVER-PATCH)** **test(integration)**: harden shared helpers and noisy expectations (Ruben Bridgewater) [#7893](https://github.com/DataDog/dd-trace-js/pull/7893)\n* \\[[`853635a1d4`](https://github.com/DataDog/dd-trace-js/commit/853635a1d4)] - **(SEMVER-PATCH)** **chore**: update one pipeline to latest version (Ruben Bridgewater) [#7909](https://github.com/DataDog/dd-trace-js/pull/7909)\n* \\[[`532c7a8784`](https://github.com/DataDog/dd-trace-js/commit/532c7a8784)] - **(SEMVER-PATCH)** **chore**: use backported orchestrion (Roch Devost) [#7799](https://github.com/DataDog/dd-trace-js/pull/7799)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v5.96.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v5.96.0",
+  "body": "* \\[[`7d5fa996bb`](https://github.com/DataDog/dd-trace-js/commit/7d5fa996bb)] - **(SEMVER-PATCH)** **ci(llmobs)**: fix test failing on v5 branch (Sam Brenner) [#7951](https://github.com/DataDog/dd-trace-js/pull/7951)\n* \\[[`c04b08e755`](https://github.com/DataDog/dd-trace-js/commit/c04b08e755)] - **(SEMVER-PATCH)** **chore**: bump import-in-the-middle to 3.0.1 (Sam Brenner) [#7947](https://github.com/DataDog/dd-trace-js/pull/7947)\n* \\[[`fd74461d92`](https://github.com/DataDog/dd-trace-js/commit/fd74461d92)] - **(SEMVER-PATCH)** **chore(deps)**: bump the test-versions group across 3 directories with 6 updates (dependabot\\[bot]) [#7934](https://github.com/DataDog/dd-trace-js/pull/7934)\n* \\[[`c097033479`](https://github.com/DataDog/dd-trace-js/commit/c097033479)] - **(SEMVER-PATCH)** **fix(llmobs)**: log at startup instead of throwing for invalid initializations (Sam Brenner) [#7885](https://github.com/DataDog/dd-trace-js/pull/7885)\n* \\[[`91fa0f8ccf`](https://github.com/DataDog/dd-trace-js/commit/91fa0f8ccf)] - **(SEMVER-PATCH)** **chore(deps)**: bump the gh-actions-packages group across 4 directories with 3 updates (dependabot\\[bot]) [#7939](https://github.com/DataDog/dd-trace-js/pull/7939)\n* \\[[`90758aeac8`](https://github.com/DataDog/dd-trace-js/commit/90758aeac8)] - **(SEMVER-PATCH)** \\[incident-52391]\\[SINT-5091] Use dd-sts for secrets, with split policies (Kylian Serrania) [#7924](https://github.com/DataDog/dd-trace-js/pull/7924)\n* \\[[`9a3cd3b465`](https://github.com/DataDog/dd-trace-js/commit/9a3cd3b465)] - **(SEMVER-PATCH)** **feat(lambda)**: skip flushInterval=0 and use agent exporter when mini agent is present (Tianning Li) [#7584](https://github.com/DataDog/dd-trace-js/pull/7584)\n* \\[[`efc96812a0`](https://github.com/DataDog/dd-trace-js/commit/efc96812a0)] - **(SEMVER-PATCH)** **ci**: adjust SLO calculation for being less flaky (Fayssal DEFAA) [#7930](https://github.com/DataDog/dd-trace-js/pull/7930)\n* \\[[`5e5ba433ea`](https://github.com/DataDog/dd-trace-js/commit/5e5ba433ea)] - **(SEMVER-PATCH)** \\[test optimization] Fix bug that makes some tags not visible on mocha tests with hooks (Sebastián Kay) [#7912](https://github.com/DataDog/dd-trace-js/pull/7912)\n* \\[[`a3baec5b21`](https://github.com/DataDog/dd-trace-js/commit/a3baec5b21)] - **(SEMVER-PATCH)** _**Revert**_ \"**chore**: use dd-sts for secrets\" (Sam Brenner) [#7940](https://github.com/DataDog/dd-trace-js/pull/7940)\n* \\[[`dba55f50f7`](https://github.com/DataDog/dd-trace-js/commit/dba55f50f7)] - **(SEMVER-PATCH)** \\[test optimization] Pin `office-addin-mock` dependency (Juan Antonio Fernández de Alba) [#7931](https://github.com/DataDog/dd-trace-js/pull/7931)\n* \\[[`3126529555`](https://github.com/DataDog/dd-trace-js/commit/3126529555)] - **(SEMVER-MINOR)** \\[test optimization] Add better support for `lage` (Juan Antonio Fernández de Alba) [#7920](https://github.com/DataDog/dd-trace-js/pull/7920)\n* \\[[`c32e8a6c6a`](https://github.com/DataDog/dd-trace-js/commit/c32e8a6c6a)] - **(SEMVER-PATCH)** **feat(aiguard)**: Evaluating vercel-ai calls with AI guard automatically (Ilyas Shabi) [#7798](https://github.com/DataDog/dd-trace-js/pull/7798)\n* \\[[`ba2d007271`](https://github.com/DataDog/dd-trace-js/commit/ba2d007271)] - **(SEMVER-PATCH)** **chore(deps)**: bump lodash from 4.17.23 to 4.18.1 (dependabot\\[bot]) [#7927](https://github.com/DataDog/dd-trace-js/pull/7927)\n* \\[[`6afb4f9ed2`](https://github.com/DataDog/dd-trace-js/commit/6afb4f9ed2)] - **(SEMVER-PATCH)** **chore**: use dd-sts for secrets (Bryan English) [#7924](https://github.com/DataDog/dd-trace-js/pull/7924)\n"
 }
