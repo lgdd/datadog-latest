@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/308893618",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/308893618/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/308893618/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.5.10",
-  "id": 308893618,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/309256151",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/309256151/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/309256151/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.7.1",
+  "id": 309256151,
   "author": {
     "login": "juanjux",
     "id": 277378,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4SaVey",
-  "tag_name": "v4.5.10",
-  "target_commitish": "4.5",
-  "name": "4.5.10",
+  "node_id": "RE_kwDOA6uE5s4Sbt_X",
+  "tag_name": "v4.7.1",
+  "target_commitish": "4.7",
+  "name": "4.7.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-04-14T14:56:31Z",
-  "updated_at": "2026-04-14T15:03:00Z",
-  "published_at": "2026-04-14T15:03:00Z",
+  "created_at": "2026-04-15T09:48:03Z",
+  "updated_at": "2026-04-15T10:34:38Z",
+  "published_at": "2026-04-15T10:34:38Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.5.10",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.5.10",
-  "body": "Estimated end-of-life date, accurate to within three months: 06-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: This fix resolves an issue where a failure response from the `/search_commits` endpoint caused the git metadata upload to fall back to sending the full 30-day commit history instead of aborting. This fallback could trigger cascading write load on the backend. The upload now aborts when `search_commits` fails, matching the behavior when the `/packfile` upload itself fails.\r\n\r\n- Fixed a race condition with internal periodic threads that could have caused a rare crash when forking."
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.7.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.7.1",
+  "body": "Estimated end-of-life date, accurate to within three months: 06-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- CI Visibility: This fix resolves an issue where a failure response from the `/search_commits` endpoint caused the git metadata upload to fall back to sending the full 30-day commit history instead of aborting. This fallback could trigger cascading write load on the backend. The upload now aborts when `search_commits` fails, matching the behavior when the `/packfile` upload itself fails.\r\n\r\n<!-- -->\r\n\r\n- Fixed a race condition with internal periodic threads that could have caused a rare crash when forking.\r\n\r\n<!-- -->\r\n\r\n- Fixes an issue where internal background threads could cause crashes or instability in applications that fork (e.g. Gunicorn, uWSGI) or during Python shutdown. Affected applications could experience intermittent crashes or hangs on exit.\r\n\r\n<!-- -->\r\n\r\n- CI Visibility: This fix resolves an issue where pytest-xdist worker crashes (`os._exit`, SIGKILL, segfault) caused buffered test events to be lost. To enable eager flushing, set `DD_TRACE_PARTIAL_FLUSH_MIN_SPANS=1`."
 }
