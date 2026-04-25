@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-03-30T14:16:29Z",
-  "updated_at": "2026-03-30T14:42:14Z",
+  "updated_at": "2026-04-24T16:33:38Z",
   "published_at": "2026-03-30T14:42:14Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3758751,
       "digest": "sha256:e8999aff850a26193d452f3ad4faecbf0936f679ddcf5a58824bf1b58a078239",
-      "download_count": 410,
+      "download_count": 434,
       "created_at": "2026-03-30T14:41:35Z",
       "updated_at": "2026-03-30T14:41:37Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.137.0/datadog_lambda_node18.12.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3758757,
       "digest": "sha256:ed89579155b65ec6bd3e1b14aa96d30f754ac2a18d774f752435182cf21f044a",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-03-30T14:41:37Z",
       "updated_at": "2026-03-30T14:41:38Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.137.0/datadog_lambda_node22.11.zip"
@@ -183,6 +183,6 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/tarball/v12.137.0",
   "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-js/zipball/v12.137.0",
-  "body": "## What's Changed\r\n* ci: Add workflow to publish built layers as artifacts by @CarlesDD in https://github.com/DataDog/datadog-lambda-js/pull/750\r\n* Fix negative duration on aws.apigateway.authorizer span by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/751\r\n* chore(deps): bump dd-trace to v5.93.0 by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/749\r\n* v12.137.0 by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/753\r\n\r\n>[!IMPORTANT]\r\n> This version imports `dd-trace-js` [v5.93.0](https://github.com/DataDog/dd-trace-js/releases/tag/v5.93.0)\r\n\r\n## New Contributors\r\n* @pablomartinezbernardo made their first contribution in https://github.com/DataDog/datadog-lambda-js/pull/751\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v12.136.0...v12.137.0\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node24-x:137\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node18-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node20-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node22-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:002406178527:layer:Datadog-Node24-x:137\r\n```",
+  "body": "## What's Changed\r\n* ci: Add workflow to publish built layers as artifacts by @CarlesDD in https://github.com/DataDog/datadog-lambda-js/pull/750\r\n* Fix negative duration on aws.apigateway.authorizer span by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/751\r\n* chore(deps): bump dd-trace to v5.93.0 by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/749\r\n* v12.137.0 by @pablomartinezbernardo in https://github.com/DataDog/datadog-lambda-js/pull/753\r\n\r\n>[!IMPORTANT]\r\n> This version imports `dd-trace-js` [v5.93.0](https://github.com/DataDog/dd-trace-js/releases/tag/v5.93.0)\r\n\r\n## New Contributors\r\n* @pablomartinezbernardo made their first contribution in https://github.com/DataDog/datadog-lambda-js/pull/751\r\n\r\n**Full Changelog**: https://github.com/DataDog/datadog-lambda-js/compare/v12.136.0...v12.137.0\r\n\r\n```yml\r\n# AWS Commercial\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node18-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node20-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node22-x:137\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:Datadog-Node24-x:137\r\n\r\n# AWS GovCloud\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:<ACCOUNT>:layer:Datadog-Node18-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:<ACCOUNT>:layer:Datadog-Node20-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:<ACCOUNT>:layer:Datadog-Node22-x:137\r\narn:aws-us-gov:lambda:us-gov-<AWS_REGION>:<ACCOUNT>:layer:Datadog-Node24-x:137\r\n\r\nACCOUNT =\r\n002406178527 for us1 environment\r\n486696501492 for us2 environment\r\n```",
   "mentions_count": 2
 }
