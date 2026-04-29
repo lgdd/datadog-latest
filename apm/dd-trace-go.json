@@ -41,5 +41,17 @@
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.7.3",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.7.3",
   "body": "<!-- Release notes generated using configuration in .github/release.yml at v2.7.3 -->\r\n\r\n### Application Performance Monitoring (APM)\r\n\r\n* feat(contrib/valkey-io): bump valkey-go and add SetOnInvalidations wrapper by @Scorfly in https://github.com/DataDog/dd-trace-go/pull/4657\r\n* feat(contrib/redis/rueidis): add SetOnInvalidations to dedicatedClient by @darccio in https://github.com/DataDog/dd-trace-go/pull/4659\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.7.2...v2.7.3",
+  "reactions": {
+    "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/310417899/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 1,
+    "eyes": 0
+  },
   "mentions_count": 2
 }
