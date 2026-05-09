@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 758497540,
       "digest": "sha256:dd9f63e8f437f4779836dbe84572a66455781a4a2f3870ce0411f30113f02e38",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:45:48Z",
       "updated_at": "2026-05-06T21:46:19Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/datadog-php-tracer-1.19.2.aarch64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 767338824,
       "digest": "sha256:897ab6c601ec59ae637ad608a2e0cb5e033bd500493ddbe823297016ce80a5c0",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:46:20Z",
       "updated_at": "2026-05-06T21:46:52Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/datadog-php-tracer-1.19.2.x86_64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 765380394,
       "digest": "sha256:37823fe356f6fe93b0cc56f468bffda1957914088610e60ad1f577b8157d550d",
-      "download_count": 8,
+      "download_count": 15,
       "created_at": "2026-05-06T21:47:11Z",
       "updated_at": "2026-05-06T21:47:43Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/datadog-php-tracer_1.19.2_amd64.deb"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 93656,
       "digest": "sha256:3718d522a1587313367421bc6dfaa4fa41ee327cc8ffe39e8d81affaa11e2ac8",
-      "download_count": 11583,
+      "download_count": 20775,
       "created_at": "2026-05-06T21:48:37Z",
       "updated_at": "2026-05-06T21:48:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/datadog-setup.php"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 18750175,
       "digest": "sha256:8d671f32081f2f522eb3a8d5cbb9c01dace8eb014eeddf22659d0bef83108bfd",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:38Z",
       "updated_at": "2026-05-06T21:48:39Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20151012-debug.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 51577351,
       "digest": "sha256:96c8851838647614ac7bd4392e89b73a2be8c1058e303362cc6f085509bcc07e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:39Z",
       "updated_at": "2026-05-06T21:48:42Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20151012-zts.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 51814619,
       "digest": "sha256:7dacad3a2c0d213f1ddd6fda5eb45800e7cbae5d5030ce572ec1e19ed9715d1e",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-05-06T21:48:42Z",
       "updated_at": "2026-05-06T21:48:45Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20151012.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 18803315,
       "digest": "sha256:198611046cb512b26ba2d5fc9de9fbd5d13f5bd87d26e7803a92ac2e75da5b67",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:45Z",
       "updated_at": "2026-05-06T21:48:46Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20160303-debug.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 60404054,
       "digest": "sha256:52aad47af41396c3a402dcd151605050f4eafaf96d803cc52d1c2cb87bfe824b",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:47Z",
       "updated_at": "2026-05-06T21:48:50Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20160303-zts.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 60720545,
       "digest": "sha256:831a6a0e7cd0cb2510e36a6ea085f5640305105afc68f9853e39b5ec783cd6da",
-      "download_count": 11,
+      "download_count": 13,
       "created_at": "2026-05-06T21:48:50Z",
       "updated_at": "2026-05-06T21:48:53Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20160303.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 18808171,
       "digest": "sha256:3727fdc10c9dcb7f0a66a34e0985be3a3a3e1fd71eca67943d4432a8fdaf2faa",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:54Z",
       "updated_at": "2026-05-06T21:48:55Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20170718-debug.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 60375316,
       "digest": "sha256:28610f79929195355ea18eec2d15a6b86e4b2ffc623252ee79d1cb786111c4a5",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:48:55Z",
       "updated_at": "2026-05-06T21:48:58Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20170718-zts.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 60724603,
       "digest": "sha256:e1436abfd2c7f484090b314216b2a9d1189d636952a1c3fa97b5640d8cee4b55",
-      "download_count": 3,
+      "download_count": 6,
       "created_at": "2026-05-06T21:48:58Z",
       "updated_at": "2026-05-06T21:49:02Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20170718.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 18805191,
       "digest": "sha256:58c7f779b47a267171b9b6c86e76610cb9a3d615260b481d568a397c3ac7f31e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:02Z",
       "updated_at": "2026-05-06T21:49:03Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20180731-debug.tar.gz"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 60403111,
       "digest": "sha256:611fede1b7d88be3e2c7434ff73ad2eeb91a70285299cbad0d74084268025dfa",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:04Z",
       "updated_at": "2026-05-06T21:49:07Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20180731-zts.tar.gz"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 60718368,
       "digest": "sha256:17eb04ebd3afb479b1a0888e0779b51df9e7481f4af8e068f2f4090caea3fcce",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-05-06T21:49:07Z",
       "updated_at": "2026-05-06T21:49:10Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20180731.tar.gz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 18829949,
       "digest": "sha256:22317b3c4bf8e33f4f23f074eaeb15fb553ced88c4707d256cc26ee7e6e06064",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:10Z",
       "updated_at": "2026-05-06T21:49:12Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20190902-debug.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 60451505,
       "digest": "sha256:3796c9b7e45dc861e062878aca1db0a173237a630a55139e21d8054b7da19443",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:12Z",
       "updated_at": "2026-05-06T21:49:15Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20190902-zts.tar.gz"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 60755186,
       "digest": "sha256:530cfcf203629aa21258bc3f8a3f4558d82f6950b8b073e89d7feda48c8ccdb1",
-      "download_count": 36,
+      "download_count": 81,
       "created_at": "2026-05-06T21:49:16Z",
       "updated_at": "2026-05-06T21:49:19Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20190902.tar.gz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 18892783,
       "digest": "sha256:0b4bad1a18e421036130eb14d88bcb9edb855d18c0402abcff2fd87a3deab784",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:19Z",
       "updated_at": "2026-05-06T21:49:20Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20200930-debug.tar.gz"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 60537632,
       "digest": "sha256:704e564f67061cdd9e2de233be176bde62e2ef3458572a6e23173ed02d06cd63",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:21Z",
       "updated_at": "2026-05-06T21:49:23Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20200930-zts.tar.gz"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 60845856,
       "digest": "sha256:255daa5589983f8a4f7f140d3cc0a45e01c5301e587d20948ad322db5e06978f",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-05-06T21:49:24Z",
       "updated_at": "2026-05-06T21:49:27Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20200930.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 18963440,
       "digest": "sha256:6759953461b91e3ffcc5415a745684ea5a378ccd1a5bf2b21d25ca7443fe3ce2",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:27Z",
       "updated_at": "2026-05-06T21:49:28Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20210902-debug.tar.gz"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 60613003,
       "digest": "sha256:3a1a04a25464a5391feb659870fe80632ae295485a62ad2b4da4367ff7b04513",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:29Z",
       "updated_at": "2026-05-06T21:49:31Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20210902-zts.tar.gz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 60939555,
       "digest": "sha256:0366323cf8b22b9052fd151f556ce6bc09a0db6ea4c3ef40844a165593fcfc62",
-      "download_count": 70,
+      "download_count": 120,
       "created_at": "2026-05-06T21:49:32Z",
       "updated_at": "2026-05-06T21:49:34Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20210902.tar.gz"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 18989375,
       "digest": "sha256:1b3744ea10ac0ace5789c1aa2e7181c3ae617610d6ce4a3ff4fa3285c8cab04e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:35Z",
       "updated_at": "2026-05-06T21:49:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20220829-debug.tar.gz"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 60644593,
       "digest": "sha256:639d6954e4c1841518e855b5492f8e6581a67d0dcd8645153f01a42e2bafd7f3",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:36Z",
       "updated_at": "2026-05-06T21:49:44Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20220829-zts.tar.gz"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 60999980,
       "digest": "sha256:e1c09ee5393f05c1971cfcdf48b1b309583585d471a16d05117384bde453e4b9",
-      "download_count": 59,
+      "download_count": 141,
       "created_at": "2026-05-06T21:49:44Z",
       "updated_at": "2026-05-06T21:49:48Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20220829.tar.gz"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 19006786,
       "digest": "sha256:560396accec8b040ad6a7719305c2a4ead0540accd92f08dc8b77e7852aece2f",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:48Z",
       "updated_at": "2026-05-06T21:49:49Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20230831-debug.tar.gz"
@@ -1327,7 +1327,7 @@
       "state": "uploaded",
       "size": 60679125,
       "digest": "sha256:52387ec9e65579df12a2f66f537448774d8b3a7ee1ffc531569871218e888f38",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:49:50Z",
       "updated_at": "2026-05-06T21:49:52Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20230831-zts.tar.gz"
@@ -1363,7 +1363,7 @@
       "state": "uploaded",
       "size": 61028195,
       "digest": "sha256:2961130364439bafda94ce54bbe3aaccdb568da1837444d6b22099ff306d1a3b",
-      "download_count": 106,
+      "download_count": 176,
       "created_at": "2026-05-06T21:49:53Z",
       "updated_at": "2026-05-06T21:49:55Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20230831.tar.gz"
@@ -1399,7 +1399,7 @@
       "state": "uploaded",
       "size": 19056023,
       "digest": "sha256:a7a299f0030bf796f8533dec65adfb51cc6f4457a6f0df8d19a02575da8b600e",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-05-06T21:49:55Z",
       "updated_at": "2026-05-06T21:49:57Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20240924-debug.tar.gz"
@@ -1435,7 +1435,7 @@
       "state": "uploaded",
       "size": 60757566,
       "digest": "sha256:93e57755e2a73de0a61f322db3e192210bd4d01696f66791e96155b4ee569234",
-      "download_count": 5,
+      "download_count": 8,
       "created_at": "2026-05-06T21:49:57Z",
       "updated_at": "2026-05-06T21:50:00Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20240924-zts.tar.gz"
@@ -1471,7 +1471,7 @@
       "state": "uploaded",
       "size": 61136814,
       "digest": "sha256:d3ba1185f776c7b648f096f3830d9f34e614bf9a9ea85d9358edcf1bf3fbd5e0",
-      "download_count": 206,
+      "download_count": 330,
       "created_at": "2026-05-06T21:50:00Z",
       "updated_at": "2026-05-06T21:50:03Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20240924.tar.gz"
@@ -1507,7 +1507,7 @@
       "state": "uploaded",
       "size": 19084596,
       "digest": "sha256:0609f7ce3b2c582b688ddfbb8bab5efd10c1fb1a13b3f891439624817aff3126",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:50:03Z",
       "updated_at": "2026-05-06T21:50:04Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20250925-debug.tar.gz"
@@ -1543,7 +1543,7 @@
       "state": "uploaded",
       "size": 60774127,
       "digest": "sha256:85a8a9aa148560e82ddf6efbfeb0dd5779db83faaf07d6616b1d485f30a92eac",
-      "download_count": 6,
+      "download_count": 9,
       "created_at": "2026-05-06T21:50:04Z",
       "updated_at": "2026-05-06T21:50:07Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20250925-zts.tar.gz"
@@ -1579,7 +1579,7 @@
       "state": "uploaded",
       "size": 61186113,
       "digest": "sha256:6ecb7ee0ce978509b557433feae4e17700c8a3ab44dfa1b06be7d79aea1e0a7b",
-      "download_count": 30,
+      "download_count": 46,
       "created_at": "2026-05-06T21:50:08Z",
       "updated_at": "2026-05-06T21:50:10Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu-20250925.tar.gz"
@@ -1615,7 +1615,7 @@
       "state": "uploaded",
       "size": 870363884,
       "digest": "sha256:9abc4bb4e05b726c8ffd9b6ac76438789e506021e45cd98bdba14e8bc451a344",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:50:12Z",
       "updated_at": "2026-05-06T21:50:53Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-gnu.tar.gz"
@@ -1651,7 +1651,7 @@
       "state": "uploaded",
       "size": 50594602,
       "digest": "sha256:6dcbf931b5b004128e9aeb53d22452572c0d6cea859650aab4ccb2146ae52311",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:50:54Z",
       "updated_at": "2026-05-06T21:50:56Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20151012-zts.tar.gz"
@@ -1687,7 +1687,7 @@
       "state": "uploaded",
       "size": 50535336,
       "digest": "sha256:607409a11372d90b5fca38f1d1b9a7beb50b4f1c8676c610422e4ec8c05df046",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:50:56Z",
       "updated_at": "2026-05-06T21:50:59Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20151012.tar.gz"
@@ -1723,7 +1723,7 @@
       "state": "uploaded",
       "size": 59311568,
       "digest": "sha256:583c3826be9099c4009ea3fbaf2c02d1871484473fb26ca71e00599d8a6feba7",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:50:59Z",
       "updated_at": "2026-05-06T21:51:02Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20160303-zts.tar.gz"
@@ -1759,7 +1759,7 @@
       "state": "uploaded",
       "size": 59251938,
       "digest": "sha256:1ffcbc35da0e1cc8385a5ca95c25599692f63f372cb3f045b8fbfccf7a299ba7",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:02Z",
       "updated_at": "2026-05-06T21:51:05Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20160303.tar.gz"
@@ -1795,7 +1795,7 @@
       "state": "uploaded",
       "size": 59268993,
       "digest": "sha256:6ce9b4e67c3e35c88370cddf7eba0677652b746e17b49309f78cffd4133a52c4",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:05Z",
       "updated_at": "2026-05-06T21:51:08Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20170718-zts.tar.gz"
@@ -1831,7 +1831,7 @@
       "state": "uploaded",
       "size": 59226413,
       "digest": "sha256:af39b68f1210a3849e2b7dbe3d691a3b6476d66622020569563a9c5046aa52df",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:09Z",
       "updated_at": "2026-05-06T21:51:12Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20170718.tar.gz"
@@ -1867,7 +1867,7 @@
       "state": "uploaded",
       "size": 59262757,
       "digest": "sha256:03f5f23af797371cd50afb4a32ec3521c33d75d17d8076117fd7ae65db32a8c9",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:12Z",
       "updated_at": "2026-05-06T21:51:15Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20180731-zts.tar.gz"
@@ -1903,7 +1903,7 @@
       "state": "uploaded",
       "size": 59221317,
       "digest": "sha256:04e7b2eb61669bba9d11f7c489a0574b3eb9914042c0a2fb8b2a1b0f5912d02c",
-      "download_count": 20,
+      "download_count": 115,
       "created_at": "2026-05-06T21:51:16Z",
       "updated_at": "2026-05-06T21:51:18Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20180731.tar.gz"
@@ -1939,7 +1939,7 @@
       "state": "uploaded",
       "size": 59289592,
       "digest": "sha256:c634d6fc49f40fc75dedc0d2fccff97afc23f1acea3dd225069f1c08ffebcb28",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:19Z",
       "updated_at": "2026-05-06T21:51:21Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20190902-zts.tar.gz"
@@ -1975,7 +1975,7 @@
       "state": "uploaded",
       "size": 59247160,
       "digest": "sha256:10ff4f0105179865971a815bc6fc433c3c48c34f5f15816bc16a3190b3b7f1c6",
-      "download_count": 8,
+      "download_count": 16,
       "created_at": "2026-05-06T21:51:22Z",
       "updated_at": "2026-05-06T21:51:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20190902.tar.gz"
@@ -2011,7 +2011,7 @@
       "state": "uploaded",
       "size": 59388057,
       "digest": "sha256:c61efeaf08e3aabf801d4a9e4cb97d51f4514075fcc3d2dd5431822734c180f7",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-05-06T21:51:25Z",
       "updated_at": "2026-05-06T21:51:28Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20200930-zts.tar.gz"
@@ -2047,7 +2047,7 @@
       "state": "uploaded",
       "size": 59346317,
       "digest": "sha256:81425cb865cda5a62149a7e5627ec1f43dd8b27e2525557b99109b940d00bac7",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-05-06T21:51:29Z",
       "updated_at": "2026-05-06T21:51:32Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20200930.tar.gz"
@@ -2083,7 +2083,7 @@
       "state": "uploaded",
       "size": 59442724,
       "digest": "sha256:12bfbcc86ff0acf9ff8bf5046379b30f4da3a8411fd44300d913f1f4d1912888",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:32Z",
       "updated_at": "2026-05-06T21:51:35Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20210902-zts.tar.gz"
@@ -2119,7 +2119,7 @@
       "state": "uploaded",
       "size": 59402554,
       "digest": "sha256:e88e973ca0b5f02fe718851556f7de6f05715f6a7a5322e983cece156e119679",
-      "download_count": 5,
+      "download_count": 7,
       "created_at": "2026-05-06T21:51:35Z",
       "updated_at": "2026-05-06T21:51:38Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20210902.tar.gz"
@@ -2155,7 +2155,7 @@
       "state": "uploaded",
       "size": 59463051,
       "digest": "sha256:e80345a73e1e5e52c9c152e2d8fef6f9d8cf472c0c381799a8742d80423e66d2",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:38Z",
       "updated_at": "2026-05-06T21:51:41Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20220829-zts.tar.gz"
@@ -2191,7 +2191,7 @@
       "state": "uploaded",
       "size": 59415026,
       "digest": "sha256:fedd63e6a528e0c2a43eb6784bf3b38e838b3ca92e7c3116f22c03855f5a5ae1",
-      "download_count": 22,
+      "download_count": 34,
       "created_at": "2026-05-06T21:51:41Z",
       "updated_at": "2026-05-06T21:51:48Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20220829.tar.gz"
@@ -2227,7 +2227,7 @@
       "state": "uploaded",
       "size": 59495127,
       "digest": "sha256:5fe58773babf25a48a408f1182628dbf1e30365c13bcd596e38439471b0908d1",
-      "download_count": 8,
+      "download_count": 18,
       "created_at": "2026-05-06T21:51:48Z",
       "updated_at": "2026-05-06T21:51:51Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20230831-zts.tar.gz"
@@ -2263,7 +2263,7 @@
       "state": "uploaded",
       "size": 59421677,
       "digest": "sha256:c5b048c6fa95a37873d69873a4f63d5ae7c5d4fa1c3a79ed2701754bfa38dedc",
-      "download_count": 47,
+      "download_count": 84,
       "created_at": "2026-05-06T21:51:51Z",
       "updated_at": "2026-05-06T21:51:54Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20230831.tar.gz"
@@ -2299,7 +2299,7 @@
       "state": "uploaded",
       "size": 59537067,
       "digest": "sha256:9933844ab33005404ad7444eb1a643e92684477e0ca3b0454e05094d881a8860",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:51:54Z",
       "updated_at": "2026-05-06T21:51:57Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20240924-zts.tar.gz"
@@ -2335,7 +2335,7 @@
       "state": "uploaded",
       "size": 59465964,
       "digest": "sha256:2b18464eb4901b6ee47127b3ca0e3d16b49d34fac12d578d7aea937960d602c7",
-      "download_count": 35,
+      "download_count": 59,
       "created_at": "2026-05-06T21:51:57Z",
       "updated_at": "2026-05-06T21:51:59Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20240924.tar.gz"
@@ -2371,7 +2371,7 @@
       "state": "uploaded",
       "size": 59563600,
       "digest": "sha256:52ba6a42bf6dc7d87c7264ba7bc63c33a35905db6975eec87f936333a88af557",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:52:00Z",
       "updated_at": "2026-05-06T21:52:02Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20250925-zts.tar.gz"
@@ -2407,7 +2407,7 @@
       "state": "uploaded",
       "size": 59486829,
       "digest": "sha256:34e9756136aef2dac67c25c0f32f68445ea825af4b8ff55f505a9d8839db8ba6",
-      "download_count": 23,
+      "download_count": 38,
       "created_at": "2026-05-06T21:52:03Z",
       "updated_at": "2026-05-06T21:52:05Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl-20250925.tar.gz"
@@ -2443,7 +2443,7 @@
       "state": "uploaded",
       "size": 635143722,
       "digest": "sha256:37d6b5771c77ad40281ba42904f5b27dd64af9f539a023083dd14da1c89ffead",
-      "download_count": 7,
+      "download_count": 14,
       "created_at": "2026-05-06T21:52:06Z",
       "updated_at": "2026-05-06T21:52:32Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-aarch64-linux-musl.tar.gz"
@@ -2479,7 +2479,7 @@
       "state": "uploaded",
       "size": 19087671,
       "digest": "sha256:c902bcb44158492ed00da0e2d7116e157e939564fa0235729f57bac0e02c0c54",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:52:32Z",
       "updated_at": "2026-05-06T21:52:33Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20151012-debug.tar.gz"
@@ -2515,7 +2515,7 @@
       "state": "uploaded",
       "size": 52426591,
       "digest": "sha256:d48bfc2b00adc29228c3ed6de39a46e309c7b9616f831498a11ceee1bf55da82",
-      "download_count": 29,
+      "download_count": 57,
       "created_at": "2026-05-06T21:52:34Z",
       "updated_at": "2026-05-06T21:52:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20151012-zts.tar.gz"
@@ -2551,7 +2551,7 @@
       "state": "uploaded",
       "size": 52669168,
       "digest": "sha256:1f7bf8c9c474b8702d6ae09ed86879dee30a3ff944702948289e1ea13a46bf6e",
-      "download_count": 89,
+      "download_count": 162,
       "created_at": "2026-05-06T21:52:37Z",
       "updated_at": "2026-05-06T21:52:40Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20151012.tar.gz"
@@ -2587,7 +2587,7 @@
       "state": "uploaded",
       "size": 19143478,
       "digest": "sha256:47979822a6d82f4beb2cf62a67b507e822674535ab461351b2606f4719f7707d",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-05-06T21:52:40Z",
       "updated_at": "2026-05-06T21:52:41Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20160303-debug.tar.gz"
@@ -2623,7 +2623,7 @@
       "state": "uploaded",
       "size": 61647493,
       "digest": "sha256:c2754d90bf20a229f8598ec238cb75dee41bcd94fcbe150e0b18c0da902e0ba1",
-      "download_count": 31,
+      "download_count": 59,
       "created_at": "2026-05-06T21:52:41Z",
       "updated_at": "2026-05-06T21:52:44Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20160303-zts.tar.gz"
@@ -2659,7 +2659,7 @@
       "state": "uploaded",
       "size": 61964624,
       "digest": "sha256:ef9ed4f5c576ed45078542e74d4eb368e4a7ff90860a5acc4de657c238b238c1",
-      "download_count": 72,
+      "download_count": 139,
       "created_at": "2026-05-06T21:52:45Z",
       "updated_at": "2026-05-06T21:52:48Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20160303.tar.gz"
@@ -2695,7 +2695,7 @@
       "state": "uploaded",
       "size": 19143773,
       "digest": "sha256:5b03d70888f1cd472a4e2aedb942c943da4ac5d3605769c4384f46a788247c4e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:52:48Z",
       "updated_at": "2026-05-06T21:52:49Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20170718-debug.tar.gz"
@@ -2731,7 +2731,7 @@
       "state": "uploaded",
       "size": 61625375,
       "digest": "sha256:db3791aa9bbfc7ee53e1925fa2983b85c180d7140a4ab4ca931887e9763e0b58",
-      "download_count": 31,
+      "download_count": 59,
       "created_at": "2026-05-06T21:52:50Z",
       "updated_at": "2026-05-06T21:52:52Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20170718-zts.tar.gz"
@@ -2767,7 +2767,7 @@
       "state": "uploaded",
       "size": 61967005,
       "digest": "sha256:a4306213a0dbadbd51887cf20d88de876abbdd67828ea15ff040e35caf993505",
-      "download_count": 110,
+      "download_count": 203,
       "created_at": "2026-05-06T21:52:53Z",
       "updated_at": "2026-05-06T21:52:56Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20170718.tar.gz"
@@ -2803,7 +2803,7 @@
       "state": "uploaded",
       "size": 19144993,
       "digest": "sha256:ea092aade822f6ee977c984bbb69e60b8de728b207762852a16bfc392b74cea9",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:52:56Z",
       "updated_at": "2026-05-06T21:52:57Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20180731-debug.tar.gz"
@@ -2839,7 +2839,7 @@
       "state": "uploaded",
       "size": 61638603,
       "digest": "sha256:1d0f41b60b77fb2c38539c0a0ee4b18cd27b003e4f3a02755e601f3ec7e765ab",
-      "download_count": 31,
+      "download_count": 59,
       "created_at": "2026-05-06T21:52:58Z",
       "updated_at": "2026-05-06T21:53:01Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20180731-zts.tar.gz"
@@ -2875,7 +2875,7 @@
       "state": "uploaded",
       "size": 61952811,
       "digest": "sha256:a76bacef4904ab22d66f113d5394fe2e252d420023b600f2e23eba6f8dd3720f",
-      "download_count": 81,
+      "download_count": 175,
       "created_at": "2026-05-06T21:53:01Z",
       "updated_at": "2026-05-06T21:53:04Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20180731.tar.gz"
@@ -2911,7 +2911,7 @@
       "state": "uploaded",
       "size": 19174294,
       "digest": "sha256:897ded58a2e68370c97a75bbc033deb6b93ce948a4a9c2cf1ecbb2dea6cd84f0",
-      "download_count": 57,
+      "download_count": 98,
       "created_at": "2026-05-06T21:53:05Z",
       "updated_at": "2026-05-06T21:53:06Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20190902-debug.tar.gz"
@@ -2947,7 +2947,7 @@
       "state": "uploaded",
       "size": 61683225,
       "digest": "sha256:a3b0ea96ceacd6dfef02d5b802a6cb950a409422e7b2d6a4e744e14a2e614144",
-      "download_count": 61,
+      "download_count": 109,
       "created_at": "2026-05-06T21:53:06Z",
       "updated_at": "2026-05-06T21:53:09Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20190902-zts.tar.gz"
@@ -2983,7 +2983,7 @@
       "state": "uploaded",
       "size": 61985664,
       "digest": "sha256:4f78719435b2f4c442c3946df5641bc43d6e2117729a17e0a5efc67e0df0b03a",
-      "download_count": 1230,
+      "download_count": 1983,
       "created_at": "2026-05-06T21:53:10Z",
       "updated_at": "2026-05-06T21:53:13Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20190902.tar.gz"
@@ -3019,7 +3019,7 @@
       "state": "uploaded",
       "size": 19236690,
       "digest": "sha256:eb10444170652f3cf975d90dd3ece3619d7116960fd75c80e119bd8faa37b728",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:13Z",
       "updated_at": "2026-05-06T21:53:14Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20200930-debug.tar.gz"
@@ -3055,7 +3055,7 @@
       "state": "uploaded",
       "size": 61766616,
       "digest": "sha256:7eb8d25f4ae80e0e8e1b9a79b1404fcea84cd9dc9523e59410e5feee52eb0886",
-      "download_count": 31,
+      "download_count": 59,
       "created_at": "2026-05-06T21:53:14Z",
       "updated_at": "2026-05-06T21:53:17Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20200930-zts.tar.gz"
@@ -3091,7 +3091,7 @@
       "state": "uploaded",
       "size": 62069094,
       "digest": "sha256:21d8911880d903c6b6a3ad79cf734b2f3926d5ea535206ba1b0b9cae2ef3b219",
-      "download_count": 1257,
+      "download_count": 2236,
       "created_at": "2026-05-06T21:53:18Z",
       "updated_at": "2026-05-06T21:53:21Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20200930.tar.gz"
@@ -3127,7 +3127,7 @@
       "state": "uploaded",
       "size": 19312158,
       "digest": "sha256:a6cf893e9e9fd59c9787c6f0da188b893d876135e7838cdd73c537da6c6059e4",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:21Z",
       "updated_at": "2026-05-06T21:53:22Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20210902-debug.tar.gz"
@@ -3163,7 +3163,7 @@
       "state": "uploaded",
       "size": 61848302,
       "digest": "sha256:27e61e1ff8a10aace9ffec6ef71ae01e25f2ef74c422369b74e58b22c9be8b1a",
-      "download_count": 31,
+      "download_count": 59,
       "created_at": "2026-05-06T21:53:23Z",
       "updated_at": "2026-05-06T21:53:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20210902-zts.tar.gz"
@@ -3199,7 +3199,7 @@
       "state": "uploaded",
       "size": 62167591,
       "digest": "sha256:dc32c54f722ae533244640020b03c50380ddf2ad5501568956731f5450e92bd2",
-      "download_count": 4240,
+      "download_count": 7841,
       "created_at": "2026-05-06T21:53:26Z",
       "updated_at": "2026-05-06T21:53:28Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20210902.tar.gz"
@@ -3235,7 +3235,7 @@
       "state": "uploaded",
       "size": 19329225,
       "digest": "sha256:cb4b55baa225024f62f56dc32d2fcc933ea1d79ec99e61c956ef7bcc9eeced3d",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:29Z",
       "updated_at": "2026-05-06T21:53:30Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20220829-debug.tar.gz"
@@ -3271,7 +3271,7 @@
       "state": "uploaded",
       "size": 61881479,
       "digest": "sha256:98eb6afef1728b1f985add455251b6a8e8f330a8a95b3ee1f40255da75662c10",
-      "download_count": 90,
+      "download_count": 137,
       "created_at": "2026-05-06T21:53:31Z",
       "updated_at": "2026-05-06T21:53:33Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20220829-zts.tar.gz"
@@ -3307,7 +3307,7 @@
       "state": "uploaded",
       "size": 62222632,
       "digest": "sha256:67fd90e8a0948c46ad628f9837e7ce364b5ad1789ed996b7ccf70b265ef9f26f",
-      "download_count": 769,
+      "download_count": 1369,
       "created_at": "2026-05-06T21:53:33Z",
       "updated_at": "2026-05-06T21:53:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20220829.tar.gz"
@@ -3343,7 +3343,7 @@
       "state": "uploaded",
       "size": 19339578,
       "digest": "sha256:2c3bd2721a7e3a29db6ba76063595e7f9c21b50449230defac23acb23b98393e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:37Z",
       "updated_at": "2026-05-06T21:53:39Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20230831-debug.tar.gz"
@@ -3379,7 +3379,7 @@
       "state": "uploaded",
       "size": 61915662,
       "digest": "sha256:4bdf3c78b72356f08a23326ca8b50c1b4b5ec0fbae378af384c61bea660c6041",
-      "download_count": 9,
+      "download_count": 17,
       "created_at": "2026-05-06T21:53:39Z",
       "updated_at": "2026-05-06T21:53:42Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20230831-zts.tar.gz"
@@ -3415,7 +3415,7 @@
       "state": "uploaded",
       "size": 62249694,
       "digest": "sha256:73b9b24071c9d893b2f2dff995d192cfa4527663958dc3e7ff7a093e9ec91721",
-      "download_count": 2187,
+      "download_count": 3907,
       "created_at": "2026-05-06T21:53:42Z",
       "updated_at": "2026-05-06T21:53:45Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20230831.tar.gz"
@@ -3451,7 +3451,7 @@
       "state": "uploaded",
       "size": 19389081,
       "digest": "sha256:bf7799ee58f5155add6d2118b699d307907b415fc3d116f7dc273fc00f09920f",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:46Z",
       "updated_at": "2026-05-06T21:53:47Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20240924-debug.tar.gz"
@@ -3487,7 +3487,7 @@
       "state": "uploaded",
       "size": 61985626,
       "digest": "sha256:0550f6beb1b9c577f1c1bddc08fd037126feba5cb84bf48792406cbe7c967e33",
-      "download_count": 12,
+      "download_count": 41,
       "created_at": "2026-05-06T21:53:47Z",
       "updated_at": "2026-05-06T21:53:51Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20240924-zts.tar.gz"
@@ -3523,7 +3523,7 @@
       "state": "uploaded",
       "size": 62363452,
       "digest": "sha256:69be3b5c518f0844021aa9bfa991ee7c859dcbc5802938d3988edfa6f274c636",
-      "download_count": 852,
+      "download_count": 1546,
       "created_at": "2026-05-06T21:53:51Z",
       "updated_at": "2026-05-06T21:53:54Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20240924.tar.gz"
@@ -3559,7 +3559,7 @@
       "state": "uploaded",
       "size": 19414067,
       "digest": "sha256:4bde08df4d28636634e33d3dbff5df3b9e9894c0fce79081123def215446e797",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:53:54Z",
       "updated_at": "2026-05-06T21:53:56Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20250925-debug.tar.gz"
@@ -3595,7 +3595,7 @@
       "state": "uploaded",
       "size": 61999832,
       "digest": "sha256:2dee6e732ffca103269b687aa0368218f7e1083b92184f52571036d1f35cac59",
-      "download_count": 6,
+      "download_count": 8,
       "created_at": "2026-05-06T21:53:56Z",
       "updated_at": "2026-05-06T21:53:59Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20250925-zts.tar.gz"
@@ -3631,7 +3631,7 @@
       "state": "uploaded",
       "size": 62404202,
       "digest": "sha256:104625699fecc03656de9a1d1a5c2063c00809b63001e02cdbe66849fd607290",
-      "download_count": 477,
+      "download_count": 764,
       "created_at": "2026-05-06T21:53:59Z",
       "updated_at": "2026-05-06T21:54:02Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu-20250925.tar.gz"
@@ -3667,7 +3667,7 @@
       "state": "uploaded",
       "size": 888711355,
       "digest": "sha256:9c552900089ecf93ff8064fc3bf616c775b37f3a3d585cec9b6df3a920a08ec1",
-      "download_count": 79,
+      "download_count": 129,
       "created_at": "2026-05-06T21:54:04Z",
       "updated_at": "2026-05-06T21:54:38Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-gnu.tar.gz"
@@ -3703,7 +3703,7 @@
       "state": "uploaded",
       "size": 51805759,
       "digest": "sha256:b90e9d8d015512f6e06ad4ab765a04a6b08ee1ed4c3309de0ceb3606d4a47f87",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:54:38Z",
       "updated_at": "2026-05-06T21:54:41Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20151012-zts.tar.gz"
@@ -3739,7 +3739,7 @@
       "state": "uploaded",
       "size": 51760841,
       "digest": "sha256:e4d461ad4dc38f6f77309b0ea83850e2e617ee5f4f4f145228990cccd0f6915e",
-      "download_count": 2,
+      "download_count": 9,
       "created_at": "2026-05-06T21:54:42Z",
       "updated_at": "2026-05-06T21:54:44Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20151012.tar.gz"
@@ -3775,7 +3775,7 @@
       "state": "uploaded",
       "size": 61168945,
       "digest": "sha256:b21931774192a1a5ffb928c53c21f9db0e9dd1f28fdf5c5bd15ac3ffa1a9c07c",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:54:45Z",
       "updated_at": "2026-05-06T21:54:47Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20160303-zts.tar.gz"
@@ -3811,7 +3811,7 @@
       "state": "uploaded",
       "size": 61104652,
       "digest": "sha256:863b65121587b634dcf7fb1d238aef8f8d6a6730b89f9ddaf45bcfddf7ee9455",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:54:47Z",
       "updated_at": "2026-05-06T21:54:51Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20160303.tar.gz"
@@ -3847,7 +3847,7 @@
       "state": "uploaded",
       "size": 61127343,
       "digest": "sha256:fcf10ca245121afc5b241d2b859d0f86b032a06308a3de1a675f15266ac36c7d",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:54:51Z",
       "updated_at": "2026-05-06T21:54:54Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20170718-zts.tar.gz"
@@ -3883,7 +3883,7 @@
       "state": "uploaded",
       "size": 61080116,
       "digest": "sha256:5a34bd776d9af7a4587cc715683bdd8e99105e39373db47042791d2dbb0400a3",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-05-06T21:54:54Z",
       "updated_at": "2026-05-06T21:54:57Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20170718.tar.gz"
@@ -3919,7 +3919,7 @@
       "state": "uploaded",
       "size": 61128146,
       "digest": "sha256:a72b8408acee731b4b52da61278e18a2b1d9b57dd584d0cb616b59bae936a525",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:54:57Z",
       "updated_at": "2026-05-06T21:55:00Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20180731-zts.tar.gz"
@@ -3955,7 +3955,7 @@
       "state": "uploaded",
       "size": 61081827,
       "digest": "sha256:cfa4f2bcded3feb7a9d226ff7fae55dd5846e4485a537c5945128220e57c60b4",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:55:01Z",
       "updated_at": "2026-05-06T21:55:03Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20180731.tar.gz"
@@ -3991,7 +3991,7 @@
       "state": "uploaded",
       "size": 61162363,
       "digest": "sha256:1214f2ad638841c50c4dd38c5e51098963858d727298745724a6f05b43630b54",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:55:03Z",
       "updated_at": "2026-05-06T21:55:07Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20190902-zts.tar.gz"
@@ -4027,7 +4027,7 @@
       "state": "uploaded",
       "size": 61114824,
       "digest": "sha256:15c3a5cc94ed38bdebcc5879b1b4f35f88cdfe9f74d19a2e2911c3232f35517c",
-      "download_count": 152,
+      "download_count": 272,
       "created_at": "2026-05-06T21:55:08Z",
       "updated_at": "2026-05-06T21:55:11Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20190902.tar.gz"
@@ -4063,7 +4063,7 @@
       "state": "uploaded",
       "size": 61275249,
       "digest": "sha256:9d8afca3e1bc02ad2b20a6be9bd371c0c18f8a0be5cc21a06426b2f2ae2f9115",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:55:11Z",
       "updated_at": "2026-05-06T21:55:14Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20200930-zts.tar.gz"
@@ -4099,7 +4099,7 @@
       "state": "uploaded",
       "size": 61218320,
       "digest": "sha256:c0df2514f0d737578e7296a796ff151292223160b31377646a7e9224e47aa4e7",
-      "download_count": 10,
+      "download_count": 15,
       "created_at": "2026-05-06T21:55:14Z",
       "updated_at": "2026-05-06T21:55:17Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20200930.tar.gz"
@@ -4135,7 +4135,7 @@
       "state": "uploaded",
       "size": 61327407,
       "digest": "sha256:d25fae59295e2d0fa4a6bb361fc04b82e51d3dfbf13aa76e4083108afa84c832",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:55:17Z",
       "updated_at": "2026-05-06T21:55:20Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20210902-zts.tar.gz"
@@ -4171,7 +4171,7 @@
       "state": "uploaded",
       "size": 61273355,
       "digest": "sha256:02b3c273eb46daf8bd47f56329026a817c3b9b0c40204c53b4da4b5f5ae454de",
-      "download_count": 179,
+      "download_count": 317,
       "created_at": "2026-05-06T21:55:20Z",
       "updated_at": "2026-05-06T21:55:23Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20210902.tar.gz"
@@ -4207,7 +4207,7 @@
       "state": "uploaded",
       "size": 61347021,
       "digest": "sha256:46ae374e7c918e58a4a09c04897a25b9f0b91c8b3e91cc0679d24a63de4864b7",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-05-06T21:55:23Z",
       "updated_at": "2026-05-06T21:55:27Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20220829-zts.tar.gz"
@@ -4243,7 +4243,7 @@
       "state": "uploaded",
       "size": 61293772,
       "digest": "sha256:b4ef3aaeb5ec2b144d969535d154c30d0483b612965b96c77241ef3ab6c28588",
-      "download_count": 406,
+      "download_count": 664,
       "created_at": "2026-05-06T21:55:27Z",
       "updated_at": "2026-05-06T21:55:30Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20220829.tar.gz"
@@ -4279,7 +4279,7 @@
       "state": "uploaded",
       "size": 61373900,
       "digest": "sha256:231cf8d9bb0dabd3fc23ece51c60f30f91baff87262b4f0b71fb114402c3a516",
-      "download_count": 36,
+      "download_count": 56,
       "created_at": "2026-05-06T21:55:30Z",
       "updated_at": "2026-05-06T21:55:33Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20230831-zts.tar.gz"
@@ -4315,7 +4315,7 @@
       "state": "uploaded",
       "size": 61296440,
       "digest": "sha256:e2873f898f0be07314b5265684df25a559b5de5b15949ceabb70b285883dc0d9",
-      "download_count": 620,
+      "download_count": 1027,
       "created_at": "2026-05-06T21:55:34Z",
       "updated_at": "2026-05-06T21:55:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20230831.tar.gz"
@@ -4351,7 +4351,7 @@
       "state": "uploaded",
       "size": 61416662,
       "digest": "sha256:418782140badfdc9b01a5dfbc24ff49148b303fac9446644083b08ce259d2f07",
-      "download_count": 5,
+      "download_count": 10,
       "created_at": "2026-05-06T21:55:37Z",
       "updated_at": "2026-05-06T21:55:40Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20240924-zts.tar.gz"
@@ -4387,7 +4387,7 @@
       "state": "uploaded",
       "size": 61334584,
       "digest": "sha256:df0e13370c26c003c921d10e6b163c69ed2dbb912078f6f91278c7e626a3f54a",
-      "download_count": 370,
+      "download_count": 596,
       "created_at": "2026-05-06T21:55:40Z",
       "updated_at": "2026-05-06T21:55:43Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20240924.tar.gz"
@@ -4423,7 +4423,7 @@
       "state": "uploaded",
       "size": 61435871,
       "digest": "sha256:4ff44e2b2414b0bdbe7a79fbe637641c223462cff914bb9316eaa422f3df3357",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:55:44Z",
       "updated_at": "2026-05-06T21:55:47Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20250925-zts.tar.gz"
@@ -4459,7 +4459,7 @@
       "state": "uploaded",
       "size": 61355853,
       "digest": "sha256:3d05d13aa39147126ca75e9d1114025f2a69939b2b9f9c10b2cb9199cdea42e0",
-      "download_count": 196,
+      "download_count": 304,
       "created_at": "2026-05-06T21:55:47Z",
       "updated_at": "2026-05-06T21:55:50Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl-20250925.tar.gz"
@@ -4495,7 +4495,7 @@
       "state": "uploaded",
       "size": 663169559,
       "digest": "sha256:3f525253bbdc39c81103e43b84ceae6fa2794bc5645e243fbd0c2b491c9a3c69",
-      "download_count": 10,
+      "download_count": 17,
       "created_at": "2026-05-06T21:55:51Z",
       "updated_at": "2026-05-06T21:56:20Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-linux-musl.tar.gz"
@@ -4531,7 +4531,7 @@
       "state": "uploaded",
       "size": 7756472,
       "digest": "sha256:0393129528bf2a5df552fcfbfcbd86030a115ab30a1bcd68a85fd2c774f103ee",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:21Z",
       "updated_at": "2026-05-06T21:56:21Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20170718-zts.tar.gz"
@@ -4567,7 +4567,7 @@
       "state": "uploaded",
       "size": 7742239,
       "digest": "sha256:84bdf8b386fe73a1add8265f6c1140dcc98a8cc6efc44eee0789d5eb41ce0866",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:22Z",
       "updated_at": "2026-05-06T21:56:22Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20170718.tar.gz"
@@ -4603,7 +4603,7 @@
       "state": "uploaded",
       "size": 7754282,
       "digest": "sha256:6762f54c63e5bdbfe726a3dfefebe8dd3da9a35e02d454b3d9a348f55ebe63f7",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:23Z",
       "updated_at": "2026-05-06T21:56:23Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20180731-zts.tar.gz"
@@ -4639,7 +4639,7 @@
       "state": "uploaded",
       "size": 7739329,
       "digest": "sha256:9ff7ecd4095b98e9eb8c09c1fb3f97297b2d6d22bad375a396bb2767339c6e2a",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:24Z",
       "updated_at": "2026-05-06T21:56:24Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20180731.tar.gz"
@@ -4675,7 +4675,7 @@
       "state": "uploaded",
       "size": 7752172,
       "digest": "sha256:909a9ac14f6a66bb297aebc3ba30f38bc9daed3e9c0b7b0523d2a2fa218c9ae4",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:25Z",
       "updated_at": "2026-05-06T21:56:25Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20190902-zts.tar.gz"
@@ -4711,7 +4711,7 @@
       "state": "uploaded",
       "size": 7739274,
       "digest": "sha256:76a29f5b86fbd811f0ca8da13b027c696ab108162230805e6f862fcded85cd7b",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:26Z",
       "updated_at": "2026-05-06T21:56:26Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20190902.tar.gz"
@@ -4747,7 +4747,7 @@
       "state": "uploaded",
       "size": 7754795,
       "digest": "sha256:84ea2cd54f0f3cbbac94de3486516c56e6d047f4a811045e8874d7bb8dc5846d",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:27Z",
       "updated_at": "2026-05-06T21:56:27Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20200930-zts.tar.gz"
@@ -4783,7 +4783,7 @@
       "state": "uploaded",
       "size": 7741147,
       "digest": "sha256:077f450ded42080e85a818bf53fa068362eba444a26634df32a9b5b0c839e5f0",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:28Z",
       "updated_at": "2026-05-06T21:56:29Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20200930.tar.gz"
@@ -4819,7 +4819,7 @@
       "state": "uploaded",
       "size": 7742695,
       "digest": "sha256:cdced228d1446bfc8c8df2b9f362e8c999ef9c1471ded2c06f04fc2d811cdf1a",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-05-06T21:56:29Z",
       "updated_at": "2026-05-06T21:56:30Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20210902-zts.tar.gz"
@@ -4855,7 +4855,7 @@
       "state": "uploaded",
       "size": 7728977,
       "digest": "sha256:00120331a654e15aa85994107424f911b4121d3d1442dfc5cdd1c572ec17d456",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:30Z",
       "updated_at": "2026-05-06T21:56:31Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20210902.tar.gz"
@@ -4891,7 +4891,7 @@
       "state": "uploaded",
       "size": 7737895,
       "digest": "sha256:631a3ceb6a274134ee5adcc29cf549fa66d64c437fa3cb7840d52645b6a995af",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:31Z",
       "updated_at": "2026-05-06T21:56:32Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20220829-zts.tar.gz"
@@ -4927,7 +4927,7 @@
       "state": "uploaded",
       "size": 7726804,
       "digest": "sha256:935b879335634fd894d2aaebd85b4ac78e9ca74aa1175a20a3e58bc0add018cd",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:32Z",
       "updated_at": "2026-05-06T21:56:33Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20220829.tar.gz"
@@ -4963,7 +4963,7 @@
       "state": "uploaded",
       "size": 7740171,
       "digest": "sha256:8ef7fd54bf266782aaaec7c3eb91ba2030cbd354b7fb8850177b0c970ad0ff5c",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:33Z",
       "updated_at": "2026-05-06T21:56:34Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20230831-zts.tar.gz"
@@ -4999,7 +4999,7 @@
       "state": "uploaded",
       "size": 7727175,
       "digest": "sha256:023c78324c8a53758d65e5a237b0a07178ca93a1abdfe06323c72b1eb957fc8c",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:35Z",
       "updated_at": "2026-05-06T21:56:35Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20230831.tar.gz"
@@ -5035,7 +5035,7 @@
       "state": "uploaded",
       "size": 7791668,
       "digest": "sha256:340c20448418287aec0bc504a420c1624b0064517f83739069d5e025d35f68c3",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:36Z",
       "updated_at": "2026-05-06T21:56:36Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20240924-zts.tar.gz"
@@ -5071,7 +5071,7 @@
       "state": "uploaded",
       "size": 7777190,
       "digest": "sha256:f970cf4fa0f9b33f47ab85ed916c7a9a6bddd3d83d9b76f7fef40b7bf3ebe953",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:36Z",
       "updated_at": "2026-05-06T21:56:37Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20240924.tar.gz"
@@ -5107,7 +5107,7 @@
       "state": "uploaded",
       "size": 7791956,
       "digest": "sha256:caac2db8d50160e4731add2b6a66f7cc486e3737377ddcca655620ad303f548d",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:37Z",
       "updated_at": "2026-05-06T21:56:38Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20250925-zts.tar.gz"
@@ -5143,7 +5143,7 @@
       "state": "uploaded",
       "size": 7777127,
       "digest": "sha256:acfff65dc2d64ee3fac4fc6bcdb3500c80c53ae7134ae8775752ab8db32f1808",
-      "download_count": 3,
+      "download_count": 4,
       "created_at": "2026-05-06T21:56:38Z",
       "updated_at": "2026-05-06T21:56:39Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows-20250925.tar.gz"
@@ -5179,7 +5179,7 @@
       "state": "uploaded",
       "size": 136113488,
       "digest": "sha256:bad031dd951ec79cdf4d6d2baa531fadecb2086c1287ff848789dea6ce2c80c5",
-      "download_count": 3,
+      "download_count": 4,
       "created_at": "2026-05-06T21:56:39Z",
       "updated_at": "2026-05-06T21:56:47Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2-x86_64-windows.tar.gz"
@@ -5215,7 +5215,7 @@
       "state": "uploaded",
       "size": 690832699,
       "digest": "sha256:1092621feb641781ab8478d46ed0babce8daee6cef8d879cb6196f762dce21df",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-05-06T21:56:48Z",
       "updated_at": "2026-05-06T21:57:13Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-php/releases/download/1.19.2/dd-library-php-1.19.2_windows_debugsymbols.tar.gz"
