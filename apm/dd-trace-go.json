@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/317960433",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/317960433/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/317960433/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.8.1",
-  "id": 317960433,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/323330078",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/323330078/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/323330078/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.8.2",
+  "id": 323330078,
   "author": {
     "login": "darccio",
     "id": 163009,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBAi6ic4S87Dx",
-  "tag_name": "v2.8.1",
+  "node_id": "RE_kwDOBAi6ic4TRaAe",
+  "tag_name": "v2.8.2",
   "target_commitish": "main",
-  "name": "v2.8.1",
+  "name": "v2.8.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-05-05T17:36:16Z",
-  "updated_at": "2026-05-05T17:45:11Z",
-  "published_at": "2026-05-05T17:44:35Z",
+  "created_at": "2026-05-15T15:14:21Z",
+  "updated_at": "2026-05-15T15:22:14Z",
+  "published_at": "2026-05-15T15:22:14Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.8.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.8.1",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v2.8.1 -->\r\n\r\n### Application Performance Monitoring (APM)\r\n\r\n* Revert \"fix(ddtrace/tracer): cache trace ID hex encoding (#4481)\" by @darccio\r\n* fix(tracer): enforce baggage item and byte limits on extraction by @mtoffl01 in #4720\r\n* fix(tracer): drop dd= list-entries over 256 bytes from incoming tracestate by @mtoffl01 in #4721\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.8.0...v2.8.1",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.8.2",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.8.2",
+  "body": "## What's Changed\r\n### General\r\n* fix(ddtrace/tracer): wire version on aggregation key when adding a span to client-side stats by @darccio in https://github.com/DataDog/dd-trace-go/pull/4734\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.8.1...v2.8.2",
+  "mentions_count": 1
 }
