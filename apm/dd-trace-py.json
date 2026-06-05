@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/332600737",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/332600737/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/332600737/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.10.1",
-  "id": 332600737,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/334380522",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/334380522/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/334380522/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.10.2",
+  "id": 334380522,
   "author": {
     "login": "juanjux",
     "id": 277378,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4T0xWh",
-  "tag_name": "v4.10.1",
+  "node_id": "RE_kwDOA6uE5s4T7j3q",
+  "tag_name": "v4.10.2",
   "target_commitish": "4.10",
-  "name": "4.10.1",
+  "name": "4.10.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-06-01T15:27:10Z",
-  "updated_at": "2026-06-01T15:52:00Z",
-  "published_at": "2026-06-01T15:52:00Z",
+  "created_at": "2026-06-04T14:19:02Z",
+  "updated_at": "2026-06-04T14:19:22Z",
+  "published_at": "2026-06-04T14:19:22Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.10.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.10.1",
-  "body": "### Bug Fixes\r\n\r\n- internal: Fixed an issue that could have caused some timers, like the one responsible for Symbol Database uploads, to fire repeatedly after the first execution.\r\n\r\n<!-- -->\r\n\r\n- internal: This fix resolves a memory leak where reference cycles through `PeriodicThread` callbacks were invisible to Python's cyclic garbage collector and could accumulate when threads used bound methods as targets.\r\n\r\n<!-- -->\r\n\r\n- profiling: Fixes a memory leak in native frame tracking caused by unbounded native call-site metadata growth.\r\n\r\n<!-- -->\r\n\r\n- SCA: This fix resolves an issue where unresolved runtime reachability targets could accumulate across Software Composition Analysis updates, causing resident memory usage to grow over time."
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.10.2",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.10.2",
+  "body": "### Bug Fixes\r\n\r\n- LLM Observability: This fix resolves an issue in the Claude Agent SDK integration where a span's error message showed an uncategorized `unknown` error category from the upstream Claude Agent SDK instead of a descriptive API error. The integration now surfaces the detailed error message from the assistant message content.\r\n\r\n<!-- -->\r\n\r\n- tracing: Fixes a race condition where extra service names could be silently dropped from Remote Configuration `/v0.7/config` payloads in multi-threaded applications (e.g. uWSGI).\r\n\r\n<!-- -->\r\n\r\n- code origin: fixed an issue that could have caused pytest to crash internally when inspecting the call stack from an exception thrown by a view function when Code Origin is enabled.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: Resolves an issue where non-string tag values passed to `LLMObs.annotate(tags=...)` could cause spans to be dropped during ingestion.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: Fixes provider mis-attribution on `openai` spans when an `OpenAI` (or `AsyncOpenAI`) client and an `AzureOpenAI` (or `AsyncAzureOpenAI`) client are instantiated at the same time. Provider is now determined per-call rather than from the most recently constructed client."
 }
