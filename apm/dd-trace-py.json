@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/337260611",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/337260611/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/337260611/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.10.4",
-  "id": 337260611,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/340980949",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/340980949/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/340980949/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.10.5",
+  "id": 340980949,
   "author": {
     "login": "brettlangdon",
     "id": 1320353,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4UGjBD",
-  "tag_name": "v4.10.4",
+  "node_id": "RE_kwDOA6uE5s4UUvTV",
+  "tag_name": "v4.10.5",
   "target_commitish": "4.10",
-  "name": "4.10.4",
+  "name": "4.10.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-06-10T07:41:03Z",
-  "updated_at": "2026-06-10T13:37:57Z",
-  "published_at": "2026-06-10T13:37:57Z",
+  "created_at": "2026-06-17T17:20:10Z",
+  "updated_at": "2026-06-17T20:19:53Z",
+  "published_at": "2026-06-17T20:19:53Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.10.4",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.10.4",
-  "body": "### Bug Fixes\r\n- LLM Observability: Fixes agentless export dropping data on the `us3`, `us5`, `ap1`, and `ap2` Datadog sites. This affected customers on these sites when no Datadog Agent was running or agentless export was explicitly enabled (`DD_LLMOBS_AGENTLESS_ENABLED=1`).\r\n\r\n- runtime metrics: Fixes an issue where runtime metrics were missing container and orchestrator tags (such as `pod_name`) on hosts using cgroup v2.\r\n\r\n- IAST: A crash that could happen at interpreter teardown has been fixed.\r\n\r\n- profiling: A rare crash that could happen after fork in fork-based applications has been fixed.\r\n\r\n- tracing: Fixes a bug where running `ddtrace-run` caused a traceback on keyboard interrupt."
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.10.5",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.10.5",
+  "body": "### Bug Fixes\r\n\r\n- tracing: This fix resolves an issue where traces buffered before `os.fork()` could be sent twice, once by the parent and once by the child.\r\n\r\n- LLM Observability: Resolves an issue where the OpenAI integration recorded unset request parameters (OpenAI SDK's `Omit`/`NotGiven` sentinel values) as noise in LLM span metadata.\r\n\r\n- profiling: Rare crashes that could happen post-fork in fork-based applications have been fixed."
 }
