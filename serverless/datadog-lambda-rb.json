@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 13544860,
       "digest": "sha256:c96f4dd61ea5b70a1c4077a44dea3e8abe8df4a9dd181c7172fcb9283ee52ed8",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-06-01T20:13:21Z",
       "updated_at": "2026-06-01T20:13:38Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-rb/releases/download/v3.29.0/datadog-lambda_ruby-amd64-3.3.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 13556788,
       "digest": "sha256:a72f5f795c8b03bf5b2b956c727a3f7cb76c96a41b1600ec97781340dc94209b",
-      "download_count": 544,
+      "download_count": 558,
       "created_at": "2026-06-01T20:13:21Z",
       "updated_at": "2026-06-01T20:13:38Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-rb/releases/download/v3.29.0/datadog-lambda_ruby-amd64-3.4.zip"
