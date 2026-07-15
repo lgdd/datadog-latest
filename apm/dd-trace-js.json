@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/352128327",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/352128327/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/352128327/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.2.0",
-  "id": 352128327,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/353859257",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/353859257/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/353859257/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.3.0",
+  "id": 353859257,
   "author": {
     "login": "dd-octo-sts[bot]",
     "id": 200755185,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4U_Q1H",
-  "tag_name": "v6.2.0",
+  "node_id": "RE_kwDOBwapYs4VF3a5",
+  "tag_name": "v6.3.0",
   "target_commitish": "v6.x",
-  "name": "6.2.0",
+  "name": "6.3.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-07-10T13:53:38Z",
-  "updated_at": "2026-07-10T13:54:27Z",
-  "published_at": "2026-07-10T13:54:27Z",
+  "created_at": "2026-07-14T14:33:56Z",
+  "updated_at": "2026-07-14T14:34:48Z",
+  "published_at": "2026-07-14T14:34:48Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.2.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.2.0",
-  "body": "### Features\n- **graphql:** Add mercurius support with a top-level graphql.request span [#9142](https://github.com/DataDog/dd-trace-js/pull/9142)\n\n### Fixes\n- **AppSec:** Report request headers on Lambda spans when AppSec is enabled [#9257](https://github.com/DataDog/dd-trace-js/pull/9257)\n- **General:** Avoid rewriter source map marker in source [#9212](https://github.com/DataDog/dd-trace-js/pull/9212)\n- **General:** Skip loader hook registration when instrumentation bails out [#9242](https://github.com/DataDog/dd-trace-js/pull/9242)\n- **guardrails:** Forward abort telemetry synchronously to avoid a hung exit [#9268](https://github.com/DataDog/dd-trace-js/pull/9268)\n- **instrumentations:** Preserve asyncEnd wait with code-transformer 0.16 [#9256](https://github.com/DataDog/dd-trace-js/pull/9256)\n- **msgpack:** Cap MsgpackChunk growth at the agent intake limit [#8672](https://github.com/DataDog/dd-trace-js/pull/8672)\n- **OpenTelemetry:** Wrap sdk-trace TracerProvider for sdk-node 0.220+ [#9255](https://github.com/DataDog/dd-trace-js/pull/9255)\n- **ssi:** Run ssi in current proposal branch [#9223](https://github.com/DataDog/dd-trace-js/pull/9223)\n- **Test Optimization:** Stop propagating metadata to workers [#9261](https://github.com/DataDog/dd-trace-js/pull/9261)\n\n### Documentation\n- **Serverless:** Add serverless integrations skill [#9188](https://github.com/DataDog/dd-trace-js/pull/9188)\n\n### Internal (CI, Testing, Benchmarking)\n- **benchmarks:** Support BP_EXTERNAL_S3_URL override [#9155](https://github.com/DataDog/dd-trace-js/pull/9155)\n- **guardrails:** Skip node 24 initialize runtime checks [#9283](https://github.com/DataDog/dd-trace-js/pull/9283)\n- **init:** Skip node 22 loader guardrails [#9277](https://github.com/DataDog/dd-trace-js/pull/9277)\n- **Test Optimization:** Cover msw preload regression [#9262](https://github.com/DataDog/dd-trace-js/pull/9262)\n- **Test Optimization:** Stabilize atf final status assertion [#9253](https://github.com/DataDog/dd-trace-js/pull/9253)\n- **Test Optimization:** Stabilize request error tag reporting [#9254](https://github.com/DataDog/dd-trace-js/pull/9254)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.3.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.3.0",
+  "body": "### Features\n- **@modelcontextprotocol/sdk:** Add tracing for MCP server requests and client operations [#8916](https://github.com/DataDog/dd-trace-js/pull/8916)\n- **General:** Sample event loop delay per iteration on Node 26.5+ [#9273](https://github.com/DataDog/dd-trace-js/pull/9273)\n- **LLM Observability:** Propagate session_id to following spans and across services [MLOB-7756] [#9279](https://github.com/DataDog/dd-trace-js/pull/9279)\n\n### Fixes\n- **AppSec:** Instrument cookie parseCookie for cookie >=1.1 [#9272](https://github.com/DataDog/dd-trace-js/pull/9272)\n- **AppSec:** Log the error when the native WAF binding fails to load [#9288](https://github.com/DataDog/dd-trace-js/pull/9288)\n- **AppSec:** Suppress informational responses after blocking requests [#9290](https://github.com/DataDog/dd-trace-js/pull/9290)\n- **azure:** Enable Web Crypto on Node 18 [#9311](https://github.com/DataDog/dd-trace-js/pull/9311)\n- **azure-functions:** Fix span links and missing telemetry for non-HTTP triggers [#9278](https://github.com/DataDog/dd-trace-js/pull/9278)\n- **General:** Handle invalid programmatic option values [#9312](https://github.com/DataDog/dd-trace-js/pull/9312)\n- **graphql:** Honor errorExtensions on the mercurius request span [#9284](https://github.com/DataDog/dd-trace-js/pull/9284)\n- **OpenTelemetry:** Wire span processors passed to the provider constructor [#9285](https://github.com/DataDog/dd-trace-js/pull/9285)\n- **Test Optimization:** Do not mark unchanged tests as impacted [#9314](https://github.com/DataDog/dd-trace-js/pull/9314)\n- **Test Optimization:** Handle disabled tests in serial retries [#9313](https://github.com/DataDog/dd-trace-js/pull/9313)\n- **Test Optimization:** Omit empty FTR capture containers [#9304](https://github.com/DataDog/dd-trace-js/pull/9304)\n\n### Internal (CI, Testing, Benchmarking)\n- **AppSec:** Deflake api-security telemetry metrics integration tests [#9303](https://github.com/DataDog/dd-trace-js/pull/9303)\n- **General:** Select version targets by Node.js runtime [#9306](https://github.com/DataDog/dd-trace-js/pull/9306)\n- **lint:** Revert editorconfig checker from npm to docker [#9315](https://github.com/DataDog/dd-trace-js/pull/9315)\n- **OpenTelemetry:** Deflake OTLP metrics HTTP export test with fake timers [#9287](https://github.com/DataDog/dd-trace-js/pull/9287)\n- **readme:** Update eol column for v5 [#9267](https://github.com/DataDog/dd-trace-js/pull/9267)\n\n\n[MLOB-7756]: https://datadoghq.atlassian.net/browse/MLOB-7756?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
 }
