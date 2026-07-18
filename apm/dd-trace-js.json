@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 128.24.161.192. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/355130860",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/355130860/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/355130860/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.4.0",
+  "id": 355130860,
+  "author": {
+    "login": "dd-octo-sts[bot]",
+    "id": 200755185,
+    "node_id": "BOT_kgDOC_dH8Q",
+    "avatar_url": "https://avatars.githubusercontent.com/in/1157446?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D",
+    "html_url": "https://github.com/apps/dd-octo-sts",
+    "followers_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBwapYs4VKt3s",
+  "tag_name": "v6.4.0",
+  "target_commitish": "v6.x",
+  "name": "6.4.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-07-16T14:03:03Z",
+  "updated_at": "2026-07-16T14:04:02Z",
+  "published_at": "2026-07-16T14:04:02Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.4.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.4.0",
+  "body": "### Features\n- **electron:** Ship dd-trace-electron package with reduced dependencies [#8948](https://github.com/DataDog/dd-trace-js/pull/8948)\n- **General:** Trace core-API HTTP/2 servers [#9138](https://github.com/DataDog/dd-trace-js/pull/9138)\n- **graphql:** Trace Apollo Federation entity resolvers and skip the health-check [#9134](https://github.com/DataDog/dd-trace-js/pull/9134)\n- **Test Optimization:** Add EFD retry count override [#9344](https://github.com/DataDog/dd-trace-js/pull/9344)\n- **Test Optimization:** Diagnose and fix Jest suite skipping [#9339](https://github.com/DataDog/dd-trace-js/pull/9339)\n\n### Fixes\n- **aws-sdk:** Record kinesis DSM checkpoint only when context ships [#9183](https://github.com/DataDog/dd-trace-js/pull/9183)\n- **graphql:** Skip Apollo health checks in Mercurius [#9363](https://github.com/DataDog/dd-trace-js/pull/9363)\n- **LLM Observability:** Replace Object.create(span) with delegating wrapper to preserve OTel span private-field access [#9152](https://github.com/DataDog/dd-trace-js/pull/9152)\n- **proxy:** Retain feature modules across tracing reconfiguration [#9331](https://github.com/DataDog/dd-trace-js/pull/9331)\n- **Test Optimization:** Isolate retry status by spec [#9340](https://github.com/DataDog/dd-trace-js/pull/9340)\n- **Test Optimization:** Preserve zero EFD retry budgets [#9341](https://github.com/DataDog/dd-trace-js/pull/9341)\n- **Test Optimization:** Prevent negative test durations [#9380](https://github.com/DataDog/dd-trace-js/pull/9380)\n- **Test Optimization:** Resolve disabled git upload immediately [#9338](https://github.com/DataDog/dd-trace-js/pull/9338)\n- **Test Optimization:** Support cucumber 13.1 results [#9370](https://github.com/DataDog/dd-trace-js/pull/9370)\n- **Test Optimization:** Wait for all worker writers [#9349](https://github.com/DataDog/dd-trace-js/pull/9349)\n\n### Performance\n- **graphql:** Reuse filtered variables across resolve spans [#9225](https://github.com/DataDog/dd-trace-js/pull/9225)\n\n### Internal (CI, Testing, Benchmarking)\n- **AppSec:** Select mongodb version by Node.js runtime in plugin tests [#9322](https://github.com/DataDog/dd-trace-js/pull/9322)\n- **ci:** Set 16 retries for dd-sts-action [#9374](https://github.com/DataDog/dd-trace-js/pull/9374)\n- **Dependencies:** Bump bullmq [#9350](https://github.com/DataDog/dd-trace-js/pull/9350)\n- **Dependencies:** Bump pnpm [#9365](https://github.com/DataDog/dd-trace-js/pull/9365)\n- **Dependencies:** Bump protobufjs from 8.6.5 to 8.7.0 in /vendor in the vendor-minor-and-patch-dependencies group across 1 directory [#9325](https://github.com/DataDog/dd-trace-js/pull/9325)\n- **express:** Exercise loopback public entry [#9291](https://github.com/DataDog/dd-trace-js/pull/9291)\n- **express:** Trace middleware via layer prototype dispatch [#9067](https://github.com/DataDog/dd-trace-js/pull/9067)\n- **General:** Make no-traces timeout test deterministic [#9372](https://github.com/DataDog/dd-trace-js/pull/9372)\n- **General:** Prepare lint and Vitest for TypeScript 7 [#9345](https://github.com/DataDog/dd-trace-js/pull/9345)\n- **General:** Preserve coverage from custom plugin jobs [#9386](https://github.com/DataDog/dd-trace-js/pull/9386)\n- **General:** Reject when no matching trace arrives before the timeout [#9177](https://github.com/DataDog/dd-trace-js/pull/9177)\n- **General:** Select latest unversioned dependency range [#9352](https://github.com/DataDog/dd-trace-js/pull/9352)\n- **LLM Observability:** Centralize session_id injection in handleLLMObsInjection [#9353](https://github.com/DataDog/dd-trace-js/pull/9353)\n- **LLM Observability:** Cover compatible SDK provider version matrix [#9332](https://github.com/DataDog/dd-trace-js/pull/9332)\n- **Test Optimization:** Assert complete run payloads [#9358](https://github.com/DataDog/dd-trace-js/pull/9358)\n- **Test Optimization:** Make STS API key fetch non-fatal [#9320](https://github.com/DataDog/dd-trace-js/pull/9320)\n- **undici:** Force proxy tunnel in CONNECT regression test [#9271](https://github.com/DataDog/dd-trace-js/pull/9271)"
+}
