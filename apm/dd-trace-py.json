@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 40.75.131.24. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/355092457",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/355092457/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/355092457/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.11.1",
+  "id": 355092457,
+  "author": {
+    "login": "juanjux",
+    "id": 277378,
+    "node_id": "MDQ6VXNlcjI3NzM3OA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277378?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/juanjux",
+    "html_url": "https://github.com/juanjux",
+    "followers_url": "https://api.github.com/users/juanjux/followers",
+    "following_url": "https://api.github.com/users/juanjux/following{/other_user}",
+    "gists_url": "https://api.github.com/users/juanjux/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/juanjux/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/juanjux/subscriptions",
+    "organizations_url": "https://api.github.com/users/juanjux/orgs",
+    "repos_url": "https://api.github.com/users/juanjux/repos",
+    "events_url": "https://api.github.com/users/juanjux/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/juanjux/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4VKkfp",
+  "tag_name": "v4.11.1",
+  "target_commitish": "4.11",
+  "name": "4.11.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-07-17T07:51:39Z",
+  "updated_at": "2026-07-17T08:33:30Z",
+  "published_at": "2026-07-17T08:33:30Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.11.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.11.1",
+  "body": "### Bug Fixes\r\n\r\n- bootstrap: keep `yaml`/`_yaml` loaded during module cleanup, fixing an issue that broke PyYAML consumers such as Airflow.\r\n\r\n<!-- -->\r\n\r\n- Code Security (IAST): fixes an issue where taint tracking could abort the Python process when old-style `%` string formatting handled tainted text containing literal IAST evidence marker delimiters.\r\n\r\n<!-- -->\r\n\r\n- Code Security (IAST): Resolve a weak-hash false positive reported on ddtrace's own code when IAST and the live debugger (Symbol Database) are both enabled.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: This fix resolves an issue where annotating a span with a metric key containing a dot (e.g. `anomaly.query_count`) prevented the span from being ingested. Dots in metric keys are now replaced with underscores.\r\n\r\n<!-- -->\r\n\r\n- LLM Observability: This fixes an issue where cache write input tokens were not captured by the OpenAI integration when using newer models that include cache write token charges."
+}

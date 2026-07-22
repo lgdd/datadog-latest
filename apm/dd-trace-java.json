@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 34462555,
       "digest": "sha256:af85b91429a74f77ab3deba07fdcc2856643dbb3681bc4818cbb542e6401f6f9",
-      "download_count": 344,
+      "download_count": 588,
       "created_at": "2026-07-16T17:39:50Z",
       "updated_at": "2026-07-16T17:39:52Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.64.1/dd-java-agent-1.64.1.jar"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 34462555,
       "digest": "sha256:af85b91429a74f77ab3deba07fdcc2856643dbb3681bc4818cbb542e6401f6f9",
-      "download_count": 7480,
+      "download_count": 9727,
       "created_at": "2026-07-16T17:39:48Z",
       "updated_at": "2026-07-16T17:39:50Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.64.1/dd-java-agent.jar"
