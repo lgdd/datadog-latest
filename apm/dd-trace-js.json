@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358376722",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358376722/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/358376722/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.5.0",
-  "id": 358376722,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358662769",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358662769/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/358662769/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.6.0",
+  "id": 358662769,
   "author": {
     "login": "dd-octo-sts[bot]",
     "id": 200755185,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4VXGUS",
-  "tag_name": "v6.5.0",
+  "node_id": "RE_kwDOBwapYs4VYMJx",
+  "tag_name": "v6.6.0",
   "target_commitish": "v6.x",
-  "name": "6.5.0",
+  "name": "6.6.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-07-22T23:26:41Z",
-  "updated_at": "2026-07-22T23:27:36Z",
-  "published_at": "2026-07-22T23:27:36Z",
+  "created_at": "2026-07-23T12:16:50Z",
+  "updated_at": "2026-07-23T12:17:46Z",
+  "published_at": "2026-07-23T12:17:46Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.5.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.5.0",
-  "body": "### Features\n- **AI Guard:** Evaluating anthropic calls with AI guard automatically [#9219](https://github.com/DataDog/dd-trace-js/pull/9219)\n- **AI Guard:** Revert \"Remove Anthropic auto-instrumentation\" [#9495](https://github.com/DataDog/dd-trace-js/pull/9495)\n- **AppSec:** Report DD_APPSEC_AGENTIC_ONBOARDING in config telemetry [#9486](https://github.com/DataDog/dd-trace-js/pull/9486)\n- **ci:** Add code coverage report flags [#9418](https://github.com/DataDog/dd-trace-js/pull/9418)\n- **ci:** Add Test Optimization validation runbook [#9323](https://github.com/DataDog/dd-trace-js/pull/9323)\n- **express:** Surface repeated middleware next() as a span event [#9243](https://github.com/DataDog/dd-trace-js/pull/9243)\n- **Feature Flags:** Support agentless feature flag configuration [#9397](https://github.com/DataDog/dd-trace-js/pull/9397)\n- **frontdoor-agw:** Add implementation for Azure Frontdoor and App Gateway inferred spans [#9089](https://github.com/DataDog/dd-trace-js/pull/9089)\n- **graphql:** Add field schema coordinates [#9346](https://github.com/DataDog/dd-trace-js/pull/9346)\n- **LLM Observability:** Capture audio in messages and OpenAI chat completions [#9083](https://github.com/DataDog/dd-trace-js/pull/9083)\n- **LLM Observability:** Control-plane HTTP client for experiments [#9158](https://github.com/DataDog/dd-trace-js/pull/9158)\n- **LLM Observability:** Support ai sdk v7 embedMany operations [#9466](https://github.com/DataDog/dd-trace-js/pull/9466)\n- **OpenTelemetry:** Correct Next.js root request span naming [#9119](https://github.com/DataDog/dd-trace-js/pull/9119)\n- **Test Optimization:** Upload failure screenshots [#9433](https://github.com/DataDog/dd-trace-js/pull/9433)\n\n### Fixes\n- **Feature Flags:** Support file-traced optional provider loading [#9324](https://github.com/DataDog/dd-trace-js/pull/9324)\n- **General:** Apply pm2_env env vars before tracer init [#8863](https://github.com/DataDog/dd-trace-js/pull/8863)\n- **General:** Preserve ESM export aliases [#9436](https://github.com/DataDog/dd-trace-js/pull/9436)\n- **graphql:** Preserve hook error overrides [#9435](https://github.com/DataDog/dd-trace-js/pull/9435)\n- **LLM Observability:** Fix infinite recursion when using `BedrockChatLanguageModel` [#9487](https://github.com/DataDog/dd-trace-js/pull/9487)\n- **loader:** Defer instrumentation graph during preload [#9485](https://github.com/DataDog/dd-trace-js/pull/9485)\n- **nyc:** Preserve report generation failures [#9337](https://github.com/DataDog/dd-trace-js/pull/9337)\n- **standalone:** Stamp _dd.apm.enabled on every exported chunk [#9483](https://github.com/DataDog/dd-trace-js/pull/9483)\n- **Test Optimization:** Clear policies after settings failure [#9347](https://github.com/DataDog/dd-trace-js/pull/9347)\n- **Test Optimization:** Harden RUM correlation failures [#9408](https://github.com/DataDog/dd-trace-js/pull/9408)\n- **Test Optimization:** Release removed replay probes [#9336](https://github.com/DataDog/dd-trace-js/pull/9336)\n- **Test Optimization:** Restore manual test context [#9356](https://github.com/DataDog/dd-trace-js/pull/9356)\n- **Test Optimization:** Support NODE_OPTIONS auto-instrumentation [#9371](https://github.com/DataDog/dd-trace-js/pull/9371)\n- **Test Optimization:** Support numeric retries with ATR [#9484](https://github.com/DataDog/dd-trace-js/pull/9484)\n- **Test Optimization:** Support version 13.2 [#9456](https://github.com/DataDog/dd-trace-js/pull/9456)\n\n### Performance\n- **graphql:** Reuse path-string cache for collapsed fields [#9401](https://github.com/DataDog/dd-trace-js/pull/9401)\n\n### Documentation\n- **electron:** Replace README with internal-use-only notice on publish [#9407](https://github.com/DataDog/dd-trace-js/pull/9407)\n- **orchestrion:** Refresh AST-rewriter reference for current engine [#9133](https://github.com/DataDog/dd-trace-js/pull/9133)\n\n### Internal (CI, Testing, Benchmarking)\n- **AppSec:** Deflake RASP SSRF \"should not detect threat\" express tests [#9417](https://github.com/DataDog/dd-trace-js/pull/9417)\n- **AppSec:** Drop redundant yarn install from sourcemap test [#9448](https://github.com/DataDog/dd-trace-js/pull/9448)\n- **ci:** Tolerate coverage preload in clean env tests [#9429](https://github.com/DataDog/dd-trace-js/pull/9429)\n- **couchbase, kafkajs:** Wait for client readiness [#9455](https://github.com/DataDog/dd-trace-js/pull/9455)\n- **coverage:** Warm source maps before process exit [#9330](https://github.com/DataDog/dd-trace-js/pull/9330)\n- **Dependencies:** Bump @anthropic-ai/claude-agent-sdk [#9474](https://github.com/DataDog/dd-trace-js/pull/9474)\n- **Dependencies:** Bump brace-expansion [#9452](https://github.com/DataDog/dd-trace-js/pull/9452)\n- **Dependencies:** Bump bullmq [#9471](https://github.com/DataDog/dd-trace-js/pull/9471)\n- **Dependencies:** Bump import-in-the-middle to 3.3.2 [#9447](https://github.com/DataDog/dd-trace-js/pull/9447)\n- **Dependencies:** Bump the vendor-minor-and-patch-dependencies group across 1 directory with 3 updates [#9470](https://github.com/DataDog/dd-trace-js/pull/9470)\n- **electron:** Give HTTP trace assertions the same timeout as IPC tests [#9409](https://github.com/DataDog/dd-trace-js/pull/9409)\n- **electron:** Stabilize flaky CI (install/apt retries, IPC teardown) [#9316](https://github.com/DataDog/dd-trace-js/pull/9316)\n- **General:** Assert DD_APPSEC_AGENTIC_ONBOARDING in v5 appsec config [#9489](https://github.com/DataDog/dd-trace-js/pull/9489)\n- **General:** Bind mock server to tracer address [#9400](https://github.com/DataDog/dd-trace-js/pull/9400)\n- **General:** Isolate span sampling rules fixture [#9430](https://github.com/DataDog/dd-trace-js/pull/9430)\n- **General:** Run package scripts with npm [#9405](https://github.com/DataDog/dd-trace-js/pull/9405)\n- **General:** Update eslint unicorn plugin to v65 [#8838](https://github.com/DataDog/dd-trace-js/pull/8838)\n- **General:** Update one-pipeline to 1.1.0 [#9438](https://github.com/DataDog/dd-trace-js/pull/9438)\n- **General:** Validate CPU percentage against process usage [#9289](https://github.com/DataDog/dd-trace-js/pull/9289)\n- **init:** Guard fixture source logging [#9269](https://github.com/DataDog/dd-trace-js/pull/9269)\n- **LLM Observability:** Bump tested openai version with new cassettes [#9439](https://github.com/DataDog/dd-trace-js/pull/9439)\n- **workflows:** Add dd-octo-sts chainguard policy files [#8438](https://github.com/DataDog/dd-trace-js/pull/8438)\n- **workflows:** Replace GITHUB_TOKEN with dd-octo-sts [#8432](https://github.com/DataDog/dd-trace-js/pull/8432)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.6.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.6.0",
+  "body": "### Features\n- **Profiling:** Pack column numbers for server-side unminification [#9501](https://github.com/DataDog/dd-trace-js/pull/9501)\n\n### Fixes\n- **Test Optimization:** Complete test runs after subscriber loss [#9381](https://github.com/DataDog/dd-trace-js/pull/9381)\n\n### Internal (CI, Testing, Benchmarking)\n- **Dependencies:** Bump pnpm [#9498](https://github.com/DataDog/dd-trace-js/pull/9498)"
 }
