@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358662769",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/358662769/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/358662769/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.6.0",
-  "id": 358662769,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/360698278",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/360698278/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/360698278/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.7.0",
+  "id": 360698278,
   "author": {
     "login": "dd-octo-sts[bot]",
     "id": 200755185,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBwapYs4VYMJx",
-  "tag_name": "v6.6.0",
+  "node_id": "RE_kwDOBwapYs4Vf9Gm",
+  "tag_name": "v6.7.0",
   "target_commitish": "v6.x",
-  "name": "6.6.0",
+  "name": "6.7.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-07-23T12:16:50Z",
-  "updated_at": "2026-07-23T12:17:46Z",
-  "published_at": "2026-07-23T12:17:46Z",
+  "created_at": "2026-07-27T20:47:31Z",
+  "updated_at": "2026-07-27T20:48:25Z",
+  "published_at": "2026-07-27T20:48:25Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.6.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.6.0",
-  "body": "### Features\n- **Profiling:** Pack column numbers for server-side unminification [#9501](https://github.com/DataDog/dd-trace-js/pull/9501)\n\n### Fixes\n- **Test Optimization:** Complete test runs after subscriber loss [#9381](https://github.com/DataDog/dd-trace-js/pull/9381)\n\n### Internal (CI, Testing, Benchmarking)\n- **Dependencies:** Bump pnpm [#9498](https://github.com/DataDog/dd-trace-js/pull/9498)"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.7.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.7.0",
+  "body": "### Features\n- **LLM Observability:** Add support for OpenAI Agents (trace-processor) [#8044](https://github.com/DataDog/dd-trace-js/pull/8044)\n- **span-stats:** Encode SpanKind and GRPCStatusCode in v0.6 stats payload [#9190](https://github.com/DataDog/dd-trace-js/pull/9190)\n\n### Fixes\n- **Feature Flags:** Allow custom agentless endpoints [#9481](https://github.com/DataDog/dd-trace-js/pull/9481)\n- **General:** Make peer service finalization idempotent [#9364](https://github.com/DataDog/dd-trace-js/pull/9364)\n- **LLM Observability:** Address OpenAI Agents review feedback [#9526](https://github.com/DataDog/dd-trace-js/pull/9526)\n- **LLM Observability:** Format AI SDK rich tool results [#9399](https://github.com/DataDog/dd-trace-js/pull/9399)\n- **LLM Observability:** Llm observability traces have custom trace IDs [#9460](https://github.com/DataDog/dd-trace-js/pull/9460)\n- **standalone:** Stamp _dd.apm.enabled on every span [#9506](https://github.com/DataDog/dd-trace-js/pull/9506)\n- **Test Optimization:** Harden validation workflow [#9431](https://github.com/DataDog/dd-trace-js/pull/9431)\n- **Test Optimization:** Reject malformed settings policies [#9362](https://github.com/DataDog/dd-trace-js/pull/9362)\n- **webpack:** Opt out of typescript auto resolve [#9521](https://github.com/DataDog/dd-trace-js/pull/9521)\n\n### Internal (CI, Testing, Benchmarking)\n- **aws-sdk:** Disable clock skew correction in the Lambda spec [#9537](https://github.com/DataDog/dd-trace-js/pull/9537)\n- **release:** Exclude release proposal branches from license auto-commit [#9522](https://github.com/DataDog/dd-trace-js/pull/9522)\n- **Test Optimization:** Cover worker thread preload [#9528](https://github.com/DataDog/dd-trace-js/pull/9528)"
 }
