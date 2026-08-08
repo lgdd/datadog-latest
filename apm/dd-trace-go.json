@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/345243747",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/345243747/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/345243747/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.9.1",
-  "id": 345243747,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/366633550",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-go/releases/366633550/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-go/releases/366633550/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-go/releases/tag/v2.9.2",
+  "id": 366633550,
   "author": {
     "login": "darccio",
     "id": 163009,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBAi6ic4UlABj",
-  "tag_name": "v2.9.1",
-  "target_commitish": "release-v2.9.x",
-  "name": "v2.9.1",
+  "node_id": "RE_kwDOBAi6ic4V2mJO",
+  "tag_name": "v2.9.2",
+  "target_commitish": "main",
+  "name": "v2.9.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-06-26T09:34:45Z",
-  "updated_at": "2026-06-26T09:57:40Z",
-  "published_at": "2026-06-26T09:57:40Z",
+  "created_at": "2026-08-07T08:52:41Z",
+  "updated_at": "2026-08-07T09:10:08Z",
+  "published_at": "2026-08-07T09:10:08Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.9.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.9.1",
-  "body": "### Application Performance Monitoring (APM)\r\n\r\n* Revert \"fix(ddtrace/tracer): cache trace ID hex encoding (#4481)\" by @darccio\r\n\r\n### Application Security Management (ASM)\r\n\r\n* perf(appsec): make rate limiter synchronous to remove idle goroutine cost by @eliottness in https://github.com/DataDog/dd-trace-go/pull/4956\r\n\r\n### CI Visibility\r\n\r\n* fix(internal/civisibility): fix known-tests API pagination by @tonyredondo in https://github.com/DataDog/dd-trace-go/pull/4824\r\n* feat(ci-visibility): cache Go read requests and add git upload kill switch by @tonyredondo in https://github.com/DataDog/dd-trace-go/pull/4786\r\n* fix(internal/civisibility): fix agent UDS requests by @tonyredondo in https://github.com/DataDog/dd-trace-go/pull/4852\r\n* fix(civisibility): truncate CI Visibility meta values by @tonyredondo in https://github.com/DataDog/dd-trace-go/pull/4853\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.9.0...v2.9.1",
-  "mentions_count": 3
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-go/tarball/v2.9.2",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-go/zipball/v2.9.2",
+  "body": "## What's Changed\r\n\r\n### General\r\n\r\n* fix(openfeature): isolate invalid flags by @leoromanovsky in https://github.com/DataDog/dd-trace-go/pull/5105\r\n* fix(appsec): resolve the client IP once at the instrumentation boundary, and trust GCP's reported peer by @eliottness #5118 \r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-go/compare/v2.9.1...v2.9.2",
+  "mentions_count": 2
 }
