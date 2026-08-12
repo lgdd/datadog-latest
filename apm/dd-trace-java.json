@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-08-10T16:44:06Z",
-  "updated_at": "2026-08-10T17:58:57Z",
+  "updated_at": "2026-08-11T10:05:12Z",
   "published_at": "2026-08-10T16:55:02Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 34678689,
       "digest": "sha256:04fa3c1ec79d6bf112f9b115465b2f41f352474b7aeb4178961adf4b24ff351d",
-      "download_count": 51,
+      "download_count": 168,
       "created_at": "2026-08-10T17:20:41Z",
       "updated_at": "2026-08-10T17:20:42Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.65.1/dd-java-agent-1.65.1.jar"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 34678689,
       "digest": "sha256:04fa3c1ec79d6bf112f9b115465b2f41f352474b7aeb4178961adf4b24ff351d",
-      "download_count": 615,
+      "download_count": 3032,
       "created_at": "2026-08-10T17:20:39Z",
       "updated_at": "2026-08-10T17:20:40Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.65.1/dd-java-agent.jar"
@@ -183,6 +183,6 @@
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-java/tarball/v1.65.1",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-java/zipball/v1.65.1",
-  "body": "# Components\r\n\r\n## OpenFeature\r\n\r\n* :bug: Handle gracefully malformed flag evaluations; migrate Date->Instant (#12176 - @leoromanovsky)\r\n\r\n## Profiling\r\n\r\n* :bug: Update java-profiler (ddprof) to 1.49.0 (#12173 - @kaahos)\r\n\r\n",
+  "body": "# Components\r\n\r\n## OpenFeature\r\n\r\n* :bug: Handle gracefully malformed flag evaluations; migrate Date->Instant (#12176 - @leoromanovsky)\r\n\r\n## Profiling\r\n\r\n* :bug: Update java-profiler (ddprof) to 1.49.0 (#12173 - @kaahos)\r\n\r\n   _Most significant changes/fixes in [ddprof 1.49.0](https://github.com/DataDog/java-profiler/releases/tag/v_1.49.0):_\r\n\r\n   - Missing `libgcc_s.so.1` on the host no longer causes a crash — [DataDog/java-profiler#689](https://github.com/DataDog/java-profiler/pull/689), [DataDog/java-profiler#720](https://github.com/DataDog/java-profiler/pull/720) (Alpine/musl)\r\n   - Avoid retaining invalid VM method pointers — [DataDog/java-profiler#699](https://github.com/DataDog/java-profiler/pull/699)\r\n   - Guard `Profiler::recordSample()` stack walk against faults — [DataDog/java-profiler#687](https://github.com/DataDog/java-profiler/pull/687)\r\n   - Guard `Recording::writeElement` against SIGSEGV on a corrupted metadata tree — [DataDog/java-profiler#692](https://github.com/DataDog/java-profiler/pull/692)\r\n   - Fix memory leak in `JfrMetadata::reset()` — [DataDog/java-profiler#694](https://github.com/DataDog/java-profiler/pull/694)\r\n  - Remove legacy DirectByteBuffer-based OTEP context storage (Phase 3) — [DataDog/java-profiler#696](https://github.com/DataDog/java-profiler/pull/696)\r\n   - Never patch the profiler's own import table — [DataDog/java-profiler#721](https://github.com/DataDog/java-profiler/pull/721)\r\n\r\n",
   "mentions_count": 2
 }
