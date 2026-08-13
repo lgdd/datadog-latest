@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/341831777",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/341831777/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-cpp/releases/341831777/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-cpp/releases/tag/v2.1.1",
-  "id": 341831777,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/369231392",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/369231392/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-cpp/releases/369231392/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-cpp/releases/tag/v2.2.0",
+  "id": 369231392,
   "author": {
     "login": "xlamorlette-datadog",
     "id": 173897879,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOHpEi184UX_Bh",
-  "tag_name": "v2.1.1",
+  "node_id": "RE_kwDOHpEi184WAgYg",
+  "tag_name": "v2.2.0",
   "target_commitish": "main",
-  "name": "v2.1.1",
+  "name": "v2.2.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-06-19T08:32:07Z",
-  "updated_at": "2026-06-19T08:55:03Z",
-  "published_at": "2026-06-19T08:55:03Z",
+  "created_at": "2026-08-12T12:42:13Z",
+  "updated_at": "2026-08-12T13:09:19Z",
+  "published_at": "2026-08-12T13:09:19Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/tarball/v2.1.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/zipball/v2.1.1",
-  "body": "This release fixes two shutdown crash issues.\r\n\r\n## What's Changed\r\n\r\n### Bug fixes\r\n* For telemetry, add `shutdown()` function that cancels scheduled tasks, sends the app-closing payload, and releases the HTTP client. #326\r\n* Capture proxy related environment variables at curl client construction to avoid crash (notably at shutdown). #328 \r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-cpp/compare/v2.1.0...v2.1.1"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/tarball/v2.2.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/zipball/v2.2.0",
+  "body": "## What's Changed\r\n\r\nThis release expands OpenTelemetry support with process context publishing and span links, improves trace propagation controls, and adds IPv6 support for agent hosts. It also refreshes the design and conventions documentation.\r\n\r\n### Functional Changes\r\n\r\n* Add support for publishing the OpenTelemetry process context. #324\r\n* Add support for OpenTelemetry-style span links. #330\r\n* Add support for `DD_TRACE_PROPAGATION_BEHAVIOR_EXTRACT` to control incoming distributed-trace context extraction. #337\r\n* Add support for IPv6 agent host addresses. #350\r\n\r\n### Technical Change\r\n\r\n* Major update to the Design documentation. #331 #334 #335 #338 #339\r\n* Add Conventions documentation. #336 #349\r\n\r\n### Bug Fixes\r\n\r\n* Add `_dd.apm.enabled:0` to every span. #343\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-cpp/compare/v2.1.1...v2.2.0"
 }
