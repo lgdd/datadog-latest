@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7230664,
       "digest": "sha256:88c710376fd3a16bf3e28bd92298f4bd5b880daff2b23e5651d7eedf94aadadd",
-      "download_count": 227,
+      "download_count": 353,
       "created_at": "2026-09-11T12:54:07Z",
       "updated_at": "2026-09-11T12:54:08Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.143.0/datadog_lambda_node18.12.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 7229867,
       "digest": "sha256:4bf1dfc5415094c914b1591cb6500d7043dc8533bb4af6e81f037498f82369a2",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-09-11T12:54:09Z",
       "updated_at": "2026-09-11T12:54:10Z",
       "browser_download_url": "https://github.com/DataDog/datadog-lambda-js/releases/download/v12.143.0/datadog_lambda_node22.11.zip"
