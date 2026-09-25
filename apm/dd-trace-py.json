@@ -33,12 +33,12 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-09-22T07:53:11Z",
-  "updated_at": "2026-09-22T16:16:56Z",
+  "updated_at": "2026-09-24T08:03:45Z",
   "published_at": "2026-09-22T16:16:56Z",
   "assets": [
 
   ],
   "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.15.2",
   "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.15.2",
-  "body": "### Upgrade Notes\r\n\r\n- tracing: DD_TRACE_OTEL_CTX_ENABLED now defaults to false until a Linux-native memory leak caused by setting it to true is fixed.\r\n\r\n### Bug Fixes\r\n\r\n- LLM Observability: Fixes an issue where abandoned or disconnected streamed LLM requests can leave spans unfinished, causing memory to grow in long-running web workers.\r\n- CI Visibility: Fixes an issue where Auto Test Retries do not retry tests that use `pytest-timeout` thread mode and terminate a pytest-xdist worker.\r\n- LLM Observability: An issue where where streamed LLM requests could leave spans unfinished and cause memory to grow in long-running processes has been fixed.\r\n"
+  "body": "### Upgrade Notes\r\n\r\n- tracing: DD_TRACE_OTEL_CTX_ENABLED now defaults to false until a Linux-native memory leak caused by setting it to true is fixed.\r\n\r\n### Bug Fixes\r\n\r\n- LLM Observability: Fixes an issue where abandoned or disconnected streamed LLM requests can leave spans unfinished, causing memory to grow in long-running web workers.\r\n- CI Visibility: Fixes an issue where Auto Test Retries do not retry tests that use `pytest-timeout` thread mode and terminate a pytest-xdist worker."
 }
