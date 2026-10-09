@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/404745633",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/404745633/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/404745633/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.15.5",
-  "id": 404745633,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/406530819",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/406530819/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/406530819/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.15.6",
+  "id": 406530819,
   "author": {
     "login": "florentinl",
     "id": 101594032,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4YH-2h",
-  "tag_name": "v4.15.5",
+  "node_id": "RE_kwDOA6uE5s4YOysD",
+  "tag_name": "v4.15.6",
   "target_commitish": "4.15",
-  "name": "4.15.5",
+  "name": "4.15.6",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-06T13:24:03Z",
-  "updated_at": "2026-10-06T13:42:07Z",
-  "published_at": "2026-10-06T13:42:07Z",
+  "created_at": "2026-10-07T16:10:54Z",
+  "updated_at": "2026-10-08T07:37:21Z",
+  "published_at": "2026-10-08T07:37:21Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.15.5",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.15.5",
-  "body": "### Bug Fixes\r\n\r\n- Code Security (IAST): fixes an issue where taint tracking could abort the Python process when old-style `%` string formatting handled tainted text containing a lone surrogate character.\r\n"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.15.6",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.15.6",
+  "body": "### Security Issues\r\n\r\n- tracing: Fixes a security vulnerability, as described in [GHSA-3633-r77q-h3v3](https://github.com/DataDog/dd-trace-py/security/advisories/GHSA-3633-r77q-h3v3).\r\n"
 }
