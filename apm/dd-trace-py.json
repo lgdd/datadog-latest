@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 13.71.234.164. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/425894110",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/425894110/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/425894110/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.16.1",
+  "id": 425894110,
+  "author": {
+    "login": "mabdinur",
+    "id": 62392438,
+    "node_id": "MDQ6VXNlcjYyMzkyNDM4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/62392438?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mabdinur",
+    "html_url": "https://github.com/mabdinur",
+    "followers_url": "https://api.github.com/users/mabdinur/followers",
+    "following_url": "https://api.github.com/users/mabdinur/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mabdinur/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mabdinur/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mabdinur/subscriptions",
+    "organizations_url": "https://api.github.com/users/mabdinur/orgs",
+    "repos_url": "https://api.github.com/users/mabdinur/repos",
+    "events_url": "https://api.github.com/users/mabdinur/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mabdinur/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOA6uE5s4ZYqDe",
+  "tag_name": "v4.16.1",
+  "target_commitish": "4.16",
+  "name": "4.16.1",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-10-27T19:17:00Z",
+  "updated_at": "2026-10-27T19:39:34Z",
+  "published_at": "2026-10-27T19:39:34Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.16.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.16.1",
+  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n### Bug Fixes\r\n\r\n- internal: Fixes an issue where forked child processes hang and never exit, causing memory usage to grow and the parent process to stall, when several threads fork at the same time (for example, `multiprocessing.Process` started from a thread pool).\r\n\r\n- dynamic instrumentation: Fixes an issue where an application thread could hang indefinitely when probes, Exception Replay, or Code Origin produced data faster than it could be uploaded.\r\n\r\n- google-adk: Fixes an issue where applications using `google-adk` 2.12.0 fail to start with LLM Observability enabled, or start without tool call and code execution spans otherwise. Tool calls made through `Runner.run_live` are now also traced on `google-adk` 2.12.0.\r\n\r\n- otel: Fixes an issue where OTLP HTTP export requests are incorrectly traced when OpenTelemetry logs or metrics collection is enabled with `opentelemetry-exporter-otlp` 1.45.0 or later.\r\n\r\n- opentelemetry: Fixes an issue where `OTEL_LOGS_EXPORTER=otlp` does not enable OTLP log export.\r\n\r\n- tracing: Fixes an issue where `baggage` in `OTEL_PROPAGATORS` is reported as unsupported and ignored.\r\n\r\n- internal: Fixes an issue where wrapping an obfuscated function (for example PyArmor) on Python 3.15 proceeds into instrumentation setup instead of failing cleanly. Those functions still cannot be instrumented.\r\n\r\n- LLM Observability: This fix resolves an issue where `google_genai` and `vertexai` LLM spans did not include `tool_use_prompt_token_count` in the input token count.\r\n\r\n- Code Security (IAST): Fixes an issue where SQL values escaped by PyMySQL 1.2.1 and later are not recognized as sanitized.\r\n"
+}
