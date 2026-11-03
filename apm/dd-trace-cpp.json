@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/413554516",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/413554516/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-cpp/releases/413554516/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-cpp/releases/tag/v2.4.0",
-  "id": 413554516,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/431660235",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/releases/431660235/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-cpp/releases/431660235/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-cpp/releases/tag/v2.4.1",
+  "id": 431660235,
   "author": {
     "login": "xlamorlette-datadog",
     "id": 173897879,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOHpEi184YpldU",
-  "tag_name": "v2.4.0",
+  "node_id": "RE_kwDOHpEi184ZupzL",
+  "tag_name": "v2.4.1",
   "target_commitish": "main",
-  "name": "v2.4.0",
+  "name": "v2.4.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-15T08:00:52Z",
-  "updated_at": "2026-10-15T08:41:26Z",
-  "published_at": "2026-10-15T08:35:56Z",
+  "created_at": "2026-11-02T15:55:43Z",
+  "updated_at": "2026-11-02T16:17:45Z",
+  "published_at": "2026-11-02T16:14:02Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/tarball/v2.4.0",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/zipball/v2.4.0",
-  "body": "## What's Changed\r\n\r\nThis release adds a telemetry API to report product state changes and tags traces with their OpenTelemetry Protocol export mode.\r\n\r\n### Functional Change\r\n\r\n* OpenTelemetry: Tag traces with OpenTelemetry Protocol export mode. #378\r\n* Telemetry: Add API to report product state changes. #383\r\n\r\n### Technical Change\r\n\r\n* Lint code with Clang Tidy. #372\r\n* Add detailed contribution guidelines. #386\r\n\r\n### Bug Fixes\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-cpp/compare/v2.3.0...v2.4.0"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/tarball/v2.4.1",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-cpp/zipball/v2.4.1",
+  "body": "This release upgrades the bundled Curl library.\r\n\r\n## What's Changed\r\n\r\n### Bug Fix\r\n\r\n* Upgrade bundled Curl from `8.8.0` to `8.23.0` (latest version; see [Curl Releases](https://curl.se/docs/releases.html)), to fix, in some integrations, incorrect handling of file descriptors above 1024. #394\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-cpp/compare/v2.4.0...v2.4.1"
 }
