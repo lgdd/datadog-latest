@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/422177878",
-  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/422177878/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-java/releases/422177878/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/datadog-lambda-java/releases/tag/v29",
-  "id": 422177878,
+  "url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/434098598",
+  "assets_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/releases/434098598/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/datadog-lambda-java/releases/434098598/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/datadog-lambda-java/releases/tag/v30",
+  "id": 434098598,
   "author": {
     "login": "rithikanarayan",
     "id": 93233069,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDODh3m084ZKexW",
-  "tag_name": "v29",
+  "node_id": "RE_kwDODh3m084Z39Gm",
+  "tag_name": "v30",
   "target_commitish": "main",
-  "name": "v29",
+  "name": "v30",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-23T18:23:28Z",
-  "updated_at": "2026-10-23T18:27:39Z",
-  "published_at": "2026-10-23T18:27:39Z",
+  "created_at": "2026-11-04T15:03:43Z",
+  "updated_at": "2026-11-04T15:21:57Z",
+  "published_at": "2026-11-04T15:21:57Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/tarball/v29",
-  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/zipball/v29",
-  "body": ">[!IMPORTANT]\r\n> dd-trace-java version [v1.67.1](https://github.com/DataDog/dd-trace-java/releases/tag/v1.67.1)\r\n\r\n## What's changed\r\n - Added support for AppSec in Java Lambdas\r\n\r\n## dd-trace-java layer ARN:\r\n\r\n### AWS Regions\r\n```\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:dd-trace-java:29\r\n```\r\n\r\n### AWS gov regions\r\n```\r\narn:aws-us-gov:lambda:<AWS_GOV_REGION>:002406178527:layer:dd-trace-java:29\r\n```\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-java/compare/v1.66.0...v1.67.1"
+  "tarball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/tarball/v30",
+  "zipball_url": "https://api.github.com/repos/DataDog/datadog-lambda-java/zipball/v30",
+  "body": ">[!IMPORTANT]\r\n> dd-trace-java version [v1.68.1](https://github.com/DataDog/dd-trace-java/releases/tag/v1.68.1)\r\n\r\n## What's changed\r\n🐛 Fix Lambda AppSec processing without a source IP and duplicate cookies (https://github.com/DataDog/dd-trace-java/pull/12994 - @claponcet)\r\n🐛 Parse X-Forwarded-Port in Lambda without exceptions (quick fix) (https://github.com/DataDog/dd-trace-java/pull/12791 - @dougqh)\r\n🐛 Flush LLM Obs intake writer synchronously in serverless environments (https://github.com/DataDog/dd-trace-java/pull/12249 - @purple4reina)\r\n\r\n## dd-trace-java layer ARN:\r\n\r\n### AWS Regions\r\n```\r\narn:aws:lambda:<AWS_REGION>:464622532012:layer:dd-trace-java:30\r\n```\r\n\r\n### AWS gov regions\r\n```\r\narn:aws-us-gov:lambda:<AWS_GOV_REGION>:002406178527:layer:dd-trace-java:30\r\n```\r\n\r\n**Full Changelog**: https://github.com/DataDog/dd-trace-java/compare/v1.67.1...v1.68.1",
+  "mentions_count": 3
 }
