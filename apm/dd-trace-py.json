@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/448916316",
-  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/448916316/assets",
-  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/448916316/assets{?name,label}",
-  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.17.1",
-  "id": 448916316,
+  "url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/451507307",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-py/releases/451507307/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-py/releases/451507307/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-py/releases/tag/v4.17.2",
+  "id": 451507307,
   "author": {
     "login": "taegyunkim",
     "id": 6655247,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA6uE5s4awetc",
-  "tag_name": "v4.17.1",
-  "target_commitish": "831a9fc9553dfef31f578d3e8d4f48e6ad8c9ef2",
-  "name": "4.17.1",
+  "node_id": "RE_kwDOA6uE5s4a6XRr",
+  "tag_name": "v4.17.2",
+  "target_commitish": "4.17",
+  "name": "4.17.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-16T14:48:35Z",
-  "updated_at": "2026-11-17T16:45:11Z",
-  "published_at": "2026-11-17T16:45:11Z",
+  "created_at": "2026-11-19T14:57:44Z",
+  "updated_at": "2026-11-19T15:10:39Z",
+  "published_at": "2026-11-19T15:10:39Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.17.1",
-  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.17.1",
-  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n## v4.17.1\r\n\r\n### Bug Fixes\r\n\r\n- LLM Observability\r\n  - Fixes an issue where LLM Observability spans were reported as their own parent, so that traces lost their structure. This could happen when LLM Observability was enabled with `DD_LLMOBS_ENABLED` and Remote Configuration was enabled.\r\n- profiling\r\n  - Fixes an issue where the stack profiler permanently fell back to a slower memory-copy method when the process forked during the first seconds after startup.\r\n  - Fixes an issue where the stack profiler permanently fell back to a slower memory-copy method when `faulthandler` was enabled during the first seconds after startup.\r\n  - Fixes an issue where child processes can hang after fork when profiling is enabled.\r\n  - Fixes a segmentation fault that could occur when the process was close to its memory limit (for example `RLIMIT_AS`). Under that pressure, some stack frames may be missing from profiles instead of crashing the process.\r\n\r\n"
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-py/tarball/v4.17.2",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-py/zipball/v4.17.2",
+  "body": "Estimated end-of-life date, accurate to within three months: 05-2027\r\nSee [the support level definitions](https://docs.datadoghq.com/tracing/trace_collection/compatibility/python/#releases) for more information.\r\n\r\n## v4.17.2\r\n\r\n### Bug Fixes\r\n\r\n- Code Security (IAST)\r\n  - Fixes an issue where untrusted deserialization vulnerabilities are reported with an unrecognized vulnerability type and are not displayed correctly in Datadog.\r\n- profiling\r\n  - Fixes an issue where the stack profiler's CPU usage grows over time, and stays high even when the application is idle, in asyncio applications that run many short-lived tasks with `asyncio.gather`. Also fixes asyncio tasks that could go missing from profiles after calling `asyncio.gather`.\r\n  - Fixes an issue where an asyncio Task created with `asyncio.create_task` is sometimes reported without the stack of the Task that created it.\r\n  - Fixes an issue where the experimental remote configuration feature listened to more configuration types than expected.\r\n- tracing\r\n  - Fixes `runtime.python.gc.pause.time` and `runtime.python.gc.pause.max` overcounting GC pause time when other threads held the GIL during a collection.\r\n"
 }
