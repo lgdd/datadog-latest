@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 18614960,
       "digest": "sha256:bcb8393d7e0c42c61512fdd493679c956f84541062f57a223b375dd9ee182827",
-      "download_count": 407,
+      "download_count": 533,
       "created_at": "2026-11-13T16:27:58Z",
       "updated_at": "2026-11-13T16:27:59Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-0.27.1-amd64-linux.tar.xz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 16698588,
       "digest": "sha256:3e60f1fcdc4a279f3ac8794c00ed34647d6b0ea67c8bda8528fb12bd1dcca7d3",
-      "download_count": 38,
+      "download_count": 53,
       "created_at": "2026-11-13T16:28:00Z",
       "updated_at": "2026-11-13T16:28:01Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-0.27.1-arm64-linux.tar.xz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 19268408,
       "digest": "sha256:295c005706618689a43160b8aecef3b348fdc700296a7fb1585e727a40687ec1",
-      "download_count": 2639,
+      "download_count": 3020,
       "created_at": "2026-11-13T16:28:01Z",
       "updated_at": "2026-11-13T16:28:02Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-amd64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 18614960,
       "digest": "sha256:bcb8393d7e0c42c61512fdd493679c956f84541062f57a223b375dd9ee182827",
-      "download_count": 2293,
+      "download_count": 2884,
       "created_at": "2026-11-13T16:28:02Z",
       "updated_at": "2026-11-13T16:28:03Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-amd64-linux.tar.xz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 19212384,
       "digest": "sha256:b5621fb2aa1062baa60f211acba6b5d567798e2f67f90ebe9254211a9cb9105f",
-      "download_count": 236,
+      "download_count": 295,
       "created_at": "2026-11-13T16:28:04Z",
       "updated_at": "2026-11-13T16:28:05Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-arm64"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 16698588,
       "digest": "sha256:3e60f1fcdc4a279f3ac8794c00ed34647d6b0ea67c8bda8528fb12bd1dcca7d3",
-      "download_count": 363,
+      "download_count": 483,
       "created_at": "2026-11-13T16:28:05Z",
       "updated_at": "2026-11-13T16:28:06Z",
       "browser_download_url": "https://github.com/DataDog/ddprof/releases/download/v0.27.1/ddprof-arm64-linux.tar.xz"
