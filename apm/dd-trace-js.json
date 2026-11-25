@@ -1,1 +1,44 @@
-{"message":"API rate limit exceeded for 3.42.157.107. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+{
+  "url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/457003223",
+  "assets_url": "https://api.github.com/repos/DataDog/dd-trace-js/releases/457003223/assets",
+  "upload_url": "https://uploads.github.com/repos/DataDog/dd-trace-js/releases/457003223/assets{?name,label}",
+  "html_url": "https://github.com/DataDog/dd-trace-js/releases/tag/v6.27.0",
+  "id": 457003223,
+  "author": {
+    "login": "dd-octo-sts[bot]",
+    "id": 200755185,
+    "node_id": "BOT_kgDOC_dH8Q",
+    "avatar_url": "https://avatars.githubusercontent.com/in/1157446?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D",
+    "html_url": "https://github.com/apps/dd-octo-sts",
+    "followers_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dd-octo-sts%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOBwapYs4bPVDX",
+  "tag_name": "v6.27.0",
+  "target_commitish": "v6.x",
+  "name": "6.27.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-11-24T14:24:16Z",
+  "updated_at": "2026-11-24T16:03:37Z",
+  "published_at": "2026-11-24T16:03:37Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/DataDog/dd-trace-js/tarball/v6.27.0",
+  "zipball_url": "https://api.github.com/repos/DataDog/dd-trace-js/zipball/v6.27.0",
+  "body": "### Features\n- **@modelcontextprotocol/sdk:** Capture MCP tool call intent [#11319](https://github.com/DataDog/dd-trace-js/pull/11319)\n- **AI Guard:** Accept MCP server metadata in the SDK evaluate call [#11384](https://github.com/DataDog/dd-trace-js/pull/11384)\n- **AppSec:** Express v5 normalized route followup [#11301](https://github.com/DataDog/dd-trace-js/pull/11301)\n- **Data Streams Monitoring:** Emit data streams checkpoints for http client and server [#11211](https://github.com/DataDog/dd-trace-js/pull/11211)\n- **OpenTelemetry:** Default OTLP trace export to http/protobuf [#11344](https://github.com/DataDog/dd-trace-js/pull/11344)\n- **OpenTelemetry:** Support http/protobuf for OTLP trace export [#11305](https://github.com/DataDog/dd-trace-js/pull/11305)\n- **Serverless:** Extract upstream context for shim invocations [#11246](https://github.com/DataDog/dd-trace-js/pull/11246)\n\n### Fixes\n- **AI Guard:** Log a thrown value that is not an Error without throwing [#11306](https://github.com/DataDog/dd-trace-js/pull/11306)\n- **AppSec:** Block RASP matches when a library wraps the abort error [#11335](https://github.com/DataDog/dd-trace-js/pull/11335)\n- **AppSec:** Skip binary values and inherited keys when tainting database rows [#11367](https://github.com/DataDog/dd-trace-js/pull/11367)\n- **azure-functions:** Apply OTel HTTP semantics to HTTP triggers [#10884](https://github.com/DataDog/dd-trace-js/pull/10884)\n- **azure-functions:** Include host prefixes in HTTP routes [#11346](https://github.com/DataDog/dd-trace-js/pull/11346)\n- **Feature Flags:** Keep the process alive while provider initialization is pending [#11393](https://github.com/DataDog/dd-trace-js/pull/11393)\n- **General:** Register synchronous hooks without require(esm) [#11296](https://github.com/DataDog/dd-trace-js/pull/11296)\n- **General:** Treat empty OTEL_PROPAGATORS as unset [#11327](https://github.com/DataDog/dd-trace-js/pull/11327)\n- **graphql:** Support graphql-jit 0.10 [#11374](https://github.com/DataDog/dd-trace-js/pull/11374)\n- **OpenTelemetry:** Export integers outside the int64 range as doubles [#11313](https://github.com/DataDog/dd-trace-js/pull/11313)\n- **runtime:** Avoid native startup failures on Bun [#11267](https://github.com/DataDog/dd-trace-js/pull/11267)\n- **Test Optimization:** Keep Failed Test Replay working after a probe fails to set or remove [#11323](https://github.com/DataDog/dd-trace-js/pull/11323)\n- **tracer:** Avoid loading async storage in the no-op tracer [#11348](https://github.com/DataDog/dd-trace-js/pull/11348)\n\n### Internal (CI, Testing, Benchmarking)\n- **all-green:** Link uploaded junit tests to their pipeline [#11386](https://github.com/DataDog/dd-trace-js/pull/11386)\n- **General:** [SINT-INT] Switch datadog api key exchange to workload identity federation [#11349](https://github.com/DataDog/dd-trace-js/pull/11349)\n- **LLM Observability:** Activate the Vercel AI SDK through Orchestrion [#11316](https://github.com/DataDog/dd-trace-js/pull/11316)\n- **router:** Gate request-local route tests by fixture version [#11371](https://github.com/DataDog/dd-trace-js/pull/11371)\n- **Test Optimization:** Isolate output dirs of active test span runs [#11358](https://github.com/DataDog/dd-trace-js/pull/11358)\n- **Test Optimization:** Isolate output dirs of ATR runs [#11368](https://github.com/DataDog/dd-trace-js/pull/11368)\n- **Test Optimization:** Isolate output dirs of zero-test session runs [#11405](https://github.com/DataDog/dd-trace-js/pull/11405)\n\n### Contributors\n\n[<img src=\"https://github.com/arnaudpy.png?size=48\" width=\"24\" height=\"24\" alt=\"@arnaudpy\" title=\"@arnaudpy\" />](https://github.com/arnaudpy) [<img src=\"https://github.com/avara1986.png?size=48\" width=\"24\" height=\"24\" alt=\"@avara1986\" title=\"@avara1986\" />](https://github.com/avara1986) [<img src=\"https://github.com/BridgeAR.png?size=48\" width=\"24\" height=\"24\" alt=\"@BridgeAR\" title=\"@BridgeAR\" />](https://github.com/BridgeAR) [<img src=\"https://github.com/CarlesDD.png?size=48\" width=\"24\" height=\"24\" alt=\"@CarlesDD\" title=\"@CarlesDD\" />](https://github.com/CarlesDD) [<img src=\"https://github.com/cgcote.png?size=48\" width=\"24\" height=\"24\" alt=\"@cgcote\" title=\"@cgcote\" />](https://github.com/cgcote) [<img src=\"https://github.com/datadog-bits.png?size=48\" width=\"24\" height=\"24\" alt=\"@datadog-bits\" title=\"@datadog-bits\" />](https://github.com/datadog-bits) [<img src=\"https://github.com/Eleee28.png?size=48\" width=\"24\" height=\"24\" alt=\"@Eleee28\" title=\"@Eleee28\" />](https://github.com/Eleee28) [<img src=\"https://github.com/genesor.png?size=48\" width=\"24\" height=\"24\" alt=\"@genesor\" title=\"@genesor\" />](https://github.com/genesor) [<img src=\"https://github.com/IlyasShabi.png?size=48\" width=\"24\" height=\"24\" alt=\"@IlyasShabi\" title=\"@IlyasShabi\" />](https://github.com/IlyasShabi) [<img src=\"https://github.com/joeyzhao2018.png?size=48\" width=\"24\" height=\"24\" alt=\"@joeyzhao2018\" title=\"@joeyzhao2018\" />](https://github.com/joeyzhao2018) [<img src=\"https://github.com/johannbotha.png?size=48\" width=\"24\" height=\"24\" alt=\"@johannbotha\" title=\"@johannbotha\" />](https://github.com/johannbotha) [<img src=\"https://github.com/link04.png?size=48\" width=\"24\" height=\"24\" alt=\"@link04\" title=\"@link04\" />](https://github.com/link04) [<img src=\"https://github.com/marcotc.png?size=48\" width=\"24\" height=\"24\" alt=\"@marcotc\" title=\"@marcotc\" />](https://github.com/marcotc) [<img src=\"https://github.com/matbrwn.png?size=48\" width=\"24\" height=\"24\" alt=\"@matbrwn\" title=\"@matbrwn\" />](https://github.com/matbrwn) [<img src=\"https://github.com/mz1119.png?size=48\" width=\"24\" height=\"24\" alt=\"@mz1119\" title=\"@mz1119\" />](https://github.com/mz1119) [<img src=\"https://github.com/pabloerhard.png?size=48\" width=\"24\" height=\"24\" alt=\"@pabloerhard\" title=\"@pabloerhard\" />](https://github.com/pabloerhard) [<img src=\"https://github.com/tlhunter.png?size=48\" width=\"24\" height=\"24\" alt=\"@tlhunter\" title=\"@tlhunter\" />](https://github.com/tlhunter) [<img src=\"https://github.com/vpellan.png?size=48\" width=\"24\" height=\"24\" alt=\"@vpellan\" title=\"@vpellan\" />](https://github.com/vpellan) [<img src=\"https://github.com/watson.png?size=48\" width=\"24\" height=\"24\" alt=\"@watson\" title=\"@watson\" />](https://github.com/watson)"
+}
