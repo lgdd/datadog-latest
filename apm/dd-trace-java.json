@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 36379485,
       "digest": "sha256:07416b4005ce560893561b6a03d97f0674a8c7e721ecb517e2baeae60e85f673",
-      "download_count": 1530,
+      "download_count": 2296,
       "created_at": "2026-11-20T11:33:04Z",
       "updated_at": "2026-11-20T11:33:05Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.69.1/dd-java-agent-1.69.1.jar"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 36379485,
       "digest": "sha256:07416b4005ce560893561b6a03d97f0674a8c7e721ecb517e2baeae60e85f673",
-      "download_count": 8457,
+      "download_count": 10827,
       "created_at": "2026-11-20T11:33:01Z",
       "updated_at": "2026-11-20T11:33:03Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.69.1/dd-java-agent.jar"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 191714,
       "digest": "sha256:a754723204151f10c2b7f47159e81f8b4a18a002ffcb5563b986ad65d5c8dbfe",
-      "download_count": 42,
+      "download_count": 67,
       "created_at": "2026-11-20T11:33:09Z",
       "updated_at": "2026-11-20T11:33:10Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.69.1/dd-openfeature-1.69.1.jar"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 147868,
       "digest": "sha256:14d46891ee018c970e53229170e2cd9ee40b97db7e4058f99b572af56a07b607",
-      "download_count": 43,
+      "download_count": 68,
       "created_at": "2026-11-20T11:33:06Z",
       "updated_at": "2026-11-20T11:33:06Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.69.1/dd-trace-api-1.69.1.jar"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4799239,
       "digest": "sha256:64f58111a1664999caf35ae5221a086aaddbd568e7d4861ae5392f979fa5dcb6",
-      "download_count": 42,
+      "download_count": 67,
       "created_at": "2026-11-20T11:33:08Z",
       "updated_at": "2026-11-20T11:33:08Z",
       "browser_download_url": "https://github.com/DataDog/dd-trace-java/releases/download/v1.69.1/dd-trace-ot-1.69.1.jar"
